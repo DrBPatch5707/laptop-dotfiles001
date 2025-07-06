@@ -108,10 +108,12 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias ls='eza --icons'
+alias emacs="~/bin/doomemacs.sh"
+alias idea="~/bin/idea.sh"
+alias cat='bat --color=always'
+alias fzf='fzf --preview="bat --color=always {}"'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

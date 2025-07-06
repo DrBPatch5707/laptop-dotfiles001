@@ -3,7 +3,7 @@
     "position": "bottom",
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["battery", "clock"],
+    "modules-right": ["network","battery", "clock"],
     "hyprland/window": {
         "max-length": 50
     },
@@ -22,5 +22,19 @@
 	  "default": "-",
 	  "urgent": "!"
 	}
+    },
+	
+"network": { // Added the network module configuration
+        "format-wifi": "{essid} ({signalStrength}%) {icon}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} {icon}",
+        "format-disconnected": "Disconnected {icon}",
+        "format-icons": ["", "", "", ""], // Icons for signal strength (adjust as needed)
+        "tooltip-format-wifi": "ESSID: {essid}\nSignal: {signalStrength}%\nIP: {ipaddr}",
+        "tooltip-format-ethernet": "Interface: {ifname}\nIP: {ipaddr}\nGateway: {gwaddr}",
+        "interface": "wlan0", // You might need to change 'wlan0' to your actual Wi-Fi interface name
+        "interval": 5 // Update interval in seconds
     }
+
+
 }
+
