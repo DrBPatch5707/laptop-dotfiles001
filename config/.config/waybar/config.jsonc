@@ -18,12 +18,12 @@
         "network",
         "bluetooth",
         "custom/temperature",
-        "custom/memory",
+      //"custom/memory",
         "battery",
 	"clock"
-       // "backlight",
-       // "pulseaudio",
-       // "pulseaudio#microphone"
+      //"backlight",
+      //"pulseaudio",
+      //"pulseaudio#microphone"
     ],
     "hyprland/workspaces": {
         "format": "{icon} {name} {icon}",
@@ -58,7 +58,7 @@
         "tooltip": true,
         "format": " {}",
         "interval": 30,
-        "exec": "cpu"
+        "exec": "~/.config/waybar/scripts/acpi-get-tempeture.sh"
     },
     "custom/memory": {
         "tooltip": true,
