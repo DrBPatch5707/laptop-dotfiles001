@@ -77,6 +77,8 @@ tooltip {
 }
 
 #custom-temperature {
+    color: #FA7101;
+    background: #0B3D5A;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -160,7 +162,7 @@ tooltip {
     border-left: 0px;
 }
 #battery.warning {
-    color: #FFA500;
+    color: #FA7101;
 }
 #battery.critical {
     color: #F00;
