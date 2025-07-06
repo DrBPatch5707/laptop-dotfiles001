@@ -1,0 +1,5 @@
+config/.config/google-chrome/*
+config/.config/mimeapps.list
+config/.config/kactivitymanagerdrc
+config/.config/systemmonitorrc
+config/.config/user-dirs.dirs
