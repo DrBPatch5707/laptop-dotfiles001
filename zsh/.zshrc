@@ -114,6 +114,9 @@ alias emacs="~/bin/doomemacs.sh"
 alias idea="~/bin/idea.sh"
 alias cat='bat --color=always'
 alias fzf='fzf --preview="bat --color=always {}"'
+alias nf='cd ~/ && nano $(fzf --preview="bat --color=always {}")'
+ 
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
