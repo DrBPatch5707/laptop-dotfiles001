@@ -1,7 +1,8 @@
-config/.config/google-chrome/*
+config/.config/google-chrome/
 config/.config/mimeapps.list
 config/.config/kactivitymanagerdrc
 config/.config/systemmonitorrc
 config/.config/user-dirs.dirs
-config/.config/Code/*
-config/.config/JetBrains/*
+config/.config/Code/
+config/.config/JetBrains/
+config/.config/gtk-3.0/
