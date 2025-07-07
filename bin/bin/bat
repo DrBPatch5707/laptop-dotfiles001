@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Path to your battery info.
+# On most laptops, this is BAT0. You can verify by checking:
+# ls /sys/class/power_supply/
+BATTERY_PATH="/sys/class/power_supply/BAT0"
+
+# --- Function to get battery info ---
+get_battery_info() {
+    if [ -d "$BATTERY_PATH" ]; then
+        # Preferred method: direct file reading
+        CAPACITY=$(cat "$BATTERY_PATH/capacity")
+        STATUS=$(cat "$BATTERY_PATH/status")
+        if [ "$STATUS" != "Discharging" ]; then
+        echo "Battery: ${CAPACITY}% (${STATUS})"
+        else
+        echo "Battery: ${CAPACITY}%"
+        fi
+    elif command -v acpi &> /dev/null; then
+        # Fallback method: using acpi command
+        # You might need to install acpi: sudo pacman -S acpi
+        ACPI_OUTPUT=$(acpi -b | head -n 1)
+        echo "Battery: $ACPI_OUTPUT"
+    else
+        echo "Error: Battery information not found or 'acpi' command not available."
+        exit 1
+    fi
+}
+# --- End of function ---
+
+get_battery_info
