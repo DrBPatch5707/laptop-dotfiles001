@@ -9,3 +9,8 @@ config/.config/gtk-3.0/
 config/.config/dconf/*
 config/.config/dconf/
 config/.config/dconf/user
+config/.config/pulse/
+*.save
+config/.config/QtProject.conf
+config/.config/user-dirs.locale
+config/.config/yay/
