@@ -5,6 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -114,7 +115,7 @@ alias emacs="~/bin/doomemacs.sh"
 alias idea="~/bin/idea.sh"
 alias cat='bat --color=always'
 alias fzf='fzf --preview="bat --color=always {}"'
-alias nf='cd ~/ && nano $(fzf --preview="bat --color=always {}")'
+alias nf='~/bin/nf.sh $@'
  
 
 
