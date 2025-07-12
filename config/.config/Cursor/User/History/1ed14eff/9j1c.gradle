@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'org.drbpatch'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation('org.xerial:sqlite-jdbc:3.45.1.0')
+    implementation 'ch.qos.logback:logback-classic:1.5.18' // For JDK 24 (or newer, compatible with Java 11+)
+    // Jackson for JSON processing and data binding
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.1'
+}
+
+application {
+    mainClass = 'org.drbpatch.Main'
+}
+
+java {
+    toolchain {
+        // Explicitly set the Java version for compilation and execution.
+        // Using Java 24 here. Ensure you have this JDK version installed on your system.
+        languageVersion = JavaLanguageVersion.of(24)
+    }
+}
+
+
+
+
+
+
+
+//test {
+//    useJUnitPlatform()
+//}

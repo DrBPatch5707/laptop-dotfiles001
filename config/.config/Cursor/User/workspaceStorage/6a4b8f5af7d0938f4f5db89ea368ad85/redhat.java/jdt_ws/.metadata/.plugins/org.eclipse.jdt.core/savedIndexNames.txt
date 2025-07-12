@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+/home/bpatch/laptop-dotfiles001/config/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3872697154.index
+2138668884.index
+3615366782.index
+552790980.index
+3405379232.index
+1865797976.index
+851595082.index
+656950252.index
+3618891036.index
+4082444555.index
+1601094042.index
+1961880493.index
+1738771298.index
+2137625169.index
+3442112683.index
+1316371729.index
+3016348172.index
+2200894041.index

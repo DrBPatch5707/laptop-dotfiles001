@@ -1,0 +1,17 @@
+[INFO - 13:55:55] Use build kind: WRAPPER
+[INFO - 13:55:58] Gradle version: 8.14.2
+[INFO - 13:55:58] Sending response 'build/initialize'. Processing request took 2837 ms.
+[INFO - 13:55:58] Received notification 'build/initialized'.
+[INFO - 13:56:12] Found 2 build targets during initialization.
+[INFO - 13:56:12] Sending response 'workspace/buildTargets'. Processing request took 13436 ms.
+[INFO - 13:56:12] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/outputPaths'. Processing request took 1 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/dependencyModules'. Processing request took 1 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:56:12] Sending response 'buildTarget/javacOptions'. Processing request took 2 ms.
+[INFO - 13:56:12] Sending response 'workspace/buildTargets'. Processing request took 0 ms.

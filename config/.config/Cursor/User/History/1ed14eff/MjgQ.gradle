@@ -1,0 +1,58 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1' // This plugin is key for "run anywhere" JARs
+}
+
+group = 'org.drbpatch'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation('org.xerial:sqlite-jdbc:3.45.1.0')
+    implementation 'ch.qos.logback:logback-classic:1.5.18' // For JDK 24 (or newer, compatible with Java 11+)
+    // Jackson for JSON processing and data binding
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.1'
+}
+
+java {
+    toolchain {
+        // Explicitly set the Java version for compilation and execution.
+        // Using Java 24 here. Ensure you have this JDK version installed on your system.
+        languageVersion = JavaLanguageVersion.of(24)
+    }
+}
+
+// Configuration for the 'application' plugin (for generating distribution scripts and zips)
+application {
+    mainClass = 'org.drbpatch.Main' // This is your main class for the 'application' plugin's tasks
+    applicationDefaultJvmArgs = ['--enable-native-access=ALL-UNNAMED']
+    applicationName = 'my-java-app' // Name for the generated distribution directory and scripts
+}
+
+// Configuration for the 'shadowJar' plugin (for creating a single, executable JAR)
+shadowJar {
+    // Sets the base name of the output JAR file (e.g., my-java-app.jar)
+    archiveBaseName.set('my-java-app')
+    // Removes the default '-all' classifier from the filename
+    archiveClassifier.set('')
+    // Removes the version from the filename
+    archiveVersion.set('')
+
+    // *** CRITICAL: Specify the Main-Class for the executable JAR's manifest ***
+    // This tells the Java Virtual Machine (JVM) which class to run when you execute the JAR.
+    manifest {
+        attributes 'Main-Class': 'org.drbpatch.Main' // Ensure this matches your actual main class
+    }
+}
+
+
+
+//test {
+//    useJUnitPlatform()
+//}

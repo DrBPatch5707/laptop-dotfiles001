@@ -1,0 +1,46 @@
+2025-07-10 18:47:00.225 [info] [main] Log level: Info
+2025-07-10 18:47:00.225 [info] [main] Validating found git in: "git"
+2025-07-10 18:47:00.225 [info] [main] Using git "2.50.0" from "git"
+2025-07-10 18:47:00.225 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-10 18:47:00.225 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-10 18:47:00.226 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-07-10 18:47:00.238 [info] [Model][openRepository] Opened repository: /home/bpatch/repos/java/project-manager02
+2025-07-10 18:47:00.263 [info] > git config --get commit.template [13ms]
+2025-07-10 18:47:00.267 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-10 18:47:00.269 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:47:00.280 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:47:00.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2025-07-10 18:47:00.293 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:47:01.285 [info] > git status -z -uall [980ms]
+2025-07-10 18:47:01.285 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [969ms]
+2025-07-10 18:47:01.306 [info] > git rev-parse --show-toplevel [1015ms]
+2025-07-10 18:47:01.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [112ms]
+2025-07-10 18:47:01.415 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:47:01.416 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-07-10 18:47:01.435 [info] > git rev-parse --show-toplevel [22ms]
+2025-07-10 18:47:01.435 [info] > git config --get commit.template [34ms]
+2025-07-10 18:47:01.476 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:47:01.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2025-07-10 18:47:01.498 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:47:01.520 [info] > git rev-parse --show-toplevel [58ms]
+2025-07-10 18:47:01.544 [info] > git status -z -uall [35ms]
+2025-07-10 18:47:01.544 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-07-10 18:47:01.552 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-10 18:47:01.591 [info] > git rev-parse --show-toplevel [14ms]
+2025-07-10 18:47:01.593 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-10 18:47:01.593 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2025-07-10 18:47:01.593 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-07-10 18:47:01.609 [info] > git rev-parse --verify origin/master [3ms]
+2025-07-10 18:47:01.609 [info] fatal: Needed a single revision
+2025-07-10 18:47:01.622 [info] > git rev-parse --verify origin/main [3ms]
+2025-07-10 18:47:01.622 [info] fatal: Needed a single revision
+2025-07-10 18:47:01.648 [info] > git rev-parse --verify origin/master [16ms]
+2025-07-10 18:47:01.648 [info] fatal: Needed a single revision
+2025-07-10 18:47:01.671 [info] > git rev-parse --verify origin/develop [13ms]
+2025-07-10 18:47:01.671 [info] fatal: Needed a single revision
+2025-07-10 18:47:01.684 [info] > git branch -r [2ms]
+2025-07-10 18:47:01.701 [info] > git config --get init.defaultBranch [5ms]
+2025-07-10 18:47:01.976 [info] > git check-ignore -v -z --stdin [70ms]
+2025-07-10 18:47:10.201 [info] > git config --global user.name [4ms]
+2025-07-10 18:47:10.221 [info] > git config --global user.email [4ms]
+2025-07-10 18:47:10.221 [info] [main] Stored git author name in global state: DrBPatch5707 <briar2patch@gmail.com>

@@ -1,0 +1,332 @@
+QUICK START GUIDE - Project Manager GUI Integration
+==================================================
+
+This guide will help you get the Java Swing GUI working with a basic backend implementation in the shortest time possible.
+
+STEP 1: CREATE A BASIC BACKEND SERVICE
+======================================
+
+Create a new file called `BasicBackendService.java` in your backend package:
+
+```java
+package your.backend.package;
+
+import gui.org.drbpatch.Project;
+import gui.org.drbpatch.EditorProfile;
+import java.util.*;
+
+public class BasicBackendService {
+    private List<Project> projects = new ArrayList<>();
+    private List<EditorProfile> editorProfiles = new ArrayList<>();
+    private String rootDirectory = System.getProperty("user.home") + "/Projects";
+    
+    public BasicBackendService() {
+        // Add some sample data for testing
+        addSampleData();
+    }
+    
+    // Project Management Methods
+    public List<Project> getProjects() {
+        return new ArrayList<>(projects);
+    }
+    
+    public void addProject(Project project) {
+        project.setId(generateId());
+        projects.add(project);
+    }
+    
+    public void updateProject(Project project) {
+        for (int i = 0; i < projects.size(); i++) {
+            if (projects.get(i).getId() == project.getId()) {
+                projects.set(i, project);
+                return;
+            }
+        }
+    }
+    
+    public void deleteProject(Project project) {
+        projects.removeIf(p -> p.getId() == project.getId());
+    }
+    
+    // Settings Methods
+    public String getRootDirectory() {
+        return rootDirectory;
+    }
+    
+    public void setRootDirectory(String path) {
+        this.rootDirectory = path;
+    }
+    
+    public List<EditorProfile> getEditorProfiles() {
+        return new ArrayList<>(editorProfiles);
+    }
+    
+    public void addEditorProfile(EditorProfile profile) {
+        editorProfiles.add(profile);
+    }
+    
+    public void updateEditorProfile(EditorProfile profile) {
+        // Simple implementation - replace the profile
+        for (int i = 0; i < editorProfiles.size(); i++) {
+            if (editorProfiles.get(i).getName().equals(profile.getName())) {
+                editorProfiles.set(i, profile);
+                return;
+            }
+        }
+    }
+    
+    public void deleteEditorProfile(EditorProfile profile) {
+        editorProfiles.removeIf(p -> p.getName().equals(profile.getName()));
+    }
+    
+    // Project Operations
+    public void openProjectFolder(Project project) {
+        System.out.println("Opening folder for project: " + project.getName());
+        // TODO: Implement actual folder opening
+    }
+    
+    public void openProjectWith(Project project, EditorProfile editor) {
+        System.out.println("Opening project " + project.getName() + " with " + editor.getName());
+        // TODO: Implement actual editor launching
+    }
+    
+    // Helper Methods
+    private int generateId() {
+        return projects.stream().mapToInt(Project::getId).max().orElse(0) + 1;
+    }
+    
+    private void addSampleData() {
+        // Add sample projects
+        Project project1 = new Project();
+        project1.setName("Sample Project 1");
+        project1.setDescription("This is a sample project for testing");
+        project1.setRelativePath("sample1");
+        project1.setStatus("In Development");
+        project1.setPriority(2);
+        project1.setCategory("Test");
+        addProject(project1);
+        
+        Project project2 = new Project();
+        project2.setName("Sample Project 2");
+        project2.setDescription("Another sample project");
+        project2.setRelativePath("sample2");
+        project2.setStatus("Completed");
+        project2.setPriority(1);
+        project2.setCategory("Demo");
+        addProject(project2);
+        
+        // Add sample editor profiles
+        editorProfiles.add(EditorProfile.createVSCodeProfile());
+        editorProfiles.add(EditorProfile.createIntelliJProfile());
+    }
+}
+```
+
+STEP 2: MODIFY THE MAIN GUI CLASS
+==================================
+
+Update your `ProjectManagerGUI.java` to accept the backend service:
+
+```java
+// Add this field at the top of the class
+private final BasicBackendService backendService;
+
+// Update the constructor
+public ProjectManagerGUI(BasicBackendService backendService) {
+    super("Project Manager");
+    this.backendService = backendService;
+    
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setSize(900, 500);
+    setLocationRelativeTo(null);
+    setLayout(new BorderLayout());
+    
+    initComponents();
+    layoutComponents();
+    setupEventHandlers();
+    
+    // Load initial data
+    refreshProjectTable(backendService.getProjects());
+}
+
+// Update the setupEventHandlers method
+private void setupEventHandlers() {
+    // Table selection listener (keep existing code)
+    projectTable.getSelectionModel().addListSelectionListener(e -> {
+        boolean selected = projectTable.getSelectedRow() != -1;
+        editProjectButton.setEnabled(selected);
+        deleteProjectButton.setEnabled(selected);
+        openFolderButton.setEnabled(selected);
+        openWithButton.setEnabled(selected);
+    });
+
+    // Add New Project
+    addProjectButton.addActionListener(e -> {
+        AddEditProjectDialog dialog = new AddEditProjectDialog(
+            this, 
+            (project, isEdit) -> {
+                if (isEdit) {
+                    backendService.updateProject(project);
+                } else {
+                    backendService.addProject(project);
+                }
+                refreshProjectTable(backendService.getProjects());
+            }
+        );
+        dialog.setVisible(true);
+    });
+
+    // Edit Selected Project
+    editProjectButton.addActionListener(e -> {
+        Project selected = getSelectedProject();
+        if (selected != null) {
+            AddEditProjectDialog dialog = new AddEditProjectDialog(
+                this, 
+                selected,
+                (project, isEdit) -> {
+                    backendService.updateProject(project);
+                    refreshProjectTable(backendService.getProjects());
+                }
+            );
+            dialog.setVisible(true);
+        }
+    });
+
+    // Delete Selected Project
+    deleteProjectButton.addActionListener(e -> {
+        Project selected = getSelectedProject();
+        if (selected != null) {
+            int confirm = JOptionPane.showConfirmDialog(this,
+                "Are you sure you want to delete project '" + selected.getName() + "'?",
+                "Confirm Delete",
+                JOptionPane.YES_NO_OPTION);
+            
+            if (confirm == JOptionPane.YES_OPTION) {
+                backendService.deleteProject(selected);
+                refreshProjectTable(backendService.getProjects());
+            }
+        }
+    });
+
+    // Open Project Folder
+    openFolderButton.addActionListener(e -> {
+        Project selected = getSelectedProject();
+        if (selected != null) {
+            backendService.openProjectFolder(selected);
+        }
+    });
+
+    // Open Project With...
+    openWithButton.addActionListener(e -> {
+        Project selected = getSelectedProject();
+        if (selected != null) {
+            // For now, just use the first available editor
+            List<EditorProfile> editors = backendService.getEditorProfiles();
+            if (!editors.isEmpty()) {
+                backendService.openProjectWith(selected, editors.get(0));
+            }
+        }
+    });
+
+    // Settings
+    settingsButton.addActionListener(e -> {
+        SettingsDialog dialog = new SettingsDialog(
+            this,
+            backendService.getRootDirectory(),
+            backendService.getEditorProfiles()
+        );
+        dialog.setVisible(true);
+    });
+}
+
+// Update the getSelectedProject method
+public Project getSelectedProject() {
+    int row = projectTable.getSelectedRow();
+    if (row == -1) return null;
+    
+    String projectName = (String) projectTable.getValueAt(row, 0);
+    return backendService.getProjects().stream()
+        .filter(p -> p.getName().equals(projectName))
+        .findFirst()
+        .orElse(null);
+}
+```
+
+STEP 3: CREATE A MAIN APPLICATION CLASS
+=======================================
+
+Create a new file called `ProjectManagerApp.java`:
+
+```java
+package your.main.package;
+
+import gui.org.drbpatch.ProjectManagerGUI;
+import your.backend.package.BasicBackendService;
+import javax.swing.SwingUtilities;
+
+public class ProjectManagerApp {
+    public static void main(String[] args) {
+        // Initialize backend service
+        BasicBackendService backendService = new BasicBackendService();
+        
+        // Create and show GUI
+        SwingUtilities.invokeLater(() -> {
+            ProjectManagerGUI gui = new ProjectManagerGUI(backendService);
+            gui.setVisible(true);
+        });
+    }
+}
+```
+
+STEP 4: COMPILE AND RUN
+=======================
+
+1. Make sure all your Java files are in the correct package structure
+2. Compile all files:
+   ```bash
+   javac -cp . gui/org/drbpatch/*.java your/backend/package/*.java your/main/package/*.java
+   ```
+3. Run the application:
+   ```bash
+   java -cp . your.main.package.ProjectManagerApp
+   ```
+
+STEP 5: TEST THE INTEGRATION
+============================
+
+1. **Test Project Display**: You should see 2 sample projects in the table
+2. **Test Add Project**: Click "Add New Project" and create a new project
+3. **Test Edit Project**: Select a project and click "Edit Selected Project"
+4. **Test Delete Project**: Select a project and click "Delete Selected Project"
+5. **Test Settings**: Click "Settings" to see the settings dialog
+
+STEP 6: NEXT STEPS
+==================
+
+Once the basic integration is working:
+
+1. **Add Data Persistence**: Modify `BasicBackendService` to save data to files or database
+2. **Implement Folder Opening**: Add actual file manager integration
+3. **Implement Editor Launching**: Add actual editor process launching
+4. **Add Error Handling**: Add try-catch blocks and user-friendly error messages
+5. **Add Validation**: Add input validation in the backend service
+
+TROUBLESHOOTING
+===============
+
+**Problem**: Compilation errors
+**Solution**: Make sure all import statements are correct and all required classes exist
+
+**Problem**: GUI shows but no projects appear
+**Solution**: Check that `refreshProjectTable()` is being called with the correct data
+
+**Problem**: Buttons don't work
+**Solution**: Verify that the event handlers are properly connected to the backend service
+
+**Problem**: Settings dialog doesn't show data
+**Solution**: Check that `getRootDirectory()` and `getEditorProfiles()` return valid data
+
+**Problem**: Add/Edit dialog doesn't save
+**Solution**: Verify that the `ProjectSaveCallback` is properly implemented
+
+This basic implementation will give you a working GUI that you can then enhance with your specific backend requirements. 

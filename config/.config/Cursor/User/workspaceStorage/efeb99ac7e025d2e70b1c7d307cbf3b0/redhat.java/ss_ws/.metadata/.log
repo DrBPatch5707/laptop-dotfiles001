@@ -1,0 +1,245 @@
+!SESSION 2025-07-10 22:05:38.098 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-77dbb541e54d80bb447fd47855663340.sock
+Command-line arguments:  -data /home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/redhat.java/ss_ws --pipe=/run/user/1000/lsp-77dbb541e54d80bb447fd47855663340.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.139
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.187
+!MESSAGE There is no bundle org.eclipse.buildship.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.188
+!MESSAGE There is no bundle org.eclipse.m2e.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.192
+!MESSAGE ProjectRegistryRefreshJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.568
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.736
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:41.740
+!MESSAGE Initializing Java Language Server 1.49.0.202507010258
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.055
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1752203141998)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.076
+!MESSAGE Setting /usr/lib/jvm/java-24-openjdk as 'JavaSE-24' environment (id:1752203142063)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.081
+!MESSAGE Setting java.home /usr/lib/jvm/java-24-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.117
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.167
+!MESSAGE Workspace initialized in 20ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.243
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.278
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.281
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.288
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.296
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.319
+!MESSAGE Creating the Java project project-manager02_26650e4
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.464
+!MESSAGE Finished creating the Java project project-manager02_26650e4
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.588
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:42.593
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:45.739
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.101
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.106
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.133
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.181
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.201
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.222
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.235
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:46.684
+!MESSAGE Reconciled 6. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.339
+!MESSAGE begin problem for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.357
+!MESSAGE 0 problems reported for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.396
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.396
+!MESSAGE 0 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.408
+!MESSAGE begin problem for /Settings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.409
+!MESSAGE 0 problems reported for /Settings.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.425
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.426
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.439
+!MESSAGE begin problem for /IDE.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.439
+!MESSAGE 0 problems reported for /IDE.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.458
+!MESSAGE begin problem for /Config.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.462
+!MESSAGE 0 problems reported for /Config.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.480
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.481
+!MESSAGE 0 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:05:47.483
+!MESSAGE Validated 7. Took 198 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:06:30.930
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:06:30.946
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:06:30.992
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-10 22:06:31.002
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2025-07-11 09:35:45.186 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-66b30b69eb70736a2084ac4f19421fdf.sock
+Command-line arguments:  -data /home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/redhat.java/ss_ws --pipe=/run/user/1000/lsp-66b30b69eb70736a2084ac4f19421fdf.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.606
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.646
+!MESSAGE There is no bundle org.eclipse.buildship.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.646
+!MESSAGE There is no bundle org.eclipse.m2e.core.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.649
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.882
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.951
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:48.954
+!MESSAGE Initializing Java Language Server 1.49.0.202507010258
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.026
+!MESSAGE Workspace initialized in 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.049
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.059
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.062
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.065
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.068
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.074
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.077
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:49.082
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:50.921
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:50.939
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:50.944
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:50.952
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:51.378
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.062
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.077
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.099
+!MESSAGE begin problem for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.105
+!MESSAGE 0 problems reported for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.133
+!MESSAGE Validated 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.145
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 09:35:52.156
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

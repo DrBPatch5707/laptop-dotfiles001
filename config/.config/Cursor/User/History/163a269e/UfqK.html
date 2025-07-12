@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddEditProjectDialog - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fields">Fields</a></li>
+                <li><a href="#constructors">Constructors</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#usage">Usage Examples</a></li>
+            </ul>
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                AddEditProjectDialog
+            </div>
+            <div class="class-header">
+                <h1>AddEditProjectDialog</h1>
+                <p>Modal dialog for adding new projects or editing existing ones</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>AddEditProjectDialog</code> class provides a form-based interface for project data entry. It can operate in two modes: ADD (for new projects) and EDIT (for existing projects). It supports form validation, file chooser integration, dropdowns for status/priority, and a callback mechanism for saving project data.</p>
+                    <ul>
+                        <li>Form validation for required fields</li>
+                        <li>File chooser for project path selection</li>
+                        <li>Dropdowns for status and priority</li>
+                        <li>Multi-line text area for description</li>
+                        <li>Callback interface for saving</li>
+                    </ul>
+                </section>
+                <section id="fields">
+                    <h2>Fields</h2>
+                    <div class="field-section">
+                        <div class="field"><span class="field-name">boolean isEditMode</span><div class="field-description">Whether this dialog is in edit mode (true) or add mode (false).</div></div>
+                        <div class="field"><span class="field-name">Project originalProject</span><div class="field-description">The project being edited (null in add mode).</div></div>
+                        <div class="field"><span class="field-name">ProjectSaveCallback saveCallback</span><div class="field-description">Callback interface for when the user saves the project.</div></div>
+                        <div class="field"><span class="field-name">JTextField nameField</span><div class="field-description">Text field for project name (required).</div></div>
+                        <div class="field"><span class="field-name">JTextArea descriptionArea</span><div class="field-description">Text area for project description (optional).</div></div>
+                        <div class="field"><span class="field-name">JTextField pathField</span><div class="field-description">Text field for relative path (required, set via browse button).</div></div>
+                        <div class="field"><span class="field-name">JButton browseButton</span><div class="field-description">Button for selecting project directory.</div></div>
+                        <div class="field"><span class="field-name">JComboBox&lt;String&gt; statusComboBox</span><div class="field-description">Dropdown for project status selection.</div></div>
+                        <div class="field"><span class="field-name">JComboBox&lt;String&gt; priorityComboBox</span><div class="field-description">Dropdown for project priority selection.</div></div>
+                        <div class="field"><span class="field-name">JTextField categoryField</span><div class="field-description">Text field for project category (optional).</div></div>
+                        <div class="field"><span class="field-name">JButton saveButton</span><div class="field-description">Button to trigger save callback.</div></div>
+                        <div class="field"><span class="field-name">JButton cancelButton</span><div class="field-description">Button to close dialog without saving.</div></div>
+                    </div>
+                </section>
+                <section id="constructors">
+                    <h2>Constructors</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>AddEditProjectDialog(JFrame parent, ProjectSaveCallback saveCallback)</code></div>
+                            <div class="method-description">Creates a new dialog for adding a project.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>AddEditProjectDialog(JFrame parent, Project project, ProjectSaveCallback saveCallback)</code></div>
+                            <div class="method-description">Creates a new dialog for editing an existing project.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="methods">
+                    <h2>Methods</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>boolean showDialog()</code></div>
+                            <div class="method-description">Shows the dialog and returns true if the user saved, false if cancelled.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void initializeDialog()</code></div>
+                            <div class="method-description">Initializes the dialog properties (title, size, close operation).</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void createComponents()</code></div>
+                            <div class="method-description">Creates all UI components for the dialog.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void layoutComponents()</code></div>
+                            <div class="method-description">Lays out all UI components in the dialog.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void setupEventHandlers()</code></div>
+                            <div class="method-description">Sets up event handlers for all buttons and fields.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void populateFields()</code></div>
+                            <div class="method-description">Populates fields with existing project data (in edit mode).</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void browseForProjectDirectory()</code></div>
+                            <div class="method-description">Opens a file chooser to select the project directory.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void saveProject()</code></div>
+                            <div class="method-description">Validates and saves the project data via the callback.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="usage">
+                    <h2>Usage Examples</h2>
+                    <pre><code>// Show dialog to add a new project
+AddEditProjectDialog dialog = new AddEditProjectDialog(parentFrame, (project, isEdit) -> {
+    backend.addProject(project);
+});
+dialog.setVisible(true);
+
+// Show dialog to edit an existing project
+AddEditProjectDialog dialog = new AddEditProjectDialog(parentFrame, existingProject, (project, isEdit) -> {
+    backend.updateProject(project);
+});
+dialog.setVisible(true);
+</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

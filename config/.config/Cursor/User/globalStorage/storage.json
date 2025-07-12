@@ -1,0 +1,87 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "601a969d2309a31d109f6dce2d1f593750ec613fefa32cb4890e7a8d6847cdde",
+    "telemetry.macMachineId": "769d763ab0af01326bba656b03004176e87808cd091bc88cf7ec9b19192cae59",
+    "telemetry.devDeviceId": "2106efac-3539-4576-ba97-2e100f21a9da",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/bpatch/repos/java/project-manager/project-manager"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/bpatch/src/main": "__default__profile__",
+            "file:///home/bpatch/src/main/java/gui/org/drbpatch": "__default__profile__",
+            "file:///home/bpatch/IdeaProjects/project-database": "__default__profile__",
+            "file:///home/bpatch/repos/java/project-manager02": "__default__profile__",
+            "file:///home/bpatch/projectsRoot/project-manager": "__default__profile__",
+            "file:///home/bpatch/repos/java/project-manager": "__default__profile__",
+            "file:///home/bpatch/repos/java/project-manager/project-manager": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1a1a1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#1a1a1a",
+            "editorBackground": "#1a1a1a",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/bpatch/repos/java/project-manager/project-manager",
+            "backupPath": "/home/bpatch/.config/Cursor/Backups/4c60efaf2fc246b6c944d6e5e2069441",
+            "uiState": {
+                "mode": 1,
+                "x": 22,
+                "y": 72,
+                "width": 1236,
+                "height": 626
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "auxiliarySideBarWidth": [
+                170,
+                [
+                    "aad05b516ce459bee8d12b2e55a46978",
+                    "16787fb338bc046f0c2fda9862efbd09",
+                    "f7daad14851aae6f69c89b38bbc10b23",
+                    "efeb99ac7e025d2e70b1c7d307cbf3b0",
+                    "dbd873246d9161fbc4f3f8f2b36f5344",
+                    "9a5baceea8d67c310198fb416d1faaff",
+                    "6a4b8f5af7d0938f4f5db89ea368ad85"
+                ]
+            ]
+        }
+    }
+}

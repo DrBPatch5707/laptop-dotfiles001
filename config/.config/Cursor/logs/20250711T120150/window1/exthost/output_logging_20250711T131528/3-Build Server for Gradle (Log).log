@@ -1,0 +1,30 @@
+[INFO - 13:15:38] Use build kind: WRAPPER
+[INFO - 13:15:39] Gradle version: 8.13
+[INFO - 13:15:39] Sending response 'build/initialize'. Processing request took 1738 ms.
+[INFO - 13:15:39] Received notification 'build/initialized'.
+[INFO - 13:15:51] Found 2 build targets during initialization.
+[INFO - 13:15:51] Sending response 'workspace/buildTargets'. Processing request took 11575 ms.
+[INFO - 13:15:51] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/outputPaths'. Processing request took 1 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/sources'. Processing request took 1 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/dependencyModules'. Processing request took 2 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:15:51] Sending response 'buildTarget/javacOptions'. Processing request took 2 ms.
+[INFO - 13:15:51] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'workspace/reload'. Processing request took 1477 ms.
+[INFO - 13:21:07] Sending response 'workspace/buildTargets'. Processing request took 2 ms.
+[INFO - 13:21:07] Sending response 'workspace/buildTargets'. Processing request took 2 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/resources'. Processing request took 1 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'buildTarget/javacOptions'. Processing request took 0 ms.
+[INFO - 13:21:07] Sending response 'workspace/buildTargets'. Processing request took 0 ms.

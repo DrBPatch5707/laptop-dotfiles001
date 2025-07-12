@@ -1,0 +1,66 @@
+2025-07-10 15:01:12.241 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.242 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.242 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.242 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.243 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.244 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 15:01:12.280 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.281 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.281 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.281 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.282 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.282 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.282 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.282 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.283 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.283 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 15:01:12.942 [info] Started local extension host with pid 10090.
+2025-07-10 15:01:14.136 [warning] No search provider registered for scheme: file, waiting
+2025-07-10 15:01:17.063 [info] [perf] Render performance baseline is 20ms
+2025-07-10 18:43:44.895 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:43:50.624 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:00.657 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:10.690 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:21.574 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:31.612 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:36.667 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:44:44.894 [error] [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh: ConnectError: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669) [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:46.710 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:45:45.446 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:29.835 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:40.307 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:42.419 [error] Error fetching user privacy mode: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:45.044 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:46.129 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:21871)
+    at async Promise.all (index 1)
+    at async sSs.withSemaphore (vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1421:34680) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh

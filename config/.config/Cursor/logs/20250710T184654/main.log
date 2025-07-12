@@ -1,0 +1,19 @@
+2025-07-10 18:46:54.661 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/601a969d2309a31d109f6dce2d1f593750ec613fefa32cb4890e7a8d6847cdde/stable
+2025-07-10 18:46:54.662 [info] update#setState idle
+2025-07-10 18:46:56.879 [error] vscode-file: Refused to load resource /tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursorjUze5C/usr/share/cursor/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-07-10 18:46:58.437 [error] #1: https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/601a969d2309a31d109f6dce2d1f593750ec613fefa32cb4890e7a8d6847cdde/stable - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-07-10 18:46:58.437 [error] update#isLatestVersion(): failed to check for updates
+2025-07-10 18:46:58.438 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+2025-07-10 18:47:01.311 [error] #2: https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/601a969d2309a31d109f6dce2d1f593750ec613fefa32cb4890e7a8d6847cdde/stable - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-07-10 18:47:01.311 [error] update#isLatestVersion(): failed to check for updates
+2025-07-10 18:47:01.311 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+2025-07-10 18:47:24.530 [info] update#setState checking for updates
+2025-07-10 18:47:25.146 [error] #3: https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/601a969d2309a31d109f6dce2d1f593750ec613fefa32cb4890e7a8d6847cdde/stable - error undefined net::ERR_NAME_NOT_RESOLVED
+2025-07-10 18:47:25.147 [error] Error: net::ERR_NAME_NOT_RESOLVED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:524:28)
+2025-07-10 18:47:25.147 [info] update#setState idle

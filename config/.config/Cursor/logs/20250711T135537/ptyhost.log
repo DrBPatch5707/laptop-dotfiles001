@@ -1,0 +1,1 @@
+2025-07-11 13:55:41.212 [error] Failed to set sticky bit on /tmp/bpatch-cursor-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/bpatch-cursor-zsh'

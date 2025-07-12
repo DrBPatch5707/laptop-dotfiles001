@@ -1,0 +1,111 @@
+2025-07-11 15:35:10.533 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.533 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.534 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.534 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.534 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.535 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.535 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.535 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.536 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.536 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:10.705 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-11 15:35:10.741 [warning] IWorkbenchContributionsRegistry#getContribution('windsurf.cascadePanel'): contribution instantiated before LifecyclePhase.Restored!
+2025-07-11 15:35:10.940 [info] Started local extension host with pid 56060.
+2025-07-11 15:35:11.807 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at V2.setIcon (file:///usr/share/windsurf/resources/app/out/main.js:87:3281)
+    at Object.call (file:///usr/share/windsurf/resources/app/out/main.js:33:4564)
+    at Rf.s (file:///usr/share/windsurf/resources/app/out/main.js:31:20114)
+    at Rf.q (file:///usr/share/windsurf/resources/app/out/main.js:31:19637)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:31:19039)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.C (file:///usr/share/windsurf/resources/app/out/main.js:30:2443)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2660)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:4893)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:5077)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at j (file:///usr/share/windsurf/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///usr/share/windsurf/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:524:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:87072)
+    at WebContents.emit (node:events:524:28)
+2025-07-11 15:35:13.588 [info] [perf] Render performance baseline is 21ms
+2025-07-11 15:35:31.226 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.226 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.227 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.227 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.227 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.228 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.228 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.228 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.229 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.229 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:35:31.395 [warning] IWorkbenchContributionsRegistry#getContribution('windsurf.cascadePanel'): contribution instantiated before LifecyclePhase.Restored!
+2025-07-11 15:35:31.532 [info] Started local extension host with pid 56342.
+2025-07-11 15:35:32.215 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at V2.setIcon (file:///usr/share/windsurf/resources/app/out/main.js:87:3281)
+    at Object.call (file:///usr/share/windsurf/resources/app/out/main.js:33:4564)
+    at Rf.s (file:///usr/share/windsurf/resources/app/out/main.js:31:20114)
+    at Rf.q (file:///usr/share/windsurf/resources/app/out/main.js:31:19637)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:31:19039)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.C (file:///usr/share/windsurf/resources/app/out/main.js:30:2443)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2660)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:4893)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:5077)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at j (file:///usr/share/windsurf/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///usr/share/windsurf/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:524:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:87072)
+    at WebContents.emit (node:events:524:28)
+2025-07-11 15:35:34.298 [info] [perf] Render performance baseline is 24ms
+2025-07-11 15:37:21.811 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.812 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.813 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.813 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.814 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.814 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.814 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.815 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.815 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:21.815 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 15:37:22.004 [warning] IWorkbenchContributionsRegistry#getContribution('windsurf.cascadePanel'): contribution instantiated before LifecyclePhase.Restored!
+2025-07-11 15:37:22.130 [info] Started local extension host with pid 56617.
+2025-07-11 15:37:23.021 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at V2.setIcon (file:///usr/share/windsurf/resources/app/out/main.js:87:3281)
+    at Object.call (file:///usr/share/windsurf/resources/app/out/main.js:33:4564)
+    at Rf.s (file:///usr/share/windsurf/resources/app/out/main.js:31:20114)
+    at Rf.q (file:///usr/share/windsurf/resources/app/out/main.js:31:19637)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:31:19039)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.C (file:///usr/share/windsurf/resources/app/out/main.js:30:2443)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2660)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:4893)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:5077)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at j (file:///usr/share/windsurf/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///usr/share/windsurf/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:524:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:87072)
+    at WebContents.emit (node:events:524:28)
+2025-07-11 15:37:24.949 [info] [perf] Render performance baseline is 21ms
+2025-07-11 15:44:44.194 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:45:47.041 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:52:01.334 [error] [Extension Host] Error acknowledging Cascade edit:  ConnectError: [unknown] no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/BackendAPI.java
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862160)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862556)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3869207)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3468253
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3867543)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3855406)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)

@@ -1,0 +1,1034 @@
+2025-07-10 13:06:00.958 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:00.958 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:00.958 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-10 13:06:00.958 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 13:06:00.958 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 13:06:00.958 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 13:06:00.958 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 13:06:00.958 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:06:00.958 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 13:06:00.958 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:06:00.958 [info] Using existing keys for an index
+2025-07-10 13:06:00.958 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 13:06:00.958 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:06:00.958 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:06:00.958 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 13:06:00.958 [info] Using existing keys for an index
+2025-07-10 13:06:00.958 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 13:06:00.958 [info] Using existing keys for an index
+2025-07-10 13:06:00.958 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 13:06:00.958 [info] Setting global status from status tracker: synced
+2025-07-10 13:06:00.958 [info] Doing a startup handshake.
+2025-07-10 13:06:01.446 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 13:06:01.501 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 13:06:01.527 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 13:06:01.543 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 13:06:01.572 [info] Finished computing merkle tree in 28.13354199999958 ms.
+2025-07-10 13:06:01.573 [info] Doing the initial handshake with hash: 48361bfa07925e953533c1c54b158fbf493e7d6752bcf28b8d3f9fc5e87ba63b
+2025-07-10 13:06:01.578 [info] Computed simhash vector of length: 256
+2025-07-10 13:06:01.579 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:06:01.579 [info] Handshake start
+2025-07-10 13:06:02.345 [info] Handshake timing: 769.3274649999994, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:06:02.345 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:06:02.345 [info] Starting fast remote sync.
+2025-07-10 13:06:02.346 [info] Total num embeddable files: 26
+2025-07-10 13:06:02.346 [info] Root hash: 48361bfa07925e953533c1c54b158fbf493e7d6752bcf28b8d3f9fc5e87ba63b
+2025-07-10 13:06:02.347 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 13:06:02.474 [info] Finished indexing repository.
+2025-07-10 13:06:02.474 [info] Indexing job successfully done or aborted.
+2025-07-10 13:06:07.740 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:06:07.740 [info] Aborting indexing job.
+2025-07-10 13:06:11.571 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:11.571 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:11.571 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-10 13:06:11.571 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 13:06:11.571 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 13:06:11.799 [error] NoWorkspaceUriError
+2025-07-10 13:06:31.093 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:31.093 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-10 13:06:31.093 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-10 13:06:31.093 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 13:06:31.093 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 13:06:31.093 [info] Making keys for a new index
+2025-07-10 13:06:31.094 [info] Using the default key from the server for a new index
+2025-07-10 13:06:31.095 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 13:06:31.259 [info] Using existing keys for an index
+2025-07-10 13:06:31.259 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 13:06:31.312 [info] Doing a startup handshake.
+2025-07-10 13:06:31.669 [info] Finished computing merkle tree in 6.015574999999899 ms.
+2025-07-10 13:06:31.669 [info] Doing the initial handshake with hash: b219ffcdc698ede1c057f876b6bbbe4c61007cdc6af571a60044bee5d28795ef
+2025-07-10 13:06:31.674 [info] Computed simhash vector of length: 256
+2025-07-10 13:06:31.674 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:06:31.674 [info] Handshake start
+2025-07-10 13:06:31.677 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-07-10 13:06:33.156 [info] Handshake timing: 1484.8074849999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-10 13:06:33.156 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-10 13:06:33.156 [info] Starting fast remote sync.
+2025-07-10 13:06:33.156 [info] Total num embeddable files: 18
+2025-07-10 13:06:33.157 [info] Root hash: b219ffcdc698ede1c057f876b6bbbe4c61007cdc6af571a60044bee5d28795ef
+2025-07-10 13:06:33.157 [info] Starting repository upload from scratch.
+2025-07-10 13:06:33.158 [info] Uploading 18 files.
+2025-07-10 13:06:33.158 [info] Total number of files to embed: 18
+2025-07-10 13:06:33.158 [info] Not aborted
+2025-07-10 13:06:33.158 [info] Starting while loop.
+2025-07-10 13:06:33.160 [info] syncing batch of 2 files and 3366 bytes
+2025-07-10 13:06:33.772 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build.gradle
+2025-07-10 13:06:33.773 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./gradlew.bat
+2025-07-10 13:06:33.774 [info] syncing batch of 4 files and 63021 bytes
+2025-07-10 13:06:34.816 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./settings.gradle
+2025-07-10 13:06:34.816 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/init.java
+2025-07-10 13:06:34.816 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/BackendAPI.java
+2025-07-10 13:06:34.817 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./gradle/wrapper/gradle-wrapper.jar
+2025-07-10 13:06:34.818 [info] syncing batch of 8 files and 37703 bytes
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/PopulateInfo.java
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./gradle/wrapper/gradle-wrapper.properties
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./gradlew
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Project.java
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/DbConnection.java
+2025-07-10 13:06:37.168 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./projects.db
+2025-07-10 13:06:37.169 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./.gitignore
+2025-07-10 13:06:37.170 [info] syncing batch of 4 files and 1159 bytes
+2025-07-10 13:06:38.187 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./.idea/.gitignore
+2025-07-10 13:06:38.187 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./.idea/gradle.xml
+2025-07-10 13:06:38.187 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./.idea/misc.xml
+2025-07-10 13:06:38.187 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./.idea/vcs.xml
+2025-07-10 13:06:38.604 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:06:39.214 [info] Finished indexing repository.
+2025-07-10 13:06:39.214 [info] Indexing job successfully done or aborted.
+2025-07-10 13:09:21.499 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 13:09:21.522 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:09:21.699 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 13:11:31.311 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:11:31.311 [info] Aborting indexing job.
+2025-07-10 13:11:31.311 [info] Setting global status from status tracker: synced
+2025-07-10 13:11:31.311 [info] Doing a startup handshake.
+2025-07-10 13:11:31.315 [info] Finished computing merkle tree in 1.7668419999536127 ms.
+2025-07-10 13:11:31.316 [info] Doing the initial handshake with hash: b219ffcdc698ede1c057f876b6bbbe4c61007cdc6af571a60044bee5d28795ef
+2025-07-10 13:11:31.318 [info] Computed simhash vector of length: 256
+2025-07-10 13:11:31.318 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:11:31.318 [info] Handshake start
+2025-07-10 13:11:31.480 [info] Handshake timing: 162.87036499998067, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:11:31.480 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:11:31.480 [info] Starting fast remote sync.
+2025-07-10 13:11:31.480 [info] Total num embeddable files: 18
+2025-07-10 13:11:31.480 [info] Root hash: b219ffcdc698ede1c057f876b6bbbe4c61007cdc6af571a60044bee5d28795ef
+2025-07-10 13:11:31.482 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 13:11:31.650 [info] Finished indexing repository.
+2025-07-10 13:11:31.650 [info] Indexing job successfully done or aborted.
+2025-07-10 13:13:40.508 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 13:13:40.534 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 13:16:28.056 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:16:28.056 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:16:31.312 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:16:31.312 [info] Aborting indexing job.
+2025-07-10 13:16:31.312 [info] Setting global status from status tracker: synced
+2025-07-10 13:16:31.312 [info] Doing a startup handshake.
+2025-07-10 13:16:31.316 [info] Finished computing merkle tree in 1.8544420000398532 ms.
+2025-07-10 13:16:31.317 [info] Doing the initial handshake with hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:16:31.320 [info] Computed simhash vector of length: 256
+2025-07-10 13:16:31.320 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:16:31.320 [info] Handshake start
+2025-07-10 13:16:31.499 [info] Handshake timing: 180.67596299992874, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:16:31.499 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:16:31.500 [info] Starting fast remote sync.
+2025-07-10 13:16:31.501 [info] Total num embeddable files: 19
+2025-07-10 13:16:31.502 [info] Root hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:16:31.502 [info] In the out of sync case.
+2025-07-10 13:16:31.505 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:31.704 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:31.905 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:32.107 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:32.307 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:32.507 [info] Waiting on semaphore to be released 1
+2025-07-10 13:16:32.706 [info] setting numJobsToGo to 2
+2025-07-10 13:16:32.707 [info] [startSync]: numJobs: 2
+2025-07-10 13:16:32.707 [info] Uploading 2 files.
+2025-07-10 13:16:32.708 [info] Total number of files to embed: 19
+2025-07-10 13:16:32.708 [info] Not aborted
+2025-07-10 13:16:32.708 [info] Starting while loop.
+2025-07-10 13:16:32.712 [info] syncing batch of 2 files and 5931 bytes
+2025-07-10 13:16:34.633 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/BackendAPI.java
+2025-07-10 13:16:34.633 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-10 13:16:35.148 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:16:35.755 [info] Finished indexing repository.
+2025-07-10 13:16:35.755 [info] Indexing job successfully done or aborted.
+2025-07-10 13:21:31.313 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:21:31.313 [info] Aborting indexing job.
+2025-07-10 13:21:31.313 [info] Setting global status from status tracker: synced
+2025-07-10 13:21:31.313 [info] Doing a startup handshake.
+2025-07-10 13:21:31.318 [info] Finished computing merkle tree in 2.006480999989435 ms.
+2025-07-10 13:21:31.318 [info] Doing the initial handshake with hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:21:31.321 [info] Computed simhash vector of length: 256
+2025-07-10 13:21:31.321 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:21:31.321 [info] Handshake start
+2025-07-10 13:21:31.777 [info] Handshake timing: 457.5700580000412, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:21:31.777 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:21:31.777 [info] Starting fast remote sync.
+2025-07-10 13:21:31.778 [info] Total num embeddable files: 19
+2025-07-10 13:21:31.778 [info] Root hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:21:31.780 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 13:21:31.982 [info] Finished indexing repository.
+2025-07-10 13:21:31.982 [info] Indexing job successfully done or aborted.
+2025-07-10 13:26:28.036 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:26:28.036 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:26:31.314 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:26:31.314 [info] Aborting indexing job.
+2025-07-10 13:26:31.314 [info] Setting global status from status tracker: synced
+2025-07-10 13:26:31.314 [info] Doing a startup handshake.
+2025-07-10 13:26:31.318 [info] Finished computing merkle tree in 1.901641999837011 ms.
+2025-07-10 13:26:31.319 [info] Doing the initial handshake with hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:26:31.321 [info] Computed simhash vector of length: 256
+2025-07-10 13:26:31.321 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:26:31.321 [info] Handshake start
+2025-07-10 13:26:31.892 [info] Handshake timing: 572.1594110000879, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:26:31.892 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 13:26:31.892 [info] Starting fast remote sync.
+2025-07-10 13:26:31.893 [info] Total num embeddable files: 19
+2025-07-10 13:26:31.893 [info] Root hash: fd6cbf3f19695a87704d399c4f2b023d9b60c0b4362f025a43956e8397044ca8
+2025-07-10 13:26:31.895 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 13:26:32.099 [info] Finished indexing repository.
+2025-07-10 13:26:32.099 [info] Indexing job successfully done or aborted.
+2025-07-10 13:31:31.315 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:31:31.315 [info] Aborting indexing job.
+2025-07-10 13:31:31.315 [info] Setting global status from status tracker: synced
+2025-07-10 13:31:31.315 [info] Doing a startup handshake.
+2025-07-10 13:31:31.319 [info] Finished computing merkle tree in 1.9197799998801202 ms.
+2025-07-10 13:31:31.320 [info] Doing the initial handshake with hash: 4f368b870e79ba6c98dc814b6a620c799f47de918f85b95f0f44f5db5fded326
+2025-07-10 13:31:31.322 [info] Computed simhash vector of length: 256
+2025-07-10 13:31:31.322 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:31:31.322 [info] Handshake start
+2025-07-10 13:31:31.948 [info] Handshake timing: 627.7875570000615, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:31:31.948 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:31:31.949 [info] Starting fast remote sync.
+2025-07-10 13:31:31.949 [info] Total num embeddable files: 19
+2025-07-10 13:31:31.950 [info] Root hash: 4f368b870e79ba6c98dc814b6a620c799f47de918f85b95f0f44f5db5fded326
+2025-07-10 13:31:31.950 [info] In the out of sync case.
+2025-07-10 13:31:31.951 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:32.151 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:32.353 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:32.551 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:32.753 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:32.952 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:33.152 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:33.354 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:33.553 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:33.756 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:33.955 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:34.156 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:34.359 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:34.557 [info] Waiting on semaphore to be released 1
+2025-07-10 13:31:34.759 [info] setting numJobsToGo to 3
+2025-07-10 13:31:34.759 [info] [startSync]: numJobs: 3
+2025-07-10 13:31:34.759 [info] Uploading 3 files.
+2025-07-10 13:31:34.760 [info] Total number of files to embed: 19
+2025-07-10 13:31:34.760 [info] Not aborted
+2025-07-10 13:31:34.760 [info] Starting while loop.
+2025-07-10 13:31:34.762 [info] syncing batch of 2 files and 6079 bytes
+2025-07-10 13:31:37.486 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/PopulateInfo.java
+2025-07-10 13:31:37.486 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/DbConnection.java
+2025-07-10 13:31:39.941 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/BackendAPI.java
+2025-07-10 13:31:40.149 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:31:40.761 [info] Finished indexing repository.
+2025-07-10 13:31:40.761 [info] Indexing job successfully done or aborted.
+2025-07-10 13:36:28.038 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:36:28.038 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:36:31.316 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:36:31.316 [info] Aborting indexing job.
+2025-07-10 13:36:31.316 [info] Setting global status from status tracker: synced
+2025-07-10 13:36:31.316 [info] Doing a startup handshake.
+2025-07-10 13:36:31.331 [info] Finished computing merkle tree in 11.2105819999706 ms.
+2025-07-10 13:36:31.332 [info] Doing the initial handshake with hash: f98b60b01716cae44b894719cf551c56a17da8fd76b777935e1019c5f66f64d5
+2025-07-10 13:36:31.335 [info] Computed simhash vector of length: 256
+2025-07-10 13:36:31.335 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:36:31.335 [info] Handshake start
+2025-07-10 13:36:31.733 [info] Handshake timing: 400.59608800010756, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:36:31.734 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:36:31.734 [info] Starting fast remote sync.
+2025-07-10 13:36:31.734 [info] Total num embeddable files: 27
+2025-07-10 13:36:31.735 [info] Root hash: f98b60b01716cae44b894719cf551c56a17da8fd76b777935e1019c5f66f64d5
+2025-07-10 13:36:31.735 [info] In the out of sync case.
+2025-07-10 13:36:31.737 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:31.936 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:32.138 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:32.337 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:32.538 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:32.737 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:32.938 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:33.140 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:33.339 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:33.539 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:33.741 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:33.940 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:34.142 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:34.342 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:34.543 [info] Waiting on semaphore to be released 1
+2025-07-10 13:36:34.746 [info] setting numJobsToGo to 11
+2025-07-10 13:36:34.746 [info] [startSync]: numJobs: 11
+2025-07-10 13:36:34.747 [info] Uploading 11 files.
+2025-07-10 13:36:34.748 [info] Total number of files to embed: 27
+2025-07-10 13:36:34.748 [info] Not aborted
+2025-07-10 13:36:34.748 [info] Starting while loop.
+2025-07-10 13:36:34.749 [info] syncing batch of 2 files and 4968 bytes
+2025-07-10 13:36:37.879 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 13:36:37.880 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-10 13:36:37.882 [info] syncing batch of 4 files and 13937 bytes
+2025-07-10 13:36:39.517 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/DbConnection.class
+2025-07-10 13:36:39.517 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/PopulateInfo.class
+2025-07-10 13:36:39.517 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/Project.class
+2025-07-10 13:36:39.517 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/ProjectManagerGUI$1.class
+2025-07-10 13:36:39.520 [info] syncing batch of 5 files and 16172 bytes
+2025-07-10 13:36:39.530 [warning] Completed job unsuccessfully, will retry: ./build/classes/java/main/org/drbpatch/ProjectManagerGUI.class error: Bad unexpected error
+2025-07-10 13:36:39.530 [warning] Completed job unsuccessfully, will retry: ./build/classes/java/main/org/drbpatch/BackendAPI.class error: Bad unexpected error
+2025-07-10 13:36:39.530 [warning] Completed job unsuccessfully, will retry: ./build/classes/java/main/org/drbpatch/init.class error: Bad unexpected error
+2025-07-10 13:36:39.530 [warning] Completed job unsuccessfully, will retry: ./build/classes/java/main/org/drbpatch/Main.class error: Bad unexpected error
+2025-07-10 13:36:39.531 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:39.533 [info] syncing batch of 4 files and 12076 bytes
+2025-07-10 13:36:40.946 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/ProjectManagerGUI.class
+2025-07-10 13:36:40.946 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/BackendAPI.class
+2025-07-10 13:36:40.946 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/init.class
+2025-07-10 13:36:40.946 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/Main.class
+2025-07-10 13:36:40.949 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.951 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.953 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.955 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.958 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.963 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.965 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.968 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.971 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.975 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.977 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.979 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.982 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.985 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.988 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.991 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.994 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.996 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:40.998 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.001 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.004 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.006 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.008 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.010 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.013 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.024 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.029 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.035 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.039 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.042 [warning] Completed job unsuccessfully, will retry: ./build/tmp/compileJava/compileTransaction error: Bad unexpected error
+2025-07-10 13:36:41.562 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:36:42.380 [info] Finished indexing repository.
+2025-07-10 13:36:42.380 [info] Indexing job successfully done or aborted.
+2025-07-10 13:41:31.315 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:41:31.316 [info] Aborting indexing job.
+2025-07-10 13:41:31.316 [info] Setting global status from status tracker: synced
+2025-07-10 13:41:31.316 [info] Doing a startup handshake.
+2025-07-10 13:41:31.320 [info] Finished computing merkle tree in 2.1853430001065135 ms.
+2025-07-10 13:41:31.321 [info] Doing the initial handshake with hash: f8577307427f3c48d059dcc45c7cb88b979ea2b5be96d82fe701e1bf79173ced
+2025-07-10 13:41:31.323 [info] Computed simhash vector of length: 256
+2025-07-10 13:41:31.323 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:41:31.323 [info] Handshake start
+2025-07-10 13:41:31.595 [info] Handshake timing: 272.9747179998085, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:41:31.595 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:41:31.595 [info] Starting fast remote sync.
+2025-07-10 13:41:31.596 [info] Total num embeddable files: 28
+2025-07-10 13:41:31.596 [info] Root hash: f8577307427f3c48d059dcc45c7cb88b979ea2b5be96d82fe701e1bf79173ced
+2025-07-10 13:41:31.596 [info] In the out of sync case.
+2025-07-10 13:41:31.597 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:31.798 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:31.999 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:32.200 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:32.402 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:32.402 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:41:32.600 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:32.802 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:32.802 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:41:33.000 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:33.201 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:33.403 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:33.403 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:41:33.602 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:33.805 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:33.805 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:41:34.003 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:34.206 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:34.206 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:41:34.404 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:34.607 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:34.807 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:35.007 [info] Waiting on semaphore to be released 1
+2025-07-10 13:41:35.207 [info] setting numJobsToGo to 4
+2025-07-10 13:41:35.207 [info] [startSync]: numJobs: 4
+2025-07-10 13:41:35.208 [info] Uploading 4 files.
+2025-07-10 13:41:35.209 [info] Total number of files to embed: 28
+2025-07-10 13:41:35.209 [info] Not aborted
+2025-07-10 13:41:35.209 [info] Starting while loop.
+2025-07-10 13:41:35.210 [info] syncing batch of 2 files and 20073 bytes
+2025-07-10 13:41:39.173 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./projects.db
+2025-07-10 13:41:39.173 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-10 13:41:39.175 [info] syncing batch of 2 files and 11880 bytes
+2025-07-10 13:41:43.265 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/ProjectManagerGUI.class
+2025-07-10 13:41:43.265 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/ProjectForm.class
+2025-07-10 13:41:43.886 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:41:44.305 [info] Finished indexing repository.
+2025-07-10 13:41:44.305 [info] Indexing job successfully done or aborted.
+2025-07-10 13:46:28.037 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:46:28.037 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:46:31.317 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:46:31.317 [info] Aborting indexing job.
+2025-07-10 13:46:31.317 [info] Setting global status from status tracker: synced
+2025-07-10 13:46:31.317 [info] Doing a startup handshake.
+2025-07-10 13:46:31.322 [info] Finished computing merkle tree in 2.5098379999399185 ms.
+2025-07-10 13:46:31.323 [info] Doing the initial handshake with hash: 7347adaac1d376f8fb47d6ba99f1acecb51e76cc05f05f08f08f2e30d2ccdd51
+2025-07-10 13:46:31.325 [info] Computed simhash vector of length: 256
+2025-07-10 13:46:31.325 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:46:31.325 [info] Handshake start
+2025-07-10 13:46:31.604 [info] Handshake timing: 279.671296000015, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:46:31.604 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:46:31.604 [info] Starting fast remote sync.
+2025-07-10 13:46:31.604 [info] Total num embeddable files: 28
+2025-07-10 13:46:31.605 [info] Root hash: 7347adaac1d376f8fb47d6ba99f1acecb51e76cc05f05f08f08f2e30d2ccdd51
+2025-07-10 13:46:31.605 [info] In the out of sync case.
+2025-07-10 13:46:31.606 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:31.807 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:31.807 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:46:32.006 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:32.206 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:32.409 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:32.409 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:46:32.607 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:32.809 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.011 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.011 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:46:33.211 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.412 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.412 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:46:33.611 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.814 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:33.814 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:46:34.012 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:34.214 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:34.413 [info] Waiting on semaphore to be released 1
+2025-07-10 13:46:34.613 [info] setting numJobsToGo to 3
+2025-07-10 13:46:34.613 [info] [startSync]: numJobs: 3
+2025-07-10 13:46:34.614 [info] Uploading 3 files.
+2025-07-10 13:46:34.615 [info] Total number of files to embed: 28
+2025-07-10 13:46:34.615 [info] Not aborted
+2025-07-10 13:46:34.615 [info] Starting while loop.
+2025-07-10 13:46:34.615 [info] syncing batch of 2 files and 13550 bytes
+2025-07-10 13:46:36.738 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./projects.db
+2025-07-10 13:46:36.739 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/BackendAPI.java
+2025-07-10 13:46:38.514 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/BackendAPI.class
+2025-07-10 13:46:38.989 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:46:39.605 [info] Finished indexing repository.
+2025-07-10 13:46:39.605 [info] Indexing job successfully done or aborted.
+2025-07-10 13:51:31.318 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:51:31.319 [info] Aborting indexing job.
+2025-07-10 13:51:31.319 [info] Setting global status from status tracker: synced
+2025-07-10 13:51:31.319 [info] Doing a startup handshake.
+2025-07-10 13:51:31.324 [info] Finished computing merkle tree in 2.360591999720782 ms.
+2025-07-10 13:51:31.325 [info] Doing the initial handshake with hash: 26a715a455dbb6b7e12d020c3e34f4e69c5ae8a538a1614fca1ef948f9b9b360
+2025-07-10 13:51:31.328 [info] Computed simhash vector of length: 256
+2025-07-10 13:51:31.328 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:51:31.328 [info] Handshake start
+2025-07-10 13:51:31.859 [info] Handshake timing: 532.4725649999455, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:51:31.859 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:51:31.859 [info] Starting fast remote sync.
+2025-07-10 13:51:31.860 [info] Total num embeddable files: 28
+2025-07-10 13:51:31.861 [info] Root hash: 26a715a455dbb6b7e12d020c3e34f4e69c5ae8a538a1614fca1ef948f9b9b360
+2025-07-10 13:51:31.861 [info] In the out of sync case.
+2025-07-10 13:51:31.863 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:32.064 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:32.064 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:51:32.263 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:32.464 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:32.667 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:32.667 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:51:32.866 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:33.067 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:33.270 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:33.271 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:51:33.469 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:33.671 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:33.671 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:51:33.870 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:34.073 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:34.073 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-07-10 13:51:34.271 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:34.471 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:34.674 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:34.873 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:35.073 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:35.274 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:35.474 [info] Waiting on semaphore to be released 1
+2025-07-10 13:51:35.675 [info] setting numJobsToGo to 3
+2025-07-10 13:51:35.675 [info] [startSync]: numJobs: 3
+2025-07-10 13:51:35.675 [info] Uploading 3 files.
+2025-07-10 13:51:35.676 [info] Total number of files to embed: 28
+2025-07-10 13:51:35.676 [info] Not aborted
+2025-07-10 13:51:35.676 [info] Starting while loop.
+2025-07-10 13:51:35.677 [info] syncing batch of 2 files and 16817 bytes
+2025-07-10 13:51:37.574 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./projects.db
+2025-07-10 13:51:37.575 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/DbConnection.java
+2025-07-10 13:51:40.658 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build/classes/java/main/org/drbpatch/DbConnection.class
+2025-07-10 13:51:41.067 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:51:41.674 [info] Finished indexing repository.
+2025-07-10 13:51:41.674 [info] Indexing job successfully done or aborted.
+2025-07-10 13:56:28.038 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:56:28.039 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 13:56:31.318 [info] multiCodebaseIndexingJob dispose
+2025-07-10 13:56:31.318 [info] Aborting indexing job.
+2025-07-10 13:56:31.318 [info] Setting global status from status tracker: synced
+2025-07-10 13:56:31.318 [info] Doing a startup handshake.
+2025-07-10 13:56:31.330 [info] Finished computing merkle tree in 9.687495999969542 ms.
+2025-07-10 13:56:31.331 [info] Doing the initial handshake with hash: 448bdfd012065ee85b24853dc3ccffa470af3556fde8d9bf9d5eafcf754a6cbf
+2025-07-10 13:56:31.334 [info] Computed simhash vector of length: 256
+2025-07-10 13:56:31.334 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 13:56:31.334 [info] Handshake start
+2025-07-10 13:56:31.692 [info] Handshake timing: 359.77410000003874, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:56:31.692 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 13:56:31.692 [info] Starting fast remote sync.
+2025-07-10 13:56:31.693 [info] Total num embeddable files: 19
+2025-07-10 13:56:31.693 [info] Root hash: 448bdfd012065ee85b24853dc3ccffa470af3556fde8d9bf9d5eafcf754a6cbf
+2025-07-10 13:56:31.693 [info] In the out of sync case.
+2025-07-10 13:56:31.695 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:31.895 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:32.099 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:32.298 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:32.500 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:32.699 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:32.899 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:33.101 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:33.299 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:33.500 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:33.702 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:33.902 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:34.103 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:34.305 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:34.503 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:34.703 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:34.903 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:35.104 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:35.304 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:35.505 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:35.706 [info] Waiting on semaphore to be released 1
+2025-07-10 13:56:35.907 [info] setting numJobsToGo to 2
+2025-07-10 13:56:35.910 [info] [startSync]: numJobs: 2
+2025-07-10 13:56:36.735 [info] Uploading 2 files.
+2025-07-10 13:56:36.736 [info] Total number of files to embed: 19
+2025-07-10 13:56:36.737 [info] Not aborted
+2025-07-10 13:56:36.737 [info] Starting while loop.
+2025-07-10 13:56:36.739 [info] syncing batch of 2 files and 20497 bytes
+2025-07-10 13:56:38.655 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./projects.db
+2025-07-10 13:56:38.656 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-10 13:56:39.271 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 13:56:40.683 [info] Finished indexing repository.
+2025-07-10 13:56:40.683 [info] Indexing job successfully done or aborted.
+2025-07-10 14:01:31.319 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:01:31.319 [info] Aborting indexing job.
+2025-07-10 14:01:31.319 [info] Setting global status from status tracker: synced
+2025-07-10 14:01:31.319 [info] Doing a startup handshake.
+2025-07-10 14:01:31.323 [info] Finished computing merkle tree in 1.9240999999456108 ms.
+2025-07-10 14:01:31.324 [info] Doing the initial handshake with hash: 448bdfd012065ee85b24853dc3ccffa470af3556fde8d9bf9d5eafcf754a6cbf
+2025-07-10 14:01:31.326 [info] Computed simhash vector of length: 256
+2025-07-10 14:01:31.326 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:01:31.326 [info] Handshake start
+2025-07-10 14:01:31.733 [info] Handshake timing: 408.2794940001331, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:01:31.733 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:01:31.733 [info] Starting fast remote sync.
+2025-07-10 14:01:31.734 [info] Total num embeddable files: 19
+2025-07-10 14:01:31.734 [info] Root hash: 448bdfd012065ee85b24853dc3ccffa470af3556fde8d9bf9d5eafcf754a6cbf
+2025-07-10 14:01:31.736 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:01:31.939 [info] Finished indexing repository.
+2025-07-10 14:01:31.939 [info] Indexing job successfully done or aborted.
+2025-07-10 14:06:28.036 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:06:28.036 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:06:31.320 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:06:31.320 [info] Aborting indexing job.
+2025-07-10 14:06:31.320 [info] Setting global status from status tracker: synced
+2025-07-10 14:06:31.320 [info] Doing a startup handshake.
+2025-07-10 14:06:31.324 [info] Finished computing merkle tree in 1.740460000000894 ms.
+2025-07-10 14:06:31.325 [info] Doing the initial handshake with hash: f6b4a4baaf024e6e959411dbcb878c765052579be1484bc889478685e59b9ccb
+2025-07-10 14:06:31.327 [info] Computed simhash vector of length: 256
+2025-07-10 14:06:31.327 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:06:31.327 [info] Handshake start
+2025-07-10 14:06:31.566 [info] Handshake timing: 240.6925099999644, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:06:31.566 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:06:31.567 [info] Starting fast remote sync.
+2025-07-10 14:06:31.569 [info] Total num embeddable files: 20
+2025-07-10 14:06:31.569 [info] Root hash: f6b4a4baaf024e6e959411dbcb878c765052579be1484bc889478685e59b9ccb
+2025-07-10 14:06:31.569 [info] In the out of sync case.
+2025-07-10 14:06:31.571 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:31.771 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:31.971 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:32.172 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:32.374 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:32.574 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:32.776 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:32.975 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:33.176 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:33.376 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:33.578 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:33.779 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:33.979 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:34.181 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:34.381 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:34.583 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:34.781 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:34.981 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:35.183 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:35.382 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:35.583 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:35.784 [info] Waiting on semaphore to be released 1
+2025-07-10 14:06:35.984 [info] setting numJobsToGo to 1
+2025-07-10 14:06:35.984 [info] [startSync]: numJobs: 1
+2025-07-10 14:06:35.985 [info] Uploading 1 files.
+2025-07-10 14:06:35.985 [info] Total number of files to embed: 20
+2025-07-10 14:06:35.985 [info] Not aborted
+2025-07-10 14:06:35.985 [info] Starting while loop.
+2025-07-10 14:06:36.687 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/IDEconf.java
+2025-07-10 14:06:36.893 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:06:37.915 [info] Finished indexing repository.
+2025-07-10 14:06:37.915 [info] Indexing job successfully done or aborted.
+2025-07-10 14:09:31.555 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 14:09:31.608 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 14:11:31.320 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:11:31.320 [info] Aborting indexing job.
+2025-07-10 14:11:31.320 [info] Setting global status from status tracker: synced
+2025-07-10 14:11:31.320 [info] Doing a startup handshake.
+2025-07-10 14:11:31.324 [info] Finished computing merkle tree in 1.7719349996186793 ms.
+2025-07-10 14:11:31.325 [info] Doing the initial handshake with hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:11:31.327 [info] Computed simhash vector of length: 256
+2025-07-10 14:11:31.327 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:11:31.327 [info] Handshake start
+2025-07-10 14:11:31.869 [info] Handshake timing: 543.2994110002182, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:11:31.869 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:11:31.869 [info] Starting fast remote sync.
+2025-07-10 14:11:31.871 [info] Total num embeddable files: 21
+2025-07-10 14:11:31.871 [info] Root hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:11:31.871 [info] In the out of sync case.
+2025-07-10 14:11:31.873 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:32.072 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:32.273 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:32.473 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:32.675 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:32.875 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:33.076 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:33.279 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:33.480 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:33.681 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:33.883 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:34.081 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:34.282 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:34.484 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:34.684 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:34.883 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:35.083 [info] Waiting on semaphore to be released 1
+2025-07-10 14:11:35.284 [info] setting numJobsToGo to 3
+2025-07-10 14:11:35.284 [info] [startSync]: numJobs: 3
+2025-07-10 14:11:35.284 [info] Uploading 3 files.
+2025-07-10 14:11:35.285 [info] Total number of files to embed: 21
+2025-07-10 14:11:35.285 [info] Not aborted
+2025-07-10 14:11:35.285 [info] Starting while loop.
+2025-07-10 14:11:35.286 [info] syncing batch of 2 files and 815 bytes
+2025-07-10 14:11:38.011 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./build.gradle
+2025-07-10 14:11:38.012 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/IDEconf.java
+2025-07-10 14:11:39.245 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/IDE.java
+2025-07-10 14:11:39.857 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:11:40.531 [info] Finished indexing repository.
+2025-07-10 14:11:40.531 [info] Indexing job successfully done or aborted.
+2025-07-10 14:16:28.031 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:16:28.031 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:16:31.320 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:16:31.320 [info] Aborting indexing job.
+2025-07-10 14:16:31.320 [info] Setting global status from status tracker: synced
+2025-07-10 14:16:31.320 [info] Doing a startup handshake.
+2025-07-10 14:16:31.325 [info] Finished computing merkle tree in 1.6102309999987483 ms.
+2025-07-10 14:16:31.326 [info] Doing the initial handshake with hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:16:31.328 [info] Computed simhash vector of length: 256
+2025-07-10 14:16:31.328 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:16:31.328 [info] Handshake start
+2025-07-10 14:16:31.788 [info] Handshake timing: 461.64343199972063, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:16:31.788 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:16:31.788 [info] Starting fast remote sync.
+2025-07-10 14:16:31.789 [info] Total num embeddable files: 21
+2025-07-10 14:16:31.789 [info] Root hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:16:31.790 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:16:32.421 [info] Finished indexing repository.
+2025-07-10 14:16:32.421 [info] Indexing job successfully done or aborted.
+2025-07-10 14:21:31.321 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:21:31.321 [info] Aborting indexing job.
+2025-07-10 14:21:31.321 [info] Setting global status from status tracker: synced
+2025-07-10 14:21:31.321 [info] Doing a startup handshake.
+2025-07-10 14:21:31.325 [info] Finished computing merkle tree in 1.7614259999245405 ms.
+2025-07-10 14:21:31.326 [info] Doing the initial handshake with hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:21:31.328 [info] Computed simhash vector of length: 256
+2025-07-10 14:21:31.328 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:21:31.328 [info] Handshake start
+2025-07-10 14:21:31.863 [info] Handshake timing: 535.7072689998895, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:21:31.863 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:21:31.863 [info] Starting fast remote sync.
+2025-07-10 14:21:31.863 [info] Total num embeddable files: 21
+2025-07-10 14:21:31.863 [info] Root hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:21:31.865 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:21:32.482 [info] Finished indexing repository.
+2025-07-10 14:21:32.482 [info] Indexing job successfully done or aborted.
+2025-07-10 14:26:28.038 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:26:28.038 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:26:31.321 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:26:31.321 [info] Aborting indexing job.
+2025-07-10 14:26:31.321 [info] Setting global status from status tracker: synced
+2025-07-10 14:26:31.321 [info] Doing a startup handshake.
+2025-07-10 14:26:31.326 [info] Finished computing merkle tree in 2.468319999985397 ms.
+2025-07-10 14:26:31.327 [info] Doing the initial handshake with hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:26:31.329 [info] Computed simhash vector of length: 256
+2025-07-10 14:26:31.329 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:26:31.329 [info] Handshake start
+2025-07-10 14:26:31.727 [info] Handshake timing: 398.91625699959695, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:26:31.727 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:26:31.727 [info] Starting fast remote sync.
+2025-07-10 14:26:31.728 [info] Total num embeddable files: 21
+2025-07-10 14:26:31.728 [info] Root hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:26:31.729 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:26:31.934 [info] Finished indexing repository.
+2025-07-10 14:26:31.934 [info] Indexing job successfully done or aborted.
+2025-07-10 14:31:31.324 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:31:31.324 [info] Aborting indexing job.
+2025-07-10 14:31:31.324 [info] Setting global status from status tracker: synced
+2025-07-10 14:31:31.324 [info] Doing a startup handshake.
+2025-07-10 14:31:31.329 [info] Finished computing merkle tree in 2.996671000495553 ms.
+2025-07-10 14:31:31.330 [info] Doing the initial handshake with hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:31:31.332 [info] Computed simhash vector of length: 256
+2025-07-10 14:31:31.332 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:31:31.332 [info] Handshake start
+2025-07-10 14:31:31.718 [info] Handshake timing: 387.71975400019437, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:31:31.719 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:31:31.719 [info] Starting fast remote sync.
+2025-07-10 14:31:31.719 [info] Total num embeddable files: 21
+2025-07-10 14:31:31.720 [info] Root hash: e62123129d0663f330bebf7024e27ba24c94092c31b1f9b0760b07ff011856c9
+2025-07-10 14:31:31.721 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:31:32.333 [info] Finished indexing repository.
+2025-07-10 14:31:32.333 [info] Indexing job successfully done or aborted.
+2025-07-10 14:32:16.987 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 14:32:17.026 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 14:34:48.284 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 14:34:48.317 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 14:36:28.065 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:36:28.066 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:36:31.325 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:36:31.325 [info] Aborting indexing job.
+2025-07-10 14:36:31.325 [info] Setting global status from status tracker: synced
+2025-07-10 14:36:31.325 [info] Doing a startup handshake.
+2025-07-10 14:36:31.329 [info] Finished computing merkle tree in 1.9516829997301102 ms.
+2025-07-10 14:36:31.330 [info] Doing the initial handshake with hash: 71c5a162e26416a1431ad875cc417144d203bdf9b37ae607abcb9b87f322b9a8
+2025-07-10 14:36:31.332 [info] Computed simhash vector of length: 256
+2025-07-10 14:36:31.332 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:36:31.332 [info] Handshake start
+2025-07-10 14:36:31.712 [info] Handshake timing: 380.96182100009173, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:36:31.712 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:36:31.712 [info] Starting fast remote sync.
+2025-07-10 14:36:31.712 [info] Total num embeddable files: 22
+2025-07-10 14:36:31.713 [info] Root hash: 71c5a162e26416a1431ad875cc417144d203bdf9b37ae607abcb9b87f322b9a8
+2025-07-10 14:36:31.713 [info] In the out of sync case.
+2025-07-10 14:36:31.714 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:31.914 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:32.114 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:32.315 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:32.517 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:32.717 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:32.917 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:33.118 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:33.320 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:33.521 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:33.723 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:33.926 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:34.124 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:34.326 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:34.524 [info] Waiting on semaphore to be released 1
+2025-07-10 14:36:34.725 [info] setting numJobsToGo to 3
+2025-07-10 14:36:34.729 [info] [startSync]: numJobs: 3
+2025-07-10 14:36:36.011 [info] Uploading 3 files.
+2025-07-10 14:36:36.012 [info] Total number of files to embed: 22
+2025-07-10 14:36:36.012 [info] Not aborted
+2025-07-10 14:36:36.012 [info] Starting while loop.
+2025-07-10 14:36:36.013 [info] syncing batch of 2 files and 1804 bytes
+2025-07-10 14:36:37.853 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/IDE.java
+2025-07-10 14:36:37.853 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Config.java
+2025-07-10 14:36:38.467 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/JacksonIdeConfigManager.java
+2025-07-10 14:36:38.574 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:36:39.081 [info] Finished indexing repository.
+2025-07-10 14:36:39.081 [info] Indexing job successfully done or aborted.
+2025-07-10 14:40:17.015 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 14:40:17.057 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 14:41:31.325 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:41:31.325 [info] Aborting indexing job.
+2025-07-10 14:41:31.325 [info] Setting global status from status tracker: synced
+2025-07-10 14:41:31.325 [info] Doing a startup handshake.
+2025-07-10 14:41:31.329 [info] Finished computing merkle tree in 1.7020250000059605 ms.
+2025-07-10 14:41:31.330 [info] Doing the initial handshake with hash: 31cac4a5e93451f291fa9c94a7c613db0c259ed5f3004235c14ee380969de9e1
+2025-07-10 14:41:31.332 [info] Computed simhash vector of length: 256
+2025-07-10 14:41:31.332 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:41:31.332 [info] Handshake start
+2025-07-10 14:41:31.753 [info] Handshake timing: 422.44548400025815, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:41:31.753 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:41:31.754 [info] Starting fast remote sync.
+2025-07-10 14:41:31.754 [info] Total num embeddable files: 22
+2025-07-10 14:41:31.754 [info] Root hash: 31cac4a5e93451f291fa9c94a7c613db0c259ed5f3004235c14ee380969de9e1
+2025-07-10 14:41:31.754 [info] In the out of sync case.
+2025-07-10 14:41:31.756 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:31.956 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:32.158 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:32.357 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:32.560 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:32.757 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:32.960 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:33.161 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:33.363 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:33.562 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:33.764 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:33.964 [info] Waiting on semaphore to be released 1
+2025-07-10 14:41:34.165 [info] setting numJobsToGo to 1
+2025-07-10 14:41:34.165 [info] [startSync]: numJobs: 1
+2025-07-10 14:41:34.165 [info] Uploading 1 files.
+2025-07-10 14:41:34.166 [info] Total number of files to embed: 22
+2025-07-10 14:41:34.166 [info] Not aborted
+2025-07-10 14:41:34.166 [info] Starting while loop.
+2025-07-10 14:41:35.882 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/JacksonIdeConfigManager.java
+2025-07-10 14:41:36.469 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:41:37.111 [info] Finished indexing repository.
+2025-07-10 14:41:37.111 [info] Indexing job successfully done or aborted.
+2025-07-10 14:46:28.036 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:46:28.037 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:46:31.325 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:46:31.325 [info] Aborting indexing job.
+2025-07-10 14:46:31.326 [info] Setting global status from status tracker: synced
+2025-07-10 14:46:31.326 [info] Doing a startup handshake.
+2025-07-10 14:46:31.336 [info] Finished computing merkle tree in 7.6449300004169345 ms.
+2025-07-10 14:46:31.336 [info] Doing the initial handshake with hash: 517ac08948c87ea5fef8051183e7b59214725d455c86b21641a2d9f781959893
+2025-07-10 14:46:31.338 [info] Computed simhash vector of length: 256
+2025-07-10 14:46:31.338 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:46:31.338 [info] Handshake start
+2025-07-10 14:46:31.558 [info] Handshake timing: 221.40845200046897, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:46:31.559 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:46:31.559 [info] Starting fast remote sync.
+2025-07-10 14:46:31.559 [info] Total num embeddable files: 22
+2025-07-10 14:46:31.560 [info] Root hash: 517ac08948c87ea5fef8051183e7b59214725d455c86b21641a2d9f781959893
+2025-07-10 14:46:31.560 [info] In the out of sync case.
+2025-07-10 14:46:31.561 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:31.760 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:31.961 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:32.162 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:32.364 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:32.563 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:32.765 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:32.963 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:33.164 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:33.364 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:33.566 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:33.766 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:33.968 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:34.170 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:34.370 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:34.572 [info] Waiting on semaphore to be released 1
+2025-07-10 14:46:34.771 [info] setting numJobsToGo to 2
+2025-07-10 14:46:34.771 [info] [startSync]: numJobs: 2
+2025-07-10 14:46:34.771 [info] Uploading 2 files.
+2025-07-10 14:46:34.772 [info] Total number of files to embed: 22
+2025-07-10 14:46:34.772 [info] Not aborted
+2025-07-10 14:46:34.772 [info] Starting while loop.
+2025-07-10 14:46:34.773 [info] syncing batch of 2 files and 2079 bytes
+2025-07-10 14:46:38.107 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/init.java
+2025-07-10 14:46:38.108 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 14:46:38.313 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:46:39.131 [info] Finished indexing repository.
+2025-07-10 14:46:39.131 [info] Indexing job successfully done or aborted.
+2025-07-10 14:51:31.326 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:51:31.326 [info] Aborting indexing job.
+2025-07-10 14:51:31.326 [info] Setting global status from status tracker: synced
+2025-07-10 14:51:31.326 [info] Doing a startup handshake.
+2025-07-10 14:51:31.330 [info] Finished computing merkle tree in 1.7649419996887445 ms.
+2025-07-10 14:51:31.331 [info] Doing the initial handshake with hash: 7ce7d31d20f0babca55184bd36e2370cc998e796da8b80ae3cad34215d06f83d
+2025-07-10 14:51:31.333 [info] Computed simhash vector of length: 256
+2025-07-10 14:51:31.333 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:51:31.333 [info] Handshake start
+2025-07-10 14:51:31.822 [info] Handshake timing: 489.818234000355, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:51:31.822 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 14:51:31.822 [info] Starting fast remote sync.
+2025-07-10 14:51:31.822 [info] Total num embeddable files: 23
+2025-07-10 14:51:31.823 [info] Root hash: 7ce7d31d20f0babca55184bd36e2370cc998e796da8b80ae3cad34215d06f83d
+2025-07-10 14:51:31.823 [info] In the out of sync case.
+2025-07-10 14:51:31.824 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:32.023 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:32.223 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:32.424 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:32.627 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:32.826 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:33.029 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:33.228 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:33.429 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:33.630 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:33.829 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:34.031 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:34.230 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:34.432 [info] Waiting on semaphore to be released 1
+2025-07-10 14:51:34.630 [info] setting numJobsToGo to 4
+2025-07-10 14:51:34.631 [info] [startSync]: numJobs: 4
+2025-07-10 14:51:34.631 [info] Uploading 4 files.
+2025-07-10 14:51:34.631 [info] Total number of files to embed: 23
+2025-07-10 14:51:34.632 [info] Not aborted
+2025-07-10 14:51:34.632 [info] Starting while loop.
+2025-07-10 14:51:34.633 [info] syncing batch of 2 files and 4942 bytes
+2025-07-10 14:51:37.574 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/IDE.java
+2025-07-10 14:51:37.574 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/JacksonIdeConfigManager.java
+2025-07-10 14:51:37.575 [info] syncing batch of 2 files and 894 bytes
+2025-07-10 14:51:39.398 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 14:51:39.398 [info] Completed job successfully: e0af34e2-88a4-4e6b-8786-99de2d5b7c95 ./ide_config.json
+2025-07-10 14:51:39.637 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 14:51:40.533 [info] Finished indexing repository.
+2025-07-10 14:51:40.533 [info] Indexing job successfully done or aborted.
+2025-07-10 14:56:28.039 [error] Git command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)" Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:56:28.039 [error] Error getting user commits: Command failed: git log --pretty=format:"%H<|ENT|><|RY|>%s<|COM|><|MIT|>" -n 10 --author="$(git config user.email || git config user.name || whoami)"
+fatal: your current branch 'master' does not have any commits yet
+
+2025-07-10 14:56:31.327 [info] multiCodebaseIndexingJob dispose
+2025-07-10 14:56:31.327 [info] Aborting indexing job.
+2025-07-10 14:56:31.327 [info] Setting global status from status tracker: synced
+2025-07-10 14:56:31.327 [info] Doing a startup handshake.
+2025-07-10 14:56:31.332 [info] Finished computing merkle tree in 2.2260239999741316 ms.
+2025-07-10 14:56:31.332 [info] Doing the initial handshake with hash: 7ce7d31d20f0babca55184bd36e2370cc998e796da8b80ae3cad34215d06f83d
+2025-07-10 14:56:31.334 [info] Computed simhash vector of length: 256
+2025-07-10 14:56:31.334 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 14:56:31.334 [info] Handshake start
+2025-07-10 14:56:31.674 [info] Handshake timing: 340.4594119992107, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:56:31.674 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"e0af34e2-88a4-4e6b-8786-99de2d5b7c95","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-07-10 14:56:31.674 [info] Starting fast remote sync.
+2025-07-10 14:56:31.674 [info] Total num embeddable files: 23
+2025-07-10 14:56:31.674 [info] Root hash: 7ce7d31d20f0babca55184bd36e2370cc998e796da8b80ae3cad34215d06f83d
+2025-07-10 14:56:31.676 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-07-10 14:56:31.897 [info] Finished indexing repository.
+2025-07-10 14:56:31.897 [info] Indexing job successfully done or aborted.
+2025-07-10 15:00:56.260 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 15:00:56.281 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 15:01:04.053 [info] multiCodebaseIndexingJob dispose
+2025-07-10 15:01:04.053 [info] Aborting indexing job.

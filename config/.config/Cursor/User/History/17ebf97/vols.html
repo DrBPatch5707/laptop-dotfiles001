@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectManagerGUI - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fields">Fields</a></li>
+                <li><a href="#constructors">Constructors</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#usage">Usage Examples</a></li>
+            </ul>
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                ProjectManagerGUI
+            </div>
+            <div class="class-header">
+                <h1>ProjectManagerGUI</h1>
+                <p>Main application window for the Project Manager GUI</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>ProjectManagerGUI</code> class is the main window of the Project Manager application. It provides a table view of projects and a control panel with all required actions. All backend logic (database, file I/O, launching, etc.) is to be implemented separately via the <a href="BackendInterface.html">BackendInterface</a>.</p>
+                    <ul>
+                        <li>Displays all projects in a table</li>
+                        <li>Provides buttons for add, edit, delete, open folder, open with editor, and settings</li>
+                        <li>Handles UI structure, event listener placeholders, and data refresh</li>
+                    </ul>
+                </section>
+                <section id="fields">
+                    <h2>Fields</h2>
+                    <div class="field-section">
+                        <div class="field"><span class="field-name">JTable projectTable</span><span class="field-type">protected</span><div class="field-description">Table displaying the list of projects.</div></div>
+                        <div class="field"><span class="field-name">DefaultTableModel projectTableModel</span><span class="field-type">protected</span><div class="field-description">Table model for the project table.</div></div>
+                        <div class="field"><span class="field-name">JButton addProjectButton</span><span class="field-type">protected</span><div class="field-description">Button to add a new project.</div></div>
+                        <div class="field"><span class="field-name">JButton editProjectButton</span><span class="field-type">protected</span><div class="field-description">Button to edit the selected project.</div></div>
+                        <div class="field"><span class="field-name">JButton deleteProjectButton</span><span class="field-type">protected</span><div class="field-description">Button to delete the selected project.</div></div>
+                        <div class="field"><span class="field-name">JButton openFolderButton</span><span class="field-type">protected</span><div class="field-description">Button to open the selected project's folder.</div></div>
+                        <div class="field"><span class="field-name">JButton openWithButton</span><span class="field-type">protected</span><div class="field-description">Button to open the selected project with an external editor.</div></div>
+                        <div class="field"><span class="field-name">JButton settingsButton</span><span class="field-type">protected</span><div class="field-description">Button to open the settings dialog.</div></div>
+                    </div>
+                </section>
+                <section id="constructors">
+                    <h2>Constructors</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>ProjectManagerGUI()</code></div>
+                            <div class="method-description">Initializes the main application window, sets up UI components, layout, and event handlers.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="methods">
+                    <h2>Methods</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>void refreshProjectTable(List&lt;Project&gt; projects)</code></div>
+                            <div class="method-description">
+                                <p>Refreshes the project table with a new list of projects. Clears the table and repopulates it with the provided list.</p>
+                                <div class="parameter-list"><strong>Parameters:</strong><div class="parameter"><span class="parameter-name">projects</span> <span class="parameter-type">List&lt;Project&gt;</span> <div class="parameter-description">List of Project objects to display. If null, the table will be cleared.</div></div></div>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>Project getSelectedProject()</code></div>
+                            <div class="method-description">
+                                <p>Returns the currently selected project, or null if none is selected. This method should be overridden to retrieve the full Project object from your backend or model, as the default implementation returns null.</p>
+                                <div class="return-value"><strong>Returns:</strong> Selected Project object, or null if no selection.</div>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>protected void setupEventHandlers()</code></div>
+                            <div class="method-description">
+                                <p>Initializes all event listeners for the main GUI components. This method connects UI actions (button clicks, table selections) to their corresponding logic.</p>
+                                <ul>
+                                    <li><strong>Table Selection:</strong> Enables/disables edit, delete, open, and open-with buttons based on selection.</li>
+                                    <li><strong>Add Project:</strong> Opens the AddEditProjectDialog in add mode.</li>
+                                    <li><strong>Edit Project:</strong> Opens the AddEditProjectDialog in edit mode for the selected project.</li>
+                                    <li><strong>Delete Project:</strong> Triggers backend deletion for the selected project.</li>
+                                    <li><strong>Open Folder:</strong> Triggers backend to open the selected project's folder.</li>
+                                    <li><strong>Open With:</strong> Triggers backend to open the selected project with a chosen editor.</li>
+                                    <li><strong>Settings:</strong> Opens the SettingsDialog.</li>
+                                </ul>
+                                <p>This method is called during GUI initialization and is not intended to be called directly. You can override it in a subclass to connect to your backend.</p>
+                                <p><strong>Usage Example:</strong></p>
+                                <pre><code>@Override
+protected void setupEventHandlers() {
+    super.setupEventHandlers();
+    addProjectButton.addActionListener(e -> {
+        // Custom logic to add a project
+    });
+    // ...other handlers
+}
+</code></pre>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>static void main(String[] args)</code></div>
+                            <div class="method-description">Main method for testing the GUI. Launches the ProjectManagerGUI window.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="usage">
+                    <h2>Usage Examples</h2>
+                    <pre><code>// Create and show the main GUI
+SwingUtilities.invokeLater(() -> {
+    ProjectManagerGUI gui = new ProjectManagerGUI();
+    gui.setVisible(true);
+});
+
+// To integrate with your backend, extend ProjectManagerGUI and override event handlers
+public class YourProjectManagerGUI extends ProjectManagerGUI {
+    private final YourBackendService backend;
+    public YourProjectManagerGUI(YourBackendService backend) {
+        super();
+        this.backend = backend;
+        refreshProjectTable(backend.getProjects());
+        // Override event handlers as needed
+    }
+}
+</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

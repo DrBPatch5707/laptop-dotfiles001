@@ -1,0 +1,15 @@
+2025-07-11 13:55:55.881 [info] CURSOR LOG: Finished creating provider!
+2025-07-11 14:07:05.824 [info] CURSOR LOG: requestId 90675195-cf1a-4aed-9d04-a67e4aff33c2  
+2025-07-11 14:07:07.001 [info] CURSOR LOG: Done streaming cpp with id 90675195-cf1a-4aed-9d04-a67e4aff33c2
+2025-07-11 14:07:07.001 [info] CPP RT LOG: Time taken for streaming cpp 1200.9404296875 with request 90675195-cf1a-4aed-9d04-a67e4aff33c2
+2025-07-11 14:07:07.001 [info] CPP Request Log with id 90675195-cf1a-4aed-9d04-a67e4aff33c2
+2025-07-11 14:07:07.001 [info] =======>Model output 
+
+2025-07-11 14:07:07.001 [info] =======>Debug stream time 71.8949179998599
+2025-07-11 14:07:07.001 [info] =======>Debug ttft time 71.65541799995117
+2025-07-11 14:07:07.002 [info] Average of latest 20 ttft time 71.65541799995117
+2025-07-11 14:07:07.002 [info] Average of latest 20 stream time 71.8949179998599
+2025-07-11 14:07:07.002 [info] Average of latest 20 total time NaN
+2025-07-11 14:07:07.002 [info] Average of latest 20 client time 1200.9404296875
+2025-07-11 14:07:07.002 [info] Average of latest 20 discrepencies NaN
+2025-07-11 14:07:07.002 [info] CPP RT LOG: All stats {"streamingtime":1200.9404296875,"actualTtftFromStart":1262.7890625,"timeTillServerRequest":64.093017578125,"requestToTtft":1198.696044921875,"totalTime":1263.200927734375}

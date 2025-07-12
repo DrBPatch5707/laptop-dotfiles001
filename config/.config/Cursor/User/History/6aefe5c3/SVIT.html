@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager GUI - Complete Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Manager GUI</h1>
+            <h2>Complete Integration Documentation</h2>
+            <p class="subtitle">A comprehensive guide to integrating the Java Swing GUI with your backend system</p>
+        </header>
+
+        <nav class="sidebar">
+            <h3>Documentation</h3>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#components">Components</a></li>
+                <li><a href="#integration">Integration Guide</a></li>
+                <li><a href="#api-reference">API Reference</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#troubleshooting">Troubleshooting</a></li>
+            </ul>
+
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="classes/BackendInterface.html">BackendInterface</a></li>
+                <li><a href="classes/Project.html">Project</a></li>
+                <li><a href="classes/EditorProfile.html">EditorProfile</a></li>
+                <li><a href="classes/ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="classes/AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="classes/SettingsDialog.html">SettingsDialog</a></li>
+                <li><a href="classes/TestBackendService.html">TestBackendService</a></li>
+            </ul>
+
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="integration-checklist.html">Integration Checklist</a></li>
+                <li><a href="backend-interface-spec.html">Backend Interface Spec</a></li>
+                <li><a href="testing-guide.html">Testing Guide</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>The Project Manager GUI is a complete Java Swing application designed to manage software projects. It provides a user-friendly interface for creating, editing, and organizing projects, with support for external editor integration.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h4>Project Management</h4>
+                        <p>Create, edit, and delete projects with comprehensive metadata including name, description, status, priority, and category.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Editor Integration</h4>
+                        <p>Configure and launch external editors (VS Code, IntelliJ, Sublime Text, etc.) to open projects directly from the GUI.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>File System Integration</h4>
+                        <p>Open project folders in the system file manager and manage project locations relative to a configurable root directory.</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Settings Management</h4>
+                        <p>Configure application settings including root directory and editor profiles through an intuitive settings dialog.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="architecture">
+                <h2>Architecture</h2>
+                <p>The GUI follows a clean separation of concerns with a clear interface contract between the frontend and backend:</p>
+                
+                <div class="architecture-diagram">
+                    <div class="layer">
+                        <h4>Presentation Layer</h4>
+                        <ul>
+                            <li>ProjectManagerGUI - Main application window</li>
+                            <li>AddEditProjectDialog - Project creation/editing</li>
+                            <li>SettingsDialog - Configuration management</li>
+                        </ul>
+                    </div>
+                    <div class="layer">
+                        <h4>Data Models</h4>
+                        <ul>
+                            <li>Project - Project data structure</li>
+                            <li>EditorProfile - Editor configuration</li>
+                        </ul>
+                    </div>
+                    <div class="layer">
+                        <h4>Integration Interface</h4>
+                        <ul>
+                            <li>BackendInterface - Contract for backend implementation</li>
+                        </ul>
+                    </div>
+                    <div class="layer">
+                        <h4>Your Backend</h4>
+                        <ul>
+                            <li>Database/storage implementation</li>
+                            <li>File system operations</li>
+                            <li>External process management</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="components">
+                <h2>Core Components</h2>
+                
+                <div class="component">
+                    <h3>BackendInterface</h3>
+                    <p>The central contract that defines all interactions between the GUI and your backend system. Your backend must implement this interface to provide data persistence, file operations, and system integration.</p>
+                    <a href="classes/BackendInterface.html" class="btn">View Details</a>
+                </div>
+
+                <div class="component">
+                    <h3>Project</h3>
+                    <p>Data Transfer Object (DTO) representing a project with all necessary fields including ID, name, description, path, status, priority, category, and timestamps.</p>
+                    <a href="classes/Project.html" class="btn">View Details</a>
+                </div>
+
+                <div class="component">
+                    <h3>EditorProfile</h3>
+                    <p>Configuration model for external editors, including executable path and command-line arguments for launching editors with projects.</p>
+                    <a href="classes/EditorProfile.html" class="btn">View Details</a>
+                </div>
+
+                <div class="component">
+                    <h3>ProjectManagerGUI</h3>
+                    <p>Main application window providing a table view of projects and action buttons for all project operations.</p>
+                    <a href="classes/ProjectManagerGUI.html" class="btn">View Details</a>
+                </div>
+
+                <div class="component">
+                    <h3>AddEditProjectDialog</h3>
+                    <p>Modal dialog for creating new projects or editing existing ones with form validation and file chooser integration.</p>
+                    <a href="classes/AddEditProjectDialog.html" class="btn">View Details</a>
+                </div>
+
+                <div class="component">
+                    <h3>SettingsDialog</h3>
+                    <p>Configuration dialog for managing root directory and editor profiles with table-based editor management.</p>
+                    <a href="classes/SettingsDialog.html" class="btn">View Details</a>
+                </div>
+            </section>
+
+            <section id="integration">
+                <h2>Integration Guide</h2>
+                <p>Follow these steps to integrate the GUI with your backend system:</p>
+                
+                <div class="step">
+                    <h4>Step 1: Copy GUI Files</h4>
+                    <p>Copy all Java files to your project maintaining the package structure <code>gui.org.drbpatch</code>.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Step 2: Implement BackendInterface</h4>
+                    <p>Create a class that implements <code>BackendInterface</code> with your data persistence and system integration logic.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Step 3: Create Main Application</h4>
+                    <p>Set up your main application class to initialize the backend and launch the GUI.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Step 4: Connect Event Handlers</h4>
+                    <p>Override the GUI's event handlers to use your backend implementation for all operations.</p>
+                </div>
+
+                <a href="integration-checklist.html" class="btn btn-primary">View Complete Integration Checklist</a>
+            </section>
+
+            <section id="api-reference">
+                <h2>API Reference</h2>
+                <p>Complete documentation for all classes, methods, and interfaces:</p>
+                
+                <div class="api-links">
+                    <a href="classes/BackendInterface.html" class="api-link">
+                        <h4>BackendInterface</h4>
+                        <p>Complete interface specification with all required methods</p>
+                    </a>
+                    <a href="classes/Project.html" class="api-link">
+                        <h4>Project</h4>
+                        <p>Data model with all fields, constructors, and utility methods</p>
+                    </a>
+                    <a href="classes/EditorProfile.html" class="api-link">
+                        <h4>EditorProfile</h4>
+                        <p>Editor configuration with command-line argument management</p>
+                    </a>
+                    <a href="classes/ProjectManagerGUI.html" class="api-link">
+                        <h4>ProjectManagerGUI</h4>
+                        <p>Main GUI class with table management and event handling</p>
+                    </a>
+                    <a href="classes/AddEditProjectDialog.html" class="api-link">
+                        <h4>AddEditProjectDialog</h4>
+                        <p>Project creation/editing dialog with form validation</p>
+                    </a>
+                    <a href="classes/SettingsDialog.html" class="api-link">
+                        <h4>SettingsDialog</h4>
+                        <p>Settings configuration with editor profile management</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="examples">
+                <h2>Examples</h2>
+                <p>Working examples and reference implementations:</p>
+                
+                <div class="example">
+                    <h4>TestBackendService</h4>
+                    <p>Complete reference implementation showing how to implement BackendInterface with in-memory storage.</p>
+                    <a href="classes/TestBackendService.html" class="btn">View Implementation</a>
+                </div>
+
+                <div class="example">
+                    <h4>Integration Examples</h4>
+                    <p>Code examples for common integration patterns and best practices.</p>
+                    <a href="examples.html" class="btn">View Examples</a>
+                </div>
+            </section>
+
+            <section id="troubleshooting">
+                <h2>Troubleshooting</h2>
+                <p>Common issues and solutions:</p>
+                
+                <div class="trouble-item">
+                    <h4>GUI doesn't show projects</h4>
+                    <p>Check that your <code>getProjects()</code> method returns data and that you've properly connected the refresh mechanism.</p>
+                </div>
+
+                <div class="trouble-item">
+                    <h4>Buttons don't work</h4>
+                    <p>Ensure you've properly overridden the event handlers in ProjectManagerGUI to use your backend implementation.</p>
+                </div>
+
+                <div class="trouble-item">
+                    <h4>Settings not saved</h4>
+                    <p>Implement the settings persistence methods in your backend and ensure they're called from the settings dialog.</p>
+                </div>
+
+                <a href="troubleshooting.html" class="btn">View Complete Troubleshooting Guide</a>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

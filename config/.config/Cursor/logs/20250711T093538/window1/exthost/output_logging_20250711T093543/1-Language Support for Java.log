@@ -1,0 +1,40 @@
+Jul 11, 2025 9:35:47 AM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Error - 9:35:54 AM] Jul 11, 2025, 9:35:54 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getValue(MapFlattener.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:51)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:47)
+	at com.microsoft.gradle.bs.importer.Utils.isBuildServerEnabled(Utils.java:209)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:177)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 9:35:54 AM] Jul 11, 2025, 9:35:54 AM Errors occurred during the build.
+[Error - 9:35:54 AM] Sending notification workspace/didChangeConfiguration failed
+TypeError: Cannot read properties of null (reading 'sendNotification')
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:880554
+	at Generator.next (<anonymous>)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:866346
+	at new Promise (<anonymous>)
+	at r (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:866091)
+	at didChangeConfiguration (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:880501)
+	at t.SyncConfigurationFeature.onDidChangeConfiguration (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1166659)
+	at t.SyncConfigurationFeature.register (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1165954)
+	at t.SyncConfigurationFeature.initialize (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1165703)
+	at c.initializeFeatures (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1139285)
+	at c.doInitialize (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1126100)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async c.start (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1123115)

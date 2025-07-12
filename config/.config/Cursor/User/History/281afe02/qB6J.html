@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditorProfile - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fields">Fields</a></li>
+                <li><a href="#constructors">Constructors</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#factory-methods">Factory Methods</a></li>
+                <li><a href="#usage">Usage Examples</a></li>
+            </ul>
+
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+                <li><a href="TestBackendService.html">TestBackendService</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                EditorProfile
+            </div>
+
+            <div class="class-header">
+                <h1>EditorProfile</h1>
+                <p>Data Transfer Object (DTO) representing an editor profile in the Project Manager application</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>EditorProfile</code> class defines how to launch external editors for opening project files. Editor profiles are used in the Settings dialog to configure which editors can be used to open projects.</p>
+                    
+                    <div class="alert alert-info">
+                        <strong>Important:</strong> Each profile contains the executable path and optional command-line arguments needed to launch the editor with a project.
+                    </div>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Editor Configuration:</strong> Human-readable name and executable path</li>
+                        <li><strong>Command Line Arguments:</strong> Flexible argument management for different editors</li>
+                        <li><strong>Platform Support:</strong> Works across different operating systems</li>
+                        <li><strong>Factory Methods:</strong> Pre-configured profiles for common editors</li>
+                        <li><strong>Validation:</strong> Built-in validation for required fields</li>
+                    </ul>
+
+                    <h3>Usage in GUI</h3>
+                    <ul>
+                        <li>Displayed in SettingsDialog as a list of available editors</li>
+                        <li>Used when user selects "Open Project With..." from the main GUI</li>
+                        <li>Managed through Settings dialog (add, edit, remove profiles)</li>
+                    </ul>
+                </section>
+
+                <section id="fields">
+                    <h2>Fields</h2>
+                    
+                    <div class="field-section">
+                        <div class="field">
+                            <span class="field-name">name</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Human-readable name for the editor profile. Used for display in GUI lists and menus.</p>
+                                <ul>
+                                    <li>Examples: "VS Code", "IntelliJ IDEA", "Sublime Text"</li>
+                                    <li>Displayed in settings dialog and editor selection menus</li>
+                                    <li>Used in equals() and hashCode() comparisons</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">executablePath</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Full path to the editor's executable file. Should be an absolute path that can be executed by the system.</p>
+                                <ul>
+                                    <li>Examples: "/usr/bin/code", "C:\\Program Files\\Microsoft VS Code\\Code.exe"</li>
+                                    <li>Must be a valid executable file</li>
+                                    <li>Used by ProcessBuilder to launch the editor</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">commandLineArgs</span>
+                            <span class="field-type">List&lt;String&gt;</span>
+                            <div class="field-description">
+                                <p>List of command-line arguments to pass to the editor executable. These arguments are typically used to specify the project folder to open.</p>
+                                <ul>
+                                    <li>Examples: ["."], ["--new-window"], ["-n", "."]</li>
+                                    <li>Placeholders like "." are replaced with actual project path</li>
+                                    <li>Can be empty for simple editors</li>
+                                    <li>Returned as a copy to prevent external modification</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="constructors">
+                    <h2>Constructors</h2>
+                    
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>EditorProfile()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Default constructor for creating new editor profiles. Initializes with empty values that should be set by the user.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Default Values:</strong>
+                                <ul>
+                                    <li>name = "" (empty string)</li>
+                                    <li>executablePath = "" (empty string)</li>
+                                    <li>commandLineArgs = new ArrayList&lt;&gt;() (empty list)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>EditorProfile(String name, String executablePath, List&lt;String&gt; commandLineArgs)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Constructor for creating editor profiles with initial data.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">name</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Human-readable name for the editor (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">executablePath</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Path to the editor executable (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">commandLineArgs</span>
+                                    <span class="parameter-type">List&lt;String&gt;</span>
+                                    <div class="parameter-description">List of command-line arguments (null values result in empty list)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>EditorProfile(String name, String executablePath, String... commandLineArgs)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Constructor for creating editor profiles with initial data. Convenience constructor that takes command-line arguments as varargs.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">name</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Human-readable name for the editor (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">executablePath</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Path to the editor executable (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">commandLineArgs</span>
+                                    <span class="parameter-type">String...</span>
+                                    <div class="parameter-description">Command-line arguments as varargs (null values are ignored)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="methods">
+                    <h2>Methods</h2>
+
+                    <div class="method-section">
+                        <h3>Getters</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getName()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the human-readable name for this editor profile.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Editor name, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getExecutablePath()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the path to the editor executable.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Executable path, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>List&lt;String&gt; getCommandLineArgs()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the list of command-line arguments for this editor.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> List of command-line arguments, never null (empty list if not set)
+                            </div>
+                            <div class="alert alert-info">
+                                <strong>Note:</strong> Returns a copy of the internal list to prevent external modification.
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String[] getCommandLineArgsArray()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the command-line arguments as an array. Useful for ProcessBuilder and similar APIs.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Array of command-line arguments
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Setters</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setName(String name)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the human-readable name for this editor profile.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">name</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Editor name (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setExecutablePath(String executablePath)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the path to the editor executable.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">executablePath</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Executable path (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setCommandLineArgs(List&lt;String&gt; commandLineArgs)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the command-line arguments for this editor.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">commandLineArgs</span>
+                                    <span class="parameter-type">List&lt;String&gt;</span>
+                                    <div class="parameter-description">List of arguments (null values result in empty list)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setCommandLineArgs(String... commandLineArgs)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the command-line arguments using varargs.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">commandLineArgs</span>
+                                    <span class="parameter-type">String...</span>
+                                    <div class="parameter-description">Command-line arguments as varargs</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Argument Management</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void addCommandLineArg(String arg)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Adds a command-line argument to the existing list.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">arg</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Argument to add (null values are ignored)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>boolean removeCommandLineArg(String arg)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Removes a command-line argument from the list.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">arg</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Argument to remove</div>
+                                </div>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> true if the argument was found and removed, false otherwise
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void clearCommandLineArgs()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Clears all command-line arguments.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Utility Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>boolean isValid()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Checks if this editor profile has all required fields filled.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> true if both name and executablePath are not empty
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>EditorProfile copy()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a copy of this editor profile. Useful for editing operations where you want to preserve the original.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> A new EditorProfile instance with the same data
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getDisplayString()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets a display string for this editor profile. Shows the name and executable path for easy identification.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Formatted string showing name and executable path
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String[] createCommandArray()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a command array suitable for ProcessBuilder. Combines the executable path with command-line arguments.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Array containing executable path followed by arguments
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Object Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>boolean equals(Object obj)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Compares editor profiles based on name and executable path.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> true if both profiles have the same name and executable path
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>int hashCode()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns hash code based on name and executable path.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Hash code of name and executable path
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String toString()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns a string representation of the editor profile for debugging.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> String containing name, executable path, and command line arguments
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="factory-methods">
+                    <h2>Static Factory Methods</h2>
+                    
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>static EditorProfile createVSCodeProfile()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a VS Code editor profile with common settings.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Pre-configured VS Code profile
+                            </div>
+                            <div class="alert alert-info">
+                                <strong>Configuration:</strong> Name: "VS Code", Executable: "code", Args: ["--new-window", "."]
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>static EditorProfile createIntelliJProfile()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates an IntelliJ IDEA editor profile with common settings.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Pre-configured IntelliJ IDEA profile
+                            </div>
+                            <div class="alert alert-info">
+                                <strong>Configuration:</strong> Name: "IntelliJ IDEA", Executable: "idea", Args: ["."]
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>static EditorProfile createSublimeTextProfile()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a Sublime Text editor profile with common settings.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Pre-configured Sublime Text profile
+                            </div>
+                            <div class="alert alert-info">
+                                <strong>Configuration:</strong> Name: "Sublime Text", Executable: "subl", Args: ["."]
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>static EditorProfile createVimProfile()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a Vim editor profile with common settings.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Pre-configured Vim profile
+                            </div>
+                            <div class="alert alert-info">
+                                <strong>Configuration:</strong> Name: "Vim", Executable: "vim", Args: ["."]
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="usage">
+                    <h2>Usage Examples</h2>
+                    
+                    <h3>Creating a Custom Editor Profile</h3>
+                    <pre><code>// Create a custom editor profile
+EditorProfile profile = new EditorProfile();
+profile.setName("My Custom Editor");
+profile.setExecutablePath("/usr/local/bin/myeditor");
+profile.addCommandLineArg("--project");
+profile.addCommandLineArg(".");
+
+// Check if valid
+if (profile.isValid()) {
+    System.out.println("Profile is valid");
+}</code></pre>
+
+                    <h3>Using Factory Methods</h3>
+                    <pre><code>// Create pre-configured profiles
+EditorProfile vsCode = EditorProfile.createVSCodeProfile();
+EditorProfile intelliJ = EditorProfile.createIntelliJProfile();
+EditorProfile sublime = EditorProfile.createSublimeTextProfile();
+
+// Use in settings
+List&lt;EditorProfile&gt; profiles = Arrays.asList(vsCode, intelliJ, sublime);</code></pre>
+
+                    <h3>Managing Command Line Arguments</h3>
+                    <pre><code>EditorProfile profile = new EditorProfile("Test Editor", "/usr/bin/test");
+
+// Add arguments
+profile.addCommandLineArg("--verbose");
+profile.addCommandLineArg("--new-window");
+profile.addCommandLineArg(".");
+
+// Get as array for ProcessBuilder
+String[] command = profile.createCommandArray();
+// Result: ["/usr/bin/test", "--verbose", "--new-window", "."]
+
+// Remove an argument
+profile.removeCommandLineArg("--verbose");
+
+// Clear all arguments
+profile.clearCommandLineArgs();</code></pre>
+
+                    <h3>Launching an Editor</h3>
+                    <pre><code>EditorProfile editor = EditorProfile.createVSCodeProfile();
+String projectPath = "/path/to/project";
+
+// Create command array
+String[] command = editor.createCommandArray();
+
+// Replace placeholder with actual project path
+for (int i = 0; i &lt; command.length; i++) {
+    if (".".equals(command[i])) {
+        command[i] = projectPath;
+    }
+}
+
+// Launch editor
+ProcessBuilder pb = new ProcessBuilder(command);
+pb.start();</code></pre>
+
+                    <h3>Display and Validation</h3>
+                    <pre><code>EditorProfile profile = new EditorProfile("VS Code", "/usr/bin/code");
+
+// Get display string
+String display = profile.getDisplayString();
+System.out.println(display); // "VS Code (/usr/bin/code)"
+
+// Check validity
+if (profile.isValid()) {
+    System.out.println("Profile is ready to use");
+} else {
+    System.out.println("Profile needs name and executable path");
+}
+
+// Create a copy for editing
+EditorProfile copy = profile.copy();
+copy.setName("VS Code Modified");</code></pre>
+
+                    <h3>Using in Collections</h3>
+                    <pre><code>// Editor profiles can be used in sets and maps
+Set&lt;EditorProfile&gt; profileSet = new HashSet&lt;&gt;();
+Map&lt;String, EditorProfile&gt; profileMap = new HashMap&lt;&gt;();
+
+EditorProfile p1 = new EditorProfile("VS Code", "/usr/bin/code");
+EditorProfile p2 = new EditorProfile("VS Code", "/usr/bin/code"); // Same name and path
+
+profileSet.add(p1);
+profileSet.add(p2); // Won't be added because equals() returns true
+
+profileMap.put(p1.getName(), p1);</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

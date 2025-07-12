@@ -1,0 +1,2 @@
+2025-07-11 14:36:52.209 [error] #67: https://windsurf-telemetry.codeium.com/telemetry?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED
+2025-07-11 15:28:05.778 [error] #178: https://windsurf-telemetry.codeium.com/telemetry?cors=true&content-type=application/x-json-stream - error POST net::ERR_NETWORK_CHANGED

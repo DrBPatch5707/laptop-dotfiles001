@@ -1,0 +1,431 @@
+Jul 11, 2025 1:15:32 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Error - 1:15:52 PM] Jul 11, 2025, 1:15:52 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:15:52 PM] Jul 11, 2025, 1:15:52 PM Errors occurred during the build.
+[Error - 1:17:51 PM] Jul 11, 2025, 1:17:51 PM Problem refreshing workspace
+Exception updating digest for /home/bpatch/repos/java/project-manager/project-manager/.gradle
+org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/repos/java/project-manager/project-manager/.gradle
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: /home/bpatch/repos/java/project-manager/project-manager/.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	... 4 more
+
+[Error - 1:17:51 PM] Jul 11, 2025, 1:17:51 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:17:51 PM] Jul 11, 2025, 1:17:51 PM Errors occurred during the build.
+[Error - 1:18:07 PM] Jul 11, 2025, 1:18:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:18:07 PM] Jul 11, 2025, 1:18:07 PM Errors occurred during the build.
+[Error - 1:18:07 PM] Jul 11, 2025, 1:18:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:18:07 PM] Jul 11, 2025, 1:18:07 PM Errors occurred during the build.
+[Error - 1:20:57 PM] Jul 11, 2025, 1:20:57 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:20:57 PM] Jul 11, 2025, 1:20:57 PM Errors occurred during the build.
+[Error - 1:21:08 PM] Jul 11, 2025, 1:21:08 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:21:08 PM] Jul 11, 2025, 1:21:08 PM Errors occurred during the build.
+[Error - 1:23:39 PM] Jul 11, 2025, 1:23:39 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:23:39 PM] Jul 11, 2025, 1:23:39 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:23:39 PM] Jul 11, 2025, 1:23:39 PM Errors occurred during the build.
+Jul 11, 2025 1:24:26 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+[Error - 1:40:14 PM] Jul 11, 2025, 1:40:14 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:40:14 PM] Jul 11, 2025, 1:40:14 PM Errors occurred during the build.
+[Error - 1:40:22 PM] Jul 11, 2025, 1:40:22 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:40:22 PM] Jul 11, 2025, 1:40:22 PM Errors occurred during the build.
+[Error - 1:41:26 PM] Jul 11, 2025, 1:41:26 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:41:26 PM] Jul 11, 2025, 1:41:26 PM Errors occurred during the build.
+Jul 11, 2025 1:42:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2132
+[Error - 1:42:54 PM] Jul 11, 2025, 1:42:54 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:42:54 PM] Jul 11, 2025, 1:42:54 PM Errors occurred during the build.
+[Error - 1:44:13 PM] Jul 11, 2025, 1:44:13 PM Unable to load IDecompiler class for jarFileContentProvider
+[Error - 1:44:14 PM] Jul 11, 2025, 1:44:14 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:44:14 PM] Jul 11, 2025, 1:44:14 PM Errors occurred during the build.
+[Error - 1:48:47 PM] Jul 11, 2025, 1:48:47 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:48:47 PM] Jul 11, 2025, 1:48:47 PM Errors occurred during the build.
+[Error - 1:52:31 PM] Jul 11, 2025, 1:52:31 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 1:52:31 PM] Jul 11, 2025, 1:52:31 PM Errors occurred during the build.

@@ -1,0 +1,124 @@
+2025-07-10 00:12:22.576 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-10 00:12:22.576 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-10 00:12:22.576 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-10 00:12:22.576 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 00:12:22.576 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 00:12:22.576 [info] Making keys for a new index
+2025-07-10 00:12:22.603 [info] Using the default key from the server for a new index
+2025-07-10 00:12:22.604 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 00:12:22.687 [info] Using existing keys for an index
+2025-07-10 00:12:22.687 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 00:12:22.705 [info] Doing a startup handshake.
+2025-07-10 00:12:22.786 [info] Finished computing merkle tree in 31.19939599999998 ms.
+2025-07-10 00:12:22.793 [info] Doing the initial handshake with hash: b7ff93873acf7db0b7465d39ed0fb8b60d5691f55f3abb7bb93343c754e757b7
+2025-07-10 00:12:22.798 [info] Computed simhash vector of length: 256
+2025-07-10 00:12:22.798 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 00:12:22.798 [info] Handshake start
+2025-07-10 00:12:22.831 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/f7daad14851aae6f69c89b38bbc10b23/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-07-10 00:12:24.654 [info] Handshake timing: 1859.7717020000005, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-10 00:12:24.654 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-07-10 00:12:24.655 [info] Starting fast remote sync.
+2025-07-10 00:12:24.655 [info] Total num embeddable files: 25
+2025-07-10 00:12:24.655 [info] Root hash: b7ff93873acf7db0b7465d39ed0fb8b60d5691f55f3abb7bb93343c754e757b7
+2025-07-10 00:12:24.655 [info] Starting repository upload from scratch.
+2025-07-10 00:12:24.656 [info] Uploading 25 files.
+2025-07-10 00:12:24.657 [info] Total number of files to embed: 25
+2025-07-10 00:12:24.657 [info] Not aborted
+2025-07-10 00:12:24.657 [info] Starting while loop.
+2025-07-10 00:12:24.658 [info] syncing batch of 2 files and 3302 bytes
+2025-07-10 00:12:25.149 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./.gitignore
+2025-07-10 00:12:25.149 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./gradlew.bat
+2025-07-10 00:12:25.150 [info] syncing batch of 4 files and 14420 bytes
+2025-07-10 00:12:32.401 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./settings.gradle
+2025-07-10 00:12:32.401 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./build.gradle
+2025-07-10 00:12:32.401 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/BackendInterface.java
+2025-07-10 00:12:32.401 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/EditorProfile.java
+2025-07-10 00:12:32.404 [info] syncing batch of 8 files and 52572 bytes
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/PopulateInfo.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/AddEditProjectDialog.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/Project.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/Projectmanager.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/GUI_Connection.java
+2025-07-10 00:12:34.715 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/SettingsDialog.java
+2025-07-10 00:12:34.719 [info] syncing batch of 11 files and 90193 bytes
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/DbConnection.java
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/IntegrationExample.java
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/DataBank.java
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./.idea/.gitignore
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./.idea/gradle.xml
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./.idea/misc.xml
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./.idea/vcs.xml
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./gradlew
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./projects.db
+2025-07-10 00:12:45.363 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./gradle/wrapper/gradle-wrapper.properties
+2025-07-10 00:12:45.364 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./gradle/wrapper/gradle-wrapper.jar
+2025-07-10 00:12:45.775 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 00:12:46.354 [info] Finished indexing repository.
+2025-07-10 00:12:46.354 [info] Indexing job successfully done or aborted.
+2025-07-10 00:14:11.075 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 00:14:11.096 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 00:14:11.241 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 00:17:22.705 [info] multiCodebaseIndexingJob dispose
+2025-07-10 00:17:22.706 [info] Aborting indexing job.
+2025-07-10 00:17:22.706 [info] Setting global status from status tracker: synced
+2025-07-10 00:17:22.706 [info] Doing a startup handshake.
+2025-07-10 00:17:22.717 [info] Finished computing merkle tree in 6.245975999976508 ms.
+2025-07-10 00:17:22.718 [info] Doing the initial handshake with hash: 1f4a06ffcbf2790ba81a8aefe4e8928886600737ac3f9d4e2508411764cd91de
+2025-07-10 00:17:22.720 [info] Computed simhash vector of length: 256
+2025-07-10 00:17:22.720 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 00:17:22.720 [info] Handshake start
+2025-07-10 00:17:23.151 [info] Handshake timing: 432.4405749999569, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 00:17:23.151 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"0d574780-5ce3-4a59-a1de-59a4ca1e6086","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-07-10 00:17:23.151 [info] Starting fast remote sync.
+2025-07-10 00:17:23.152 [info] Total num embeddable files: 25
+2025-07-10 00:17:23.153 [info] Root hash: 1f4a06ffcbf2790ba81a8aefe4e8928886600737ac3f9d4e2508411764cd91de
+2025-07-10 00:17:23.153 [info] In the out of sync case.
+2025-07-10 00:17:23.155 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:23.354 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:23.556 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:23.755 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:23.958 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:24.157 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:24.357 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:24.558 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:24.758 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:24.958 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:25.159 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:25.359 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:25.560 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:25.761 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:25.960 [info] Waiting on semaphore to be released 1
+2025-07-10 00:17:26.161 [info] setting numJobsToGo to 4
+2025-07-10 00:17:26.161 [info] [startSync]: numJobs: 4
+2025-07-10 00:17:26.161 [info] Uploading 4 files.
+2025-07-10 00:17:26.162 [info] Total number of files to embed: 25
+2025-07-10 00:17:26.162 [info] Not aborted
+2025-07-10 00:17:26.162 [info] Starting while loop.
+2025-07-10 00:17:26.164 [info] syncing batch of 2 files and 3267 bytes
+2025-07-10 00:17:30.321 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/PopulateInfo.java
+2025-07-10 00:17:30.322 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/Main.java
+2025-07-10 00:17:30.324 [info] syncing batch of 2 files and 8044 bytes
+2025-07-10 00:17:34.008 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/Projectmanager.java
+2025-07-10 00:17:34.008 [info] Completed job successfully: 0d574780-5ce3-4a59-a1de-59a4ca1e6086 ./src/main/java/org/drbpatch/GUI_Connection.java
+2025-07-10 00:17:34.215 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-07-10 00:17:34.822 [info] Finished indexing repository.
+2025-07-10 00:17:34.822 [info] Indexing job successfully done or aborted.
+2025-07-10 00:20:24.340 [info] multiCodebaseIndexingJob dispose
+2025-07-10 00:20:24.340 [info] Aborting indexing job.

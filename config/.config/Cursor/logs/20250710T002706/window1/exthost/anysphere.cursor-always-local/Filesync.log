@@ -1,0 +1,137 @@
+2025-07-10 00:27:14.202 [error] Failed to check if file sync is enabled for user {}
+2025-07-10 00:27:14.202 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-10 00:27:14.202 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-10 00:27:14.307 [info] [registerEventListeners] Registering event listeners
+2025-07-10 00:27:16.423 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:27:16.518 [info] Fetched fsConfig in 94.82619200000045ms
+2025-07-10 00:27:16.518 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:27:16.659 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:27:17.514 [info] Fetched fsConfig in 855.7280059999994ms
+2025-07-10 00:27:17.515 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:27:17.515 [info] File sync enabled status: true
+2025-07-10 00:27:17.515 [info] Starting sync of visible tabs
+2025-07-10 00:27:17.568 [info] Starting sync of visible tabs
+2025-07-10 00:27:17.765 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=1 in 247.58509700000104ms
+2025-07-10 00:27:17.765 [info] Synced all visible tabs in 250.3650749999997ms
+2025-07-10 00:27:17.855 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=1 in 286.7736849999983ms
+2025-07-10 00:27:17.856 [info] Synced all visible tabs in 288.43687800000043ms
+2025-07-10 00:27:17.856 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:27:18.225 [info] Fetched fsConfig in 369.048275000001ms
+2025-07-10 00:27:18.225 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:29:16.655 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=2 in 677.1649190000026ms
+2025-07-10 00:29:18.498 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:29:19.113 [info] Fetched fsConfig in 614.5795609999914ms
+2025-07-10 00:29:19.113 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:29:19.114 [info] File sync enabled status: true
+2025-07-10 00:29:19.114 [info] Starting sync of visible tabs
+2025-07-10 00:29:19.114 [info] Synced all visible tabs in 0.24993000000540633ms
+2025-07-10 00:29:31.609 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=3 in 207.89298499998404ms
+2025-07-10 00:29:42.062 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=4 in 733.3662949999853ms
+2025-07-10 00:30:20.477 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=5 in 418.7477190000063ms
+2025-07-10 00:30:23.251 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:30:23.457 [info] Fetched fsConfig in 205.70246400000178ms
+2025-07-10 00:30:23.457 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:30:23.457 [info] File sync enabled status: true
+2025-07-10 00:30:23.457 [info] Starting sync of visible tabs
+2025-07-10 00:30:23.457 [info] Synced all visible tabs in 0.17136799998115748ms
+2025-07-10 00:30:28.976 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=6 in 519.0624869999883ms
+2025-07-10 00:30:39.832 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=7 in 526.4244020000042ms
+2025-07-10 00:30:46.303 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=8 in 1005.5686139999889ms
+2025-07-10 00:30:54.045 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=9 in 331.29442399999243ms
+2025-07-10 00:30:54.556 [info] Synced file src/main/java/org/drbpatch/Projectmanager.java modelVersion=10 in 447.4542220000003ms
+2025-07-10 00:31:19.538 [info] Handled visible editors change in 0.41188400000100955ms
+2025-07-10 00:33:46.851 [info] Uploaded file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=2 in 476.75455100002ms
+2025-07-10 00:33:46.852 [info] Uploaded file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=2 in 1268.8338080000249ms
+2025-07-10 00:33:47.056 [info] Uploaded file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=2 in 679.8254920000327ms
+2025-07-10 00:33:47.056 [info] Uploaded file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=2 in 1478.8330929999938ms
+2025-07-10 00:33:52.604 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=4 in 363.6733200000017ms
+2025-07-10 00:34:06.365 [info] Handled visible editors change in 0.5515409999643452ms
+2025-07-10 00:34:09.816 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=6 in 238.4798380000284ms
+2025-07-10 00:34:15.727 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=7 in 475.019254999992ms
+2025-07-10 00:34:17.361 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:34:17.566 [info] Fetched fsConfig in 204.87940799997887ms
+2025-07-10 00:34:17.566 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:34:17.566 [info] File sync enabled status: true
+2025-07-10 00:34:17.566 [info] Starting sync of visible tabs
+2025-07-10 00:34:17.566 [info] Synced all visible tabs in 0.08370499999728054ms
+2025-07-10 00:34:24.739 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=8 in 259.8336450000061ms
+2025-07-10 00:34:34.463 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=9 in 631.4584599999944ms
+2025-07-10 00:34:40.400 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=10 in 490.0530710000312ms
+2025-07-10 00:34:46.645 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=11 in 548.5211869999766ms
+2025-07-10 00:34:52.583 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=12 in 579.1110149999731ms
+2025-07-10 00:35:10.805 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=13 in 260.9081869999645ms
+2025-07-10 00:35:24.733 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=14 in 378.53536899999017ms
+2025-07-10 00:35:27.185 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:35:27.595 [info] Fetched fsConfig in 409.6488830000162ms
+2025-07-10 00:35:27.595 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:35:27.595 [info] File sync enabled status: true
+2025-07-10 00:35:27.595 [info] Starting sync of visible tabs
+2025-07-10 00:35:27.595 [info] Synced all visible tabs in 0.15094900003168732ms
+2025-07-10 00:35:40.475 [info] Handled visible editors change in 0.6246859999955632ms
+2025-07-10 00:40:06.466 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=15 in 1178.1185609999811ms
+2025-07-10 00:41:33.235 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=16 in 1400.5311609999044ms
+2025-07-10 00:42:20.712 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=17 in 425.46697599999607ms
+2025-07-10 00:46:17.304 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=2 in 1413.1318290000781ms
+2025-07-10 00:46:17.305 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=2 in 1093.231921999948ms
+2025-07-10 00:46:17.504 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=2 in 1611.2461019998882ms
+2025-07-10 00:46:17.504 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=2 in 1290.8615190000273ms
+2025-07-10 00:46:26.320 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=11 in 389.23724699998274ms
+2025-07-10 00:46:26.724 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=11 in 791.4828419999685ms
+2025-07-10 00:46:26.725 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=11 in 487.17866999981925ms
+2025-07-10 00:46:26.725 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=11 in 501.52776399999857ms
+2025-07-10 00:46:49.056 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=18 in 393.822685000021ms
+2025-07-10 00:46:49.694 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=19 in 365.7102630001027ms
+2025-07-10 00:46:50.273 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=20 in 291.84029199997894ms
+2025-07-10 00:46:50.572 [info] Synced file src/main/java/org/drbpatch/AddEditProjectDialog.java modelVersion=20 in 201.43930700002238ms
+2025-07-10 00:47:14.141 [info] Handled visible editors change in 0.6436519999988377ms
+2025-07-10 00:47:15.907 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:47:16.282 [info] Fetched fsConfig in 374.8634210000746ms
+2025-07-10 00:47:16.282 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:47:16.283 [info] File sync enabled status: true
+2025-07-10 00:47:16.283 [info] Starting sync of visible tabs
+2025-07-10 00:47:16.283 [info] Synced all visible tabs in 0.12937700003385544ms
+2025-07-10 00:47:17.070 [info] Handled visible editors change in 0.4503260001074523ms
+2025-07-10 00:47:17.090 [info] Handled visible editors change in 0.6334510000888258ms
+2025-07-10 00:47:18.496 [info] Handled visible editors change in 0.46644699992612004ms
+2025-07-10 00:47:18.515 [info] Handled visible editors change in 0.6169890000019222ms
+2025-07-10 00:47:26.808 [info] Handled visible editors change in 0.48348499997518957ms
+2025-07-10 00:47:26.836 [info] Handled visible editors change in 0.5720850001089275ms
+2025-07-10 00:50:15.206 [info] Synced file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=3 in 806.2272419999354ms
+2025-07-10 00:50:17.251 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:50:17.455 [info] Fetched fsConfig in 204.23308900021948ms
+2025-07-10 00:50:17.455 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:50:17.455 [info] File sync enabled status: true
+2025-07-10 00:50:17.455 [info] Starting sync of visible tabs
+2025-07-10 00:50:17.455 [info] Synced all visible tabs in 0.11930100014433265ms
+2025-07-10 00:51:44.526 [info] Synced file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=4 in 1447.1911579999141ms
+2025-07-10 00:51:46.473 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:51:47.088 [info] Fetched fsConfig in 614.3137019998394ms
+2025-07-10 00:51:47.088 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:51:47.088 [info] File sync enabled status: true
+2025-07-10 00:51:47.088 [info] Starting sync of visible tabs
+2025-07-10 00:51:47.088 [info] Synced all visible tabs in 0.12190699996426702ms
+2025-07-10 00:52:24.840 [info] Synced file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=5 in 840.8472939999774ms
+2025-07-10 00:58:40.275 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=12 in 1165.7832510001026ms
+2025-07-10 00:58:40.276 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=6 in 1103.8238810000475ms
+2025-07-10 00:58:42.122 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 00:58:42.328 [info] Fetched fsConfig in 205.05628400016576ms
+2025-07-10 00:58:42.328 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 00:58:42.328 [info] File sync enabled status: true
+2025-07-10 00:58:42.328 [info] Starting sync of visible tabs
+2025-07-10 00:58:42.328 [info] Synced all visible tabs in 0.14987299987114966ms
+2025-07-10 01:05:51.646 [info] Uploaded file src/main/java/org/drbpatch/GUI_Connection.java modelVersion=7 in 1354.774565000087ms
+2025-07-10 01:05:53.488 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 01:05:53.693 [info] Fetched fsConfig in 205.0972020002082ms
+2025-07-10 01:05:53.693 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 01:05:53.693 [info] File sync enabled status: true
+2025-07-10 01:05:53.693 [info] Starting sync of visible tabs
+2025-07-10 01:05:53.693 [info] Synced all visible tabs in 0.10522600030526519ms
+2025-07-10 01:09:48.152 [info] Uploaded file src/main/java/org/drbpatch/SettingsDialog.java modelVersion=3 in 976.5814340002835ms
+2025-07-10 01:09:48.152 [info] Uploaded file src/main/java/org/drbpatch/SettingsDialog.java modelVersion=3 in 975.0128990001976ms
+2025-07-10 01:09:48.361 [info] Uploaded file src/main/java/org/drbpatch/SettingsDialog.java modelVersion=3 in 1182.1117839999497ms
+2025-07-10 01:09:48.463 [info] Uploaded file src/main/java/org/drbpatch/SettingsDialog.java modelVersion=3 in 460.07692500017583ms
+2025-07-10 01:09:48.464 [info] Uploaded file src/main/java/org/drbpatch/SettingsDialog.java modelVersion=3 in 459.3798569999635ms
+2025-07-10 01:10:01.261 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=13 in 370.7241839999333ms
+2025-07-10 01:10:01.670 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=13 in 775.7118079997599ms
+2025-07-10 01:10:01.671 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=13 in 564.0672079999931ms
+2025-07-10 01:10:01.671 [info] Uploaded file src/main/java/org/drbpatch/Projectmanager.java modelVersion=13 in 553.632542999927ms

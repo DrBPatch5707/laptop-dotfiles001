@@ -1,0 +1,214 @@
+2025-07-11 15:35:11.637 [info] Extension host with pid 56060 started
+2025-07-11 15:35:11.637 [info] Skipping acquiring lock for /home/bpatch/.config/Windsurf/User/workspaceStorage/6cdac05d3fd037bb91a50c97b0510b63.
+2025-07-11 15:35:11.667 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 15:35:11.674 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 15:35:11.722 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 15:35:11.859 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: true, activationEvent: '*'
+2025-07-11 15:35:12.329 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 15:35:12.519 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 15:35:18.318 [info] Eager extensions activated
+2025-07-11 15:35:18.332 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:35:18.335 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:35:18.360 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:35:30.734 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 15:35:30.767 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CT.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at Eg.L [as value] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:514222)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 15:35:30.768 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CT.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at set hasGitHubRepositories (/usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:217807)
+	at /usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:218766
+	at Eg.value (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:634408)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 15:35:30.768 [info] Extension host with pid 56060 exiting with code 0
+2025-07-11 15:35:32.137 [info] Extension host with pid 56342 started
+2025-07-11 15:35:32.154 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 15:35:32.165 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 15:35:32.228 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 15:35:32.350 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: true, activationEvent: '*'
+2025-07-11 15:35:36.959 [info] Eager extensions activated
+2025-07-11 15:35:36.971 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:35:36.975 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:35:36.998 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:37:21.308 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 15:37:21.330 [info] Extension host with pid 56342 exiting with code 0
+2025-07-11 15:37:22.758 [info] Extension host with pid 56617 started
+2025-07-11 15:37:22.758 [info] Skipping acquiring lock for /home/bpatch/.config/Windsurf/User/workspaceStorage/6cdac05d3fd037bb91a50c97b0510b63.
+2025-07-11 15:37:22.776 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 15:37:22.803 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 15:37:22.856 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 15:37:22.979 [info] ExtensionService#_doActivateExtension codeium.windsurf, startup: true, activationEvent: '*'
+2025-07-11 15:37:23.491 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 15:37:23.715 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 15:37:27.551 [info] Eager extensions activated
+2025-07-11 15:37:27.615 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:37:27.619 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:37:27.656 [info] ExtensionService#_doActivateExtension Codeium.windsurf-dev-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 15:37:56.156 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-11 15:44:44.190 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862160)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862556)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3869207)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3468253
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3867543)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3855406)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-07-11 15:45:47.039 [error] ConnectError: [unknown] no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862160)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862556)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3869207)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3468253
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3867543)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3855406)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)
+2025-07-11 15:58:39.988 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 15:58:40.031 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CT.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at Eg.L [as value] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:514222)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 15:58:40.032 [error] Canceled: Canceled
+	at new t2 (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:113090)
+	at qA.U (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117701)
+	at s.<computed>.r.charCodeAt.s.<computed> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115195)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40984)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at i.registerCommand.description (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:39818)
+	at CT.h (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:41504)
+	at CT.g (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40581)
+	at CT.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:40488)
+	at Object.executeCommand (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:39981)
+	at set hasGitHubRepositories (/usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:217807)
+	at /usr/share/windsurf/resources/app/extensions/github/dist/extension.js:2:218766
+	at Eg.value (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:634408)
+	at y.B (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at y.C (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at y.fire (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at Object.g [as dispose] (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:536862)
+	at /usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543180
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:543166)
+	at hb.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:8922)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at hb.<anonymous> (/usr/share/windsurf/resources/app/extensions/git/dist/main.js:2:516706)
+	at hb.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:9018)
+	at On (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:701)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:15142
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1011
+	at Object.dispose (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at cte.eb (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12069)
+	at file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10024
+	at Array.map (<anonymous>)
+	at cte.$ (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10012)
+	at cte.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10255)
+	at Zx.terminate (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at _s (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:5722)
+	at MessagePortMain.<anonymous> (file:///usr/share/windsurf/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:2262)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 15:58:40.032 [info] Extension host with pid 56617 exiting with code 0

@@ -1,0 +1,17 @@
+[INFO - 09:36:18] Use build kind: SPECIFIED_INSTALLATION
+[INFO - 09:36:19] Gradle version: 8.14.2
+[INFO - 09:36:19] Sending response 'build/initialize'. Processing request took 1661 ms.
+[INFO - 09:36:19] Received notification 'build/initialized'.
+[INFO - 09:36:33] Found 2 build targets during initialization.
+[INFO - 09:36:33] Sending response 'workspace/buildTargets'. Processing request took 14313 ms.
+[INFO - 09:36:34] Sending response 'workspace/buildTargets'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/outputPaths'. Processing request took 2 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/sources'. Processing request took 1 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/outputPaths'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/sources'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/resources'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/dependencyModules'. Processing request took 2 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/dependencyModules'. Processing request took 0 ms.
+[INFO - 09:36:34] Sending response 'buildTarget/javacOptions'. Processing request took 10 ms.
+[INFO - 09:36:34] Sending response 'workspace/buildTargets'. Processing request took 1 ms.

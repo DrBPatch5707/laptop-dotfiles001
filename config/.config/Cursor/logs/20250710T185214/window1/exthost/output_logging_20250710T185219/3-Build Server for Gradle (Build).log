@@ -1,0 +1,10 @@
+> Build starts at 2025-07-10 22:06:43
+Task :compileJava started
+Task :compileJava SUCCESS
+------
+
+> Build starts at 2025-07-10 22:06:44
+Task :compileTestJava started
+Task :compileTestJava skipped
+------
+

@@ -1,0 +1,2 @@
+2025-07-10 18:48:28.898 [info] Using repo backend url https://repo42.cursor.sh
+2025-07-10 18:48:31.876 [error] Failed to check if git graph is enabled [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh

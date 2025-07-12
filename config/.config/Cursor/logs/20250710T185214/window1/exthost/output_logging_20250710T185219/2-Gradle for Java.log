@@ -1,0 +1,28 @@
+[info] [gradle-server] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.netty.util.internal.PlatformDependent0$4 (file:/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/lib/netty-common-4.1.79.Final.jar)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[info] [gradle-server] Server started, listening on 36075
+[info] Gradle client connected to server
+[info] [gradle-server] WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader
+[info] [gradle-server] in an unnamed module (file:/home/bpatch/.gradle/wrapper/dists/gradle-8.14.3-bin/cv11ve7ro1n3o1j4so8xd9n66/gradle-8.14.3/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+[info] Java Home: /usr/lib/jvm/java-24-openjdk
+[info] JVM Args: -XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant
+[info] Gradle User Home: /home/bpatch/.gradle
+[info] Gradle Version: 8.14.3
+[info] [Incubating] Problems report is available at: file:///home/bpatch/repos/java/project-manager02/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+CONFIGURE SUCCESSFUL in 16s
+[info] Found 39 tasks
+[info] Build file opened: /home/bpatch/repos/java/project-manager02/build.gradle
+[info] [gradle-server] Shutting down gRPC server since JVM is shutting down
+[info] [gradle-server] Server shut down

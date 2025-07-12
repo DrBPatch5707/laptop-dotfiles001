@@ -1,0 +1,67 @@
+2025/07/11-15:35:09.969 da88 Reusing MANIFEST /home/bpatch/.config/Windsurf/Local Storage/leveldb/MANIFEST-000001
+2025/07/11-15:35:09.976 da88 Recovering log #84
+2025/07/11-15:35:09.976 da88 Level-0 table #87: started
+2025/07/11-15:35:09.978 da88 Level-0 table #87: 27864 bytes OK
+2025/07/11-15:35:09.979 da88 Delete type=0 #84
+2025/07/11-15:35:09.980 da89 Compacting 4@0 + 1@1 files
+2025/07/11-15:35:09.982 da89 Generated table #89@0: 2 keys, 13873 bytes
+2025/07/11-15:35:09.982 da89 Compacted 4@0 + 1@1 files => 13873 bytes
+2025/07/11-15:35:09.983 da89 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/11-15:35:09.983 da89 Delete type=2 #87
+2025/07/11-15:35:09.983 da89 Delete type=2 #81
+2025/07/11-15:35:09.983 da89 Delete type=2 #85
+2025/07/11-15:35:09.983 da89 Delete type=2 #83
+2025/07/11-15:35:09.983 da89 Delete type=2 #79
+2025/07/11-15:37:10.493 da89 Level-0 table #91: started
+2025/07/11-15:37:10.496 da89 Level-0 table #91: 27877 bytes OK
+2025/07/11-15:37:10.497 da89 Delete type=0 #88
+2025/07/11-15:39:10.493 da89 Level-0 table #93: started
+2025/07/11-15:39:10.496 da89 Level-0 table #93: 27950 bytes OK
+2025/07/11-15:39:10.497 da89 Delete type=0 #90
+2025/07/11-15:41:10.494 da89 Level-0 table #95: started
+2025/07/11-15:41:10.495 da89 Level-0 table #95: 27761 bytes OK
+2025/07/11-15:41:10.496 da89 Delete type=0 #92
+2025/07/11-15:43:10.494 da89 Level-0 table #97: started
+2025/07/11-15:43:10.497 da89 Level-0 table #97: 27939 bytes OK
+2025/07/11-15:43:10.498 da89 Delete type=0 #94
+2025/07/11-15:43:10.498 da89 Compacting 4@0 + 1@1 files
+2025/07/11-15:43:10.499 da89 Generated table #98@0: 3 keys, 13979 bytes
+2025/07/11-15:43:10.499 da89 Compacted 4@0 + 1@1 files => 13979 bytes
+2025/07/11-15:43:10.500 da89 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/11-15:43:10.500 da89 Delete type=2 #91
+2025/07/11-15:43:10.500 da89 Delete type=2 #93
+2025/07/11-15:43:10.500 da89 Delete type=2 #95
+2025/07/11-15:43:10.500 da89 Delete type=2 #89
+2025/07/11-15:43:10.500 da89 Delete type=2 #97
+2025/07/11-15:45:10.493 da89 Level-0 table #100: started
+2025/07/11-15:45:10.497 da89 Level-0 table #100: 27765 bytes OK
+2025/07/11-15:45:10.498 da89 Delete type=0 #96
+2025/07/11-15:47:10.494 da89 Level-0 table #102: started
+2025/07/11-15:47:10.497 da89 Level-0 table #102: 27746 bytes OK
+2025/07/11-15:47:10.498 da89 Delete type=0 #99
+2025/07/11-15:49:10.494 da89 Level-0 table #104: started
+2025/07/11-15:49:10.497 da89 Level-0 table #104: 27945 bytes OK
+2025/07/11-15:49:10.498 da89 Delete type=0 #101
+2025/07/11-15:51:10.494 da89 Level-0 table #106: started
+2025/07/11-15:51:10.497 da89 Level-0 table #106: 28104 bytes OK
+2025/07/11-15:51:10.498 da89 Delete type=0 #103
+2025/07/11-15:51:10.498 da89 Compacting 4@0 + 1@1 files
+2025/07/11-15:51:10.499 da89 Generated table #107@0: 3 keys, 14168 bytes
+2025/07/11-15:51:10.499 da89 Compacted 4@0 + 1@1 files => 14168 bytes
+2025/07/11-15:51:10.500 da89 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/11-15:51:10.500 da89 Delete type=2 #100
+2025/07/11-15:51:10.500 da89 Delete type=2 #104
+2025/07/11-15:51:10.500 da89 Delete type=2 #102
+2025/07/11-15:51:10.500 da89 Delete type=2 #98
+2025/07/11-15:51:10.500 da89 Delete type=2 #106
+2025/07/11-15:53:10.494 da89 Level-0 table #109: started
+2025/07/11-15:53:10.501 da89 Level-0 table #109: 27737 bytes OK
+2025/07/11-15:53:10.502 da89 Delete type=0 #105
+2025/07/11-15:55:10.494 da89 Level-0 table #111: started
+2025/07/11-15:55:10.496 da89 Level-0 table #111: 27740 bytes OK
+2025/07/11-15:55:10.497 da89 Delete type=0 #108
+2025/07/11-15:57:10.495 da89 Level-0 table #113: started
+2025/07/11-15:57:10.502 da89 Level-0 table #113: 27803 bytes OK
+2025/07/11-15:57:10.503 da89 Delete type=0 #110
+2025/07/11-15:58:40.157 da89 Level-0 table #115: started
+2025/07/11-15:58:40.159 da89 Level-0 table #115: 27858 bytes OK

@@ -1,0 +1,235 @@
+2025-07-11 14:16:14.640 [info] 2025/07/11 14:16:14 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-07-11 14:16:14.858 [info] I0711 14:16:14.858287 45978 main.go:602] Setting GOMAXPROCS to 4
+2025-07-11 14:16:14.858 [info] I0711 14:16:14.858530 45978 main.go:817] Starting language server process with pid 45978
+2025-07-11 14:16:14.859 [info] I0711 14:16:14.858562 45978 server.go:293] Language server will attempt to listen on host 127.0.0.1
+2025-07-11 14:16:14.859 [info] I0711 14:16:14.859287 45978 server.go:300] Language server listening on random port at 44611
+2025-07-11 14:16:15.256 [info] I0711 14:16:15.256406 45978 server.go:431] Created extension server client at port 45495
+2025-07-11 14:16:15.637 [info] I0711 14:16:15.636945 45978 server.go:959] Local search is enabled, will index local files.
+2025-07-11 14:16:15.637 [info] I0711 14:16:15.636991 45978 server.go:963] Using 2 indexer workers
+2025-07-11 14:16:15.850 [info] (Windsurf) 2025-07-11 14:16:15.845 [INFO]: Language server started
+2025-07-11 14:16:15.892 [info] (Windsurf) 2025-07-11 14:16:15.892 [INFO]: LS lspClient started successfully
+2025-07-11 14:16:20.138 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:16:20.138 [info] Downloading Chromium 133.0.6943.16 (playwright build v1155)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip[22m
+
+2025-07-11 14:16:21.114 [info] |                                                                                |   0% of 163.5 MiB
+
+2025-07-11 14:16:22.222 [info] |■■■■■■■■                                                                        |  10% of 163.5 MiB
+
+2025-07-11 14:16:23.017 [info] |■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB
+
+2025-07-11 14:16:23.863 [info] |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB
+
+2025-07-11 14:16:24.656 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB
+
+2025-07-11 14:16:25.358 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB
+
+2025-07-11 14:16:26.016 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB
+
+2025-07-11 14:16:26.616 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB
+
+2025-07-11 14:16:27.373 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB
+
+2025-07-11 14:16:27.949 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB
+
+2025-07-11 14:16:28.675 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB
+
+2025-07-11 14:16:30.626 [info] Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/bpatch/.codeium/windsurf/ws-browser/chromium-1155
+
+2025-07-11 14:16:30.626 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:16:30.627 [info] Downloading FFMPEG playwright build v1011[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip[22m
+
+2025-07-11 14:16:31.376 [info] |                                                                                |   0% of 2.3 MiB
+
+2025-07-11 14:16:31.538 [info] |■■■■■■■■                                                                        |  10% of 2.3 MiB
+
+2025-07-11 14:16:31.589 [info] |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+
+2025-07-11 14:16:31.635 [info] |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+
+2025-07-11 14:16:31.640 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+
+2025-07-11 14:16:31.672 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+
+2025-07-11 14:16:31.692 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+
+2025-07-11 14:16:31.701 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+
+2025-07-11 14:16:31.703 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+
+2025-07-11 14:16:31.714 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+
+2025-07-11 14:16:31.778 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+
+2025-07-11 14:16:31.826 [info] FFMPEG playwright build v1011 downloaded to /home/bpatch/.codeium/windsurf/ws-browser/ffmpeg-1011
+BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:16:31.826 [info] Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip[22m
+
+2025-07-11 14:16:32.445 [info] |                                                                                |   0% of 99.9 MiB
+
+2025-07-11 14:16:33.199 [info] |■■■■■■■■                                                                        |  10% of 99.9 MiB
+
+2025-07-11 14:16:33.656 [info] |■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB
+
+2025-07-11 14:16:34.121 [info] |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB
+
+2025-07-11 14:16:34.605 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB
+
+2025-07-11 14:16:35.191 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB
+
+2025-07-11 14:16:35.674 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB
+
+2025-07-11 14:16:36.105 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB
+
+2025-07-11 14:16:36.466 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB
+
+2025-07-11 14:16:36.863 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB
+
+2025-07-11 14:16:37.261 [info] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB
+
+2025-07-11 14:16:38.378 [info] Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/bpatch/.codeium/windsurf/ws-browser/chromium_headless_shell-1155
+
+2025-07-11 14:18:03.086 [info] 2025/07/11 14:18:03 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-07-11 14:18:03.292 [info] I0711 14:18:03.292277 47177 main.go:602] Setting GOMAXPROCS to 4
+2025-07-11 14:18:03.292 [info] I0711 14:18:03.292466 47177 main.go:817] Starting language server process with pid 47177
+2025-07-11 14:18:03.292 [info] I0711 14:18:03.292597 47177 server.go:293] Language server will attempt to listen on host 127.0.0.1
+2025-07-11 14:18:03.292 [info] I0711 14:18:03.292793 47177 server.go:300] Language server listening on random port at 44455
+2025-07-11 14:18:04.175 [info] I0711 14:18:04.175435 47177 server.go:431] Created extension server client at port 46251
+2025-07-11 14:18:04.403 [info] I0711 14:18:04.403061 47177 server.go:959] Local search is enabled, will index local files.
+2025-07-11 14:18:04.403 [info] I0711 14:18:04.403083 47177 server.go:963] Using 2 indexer workers
+2025-07-11 14:18:05.032 [info] (Windsurf) 2025-07-11 14:18:05.027 [INFO]: Language server started
+2025-07-11 14:18:05.126 [info] E0711 14:18:05.102157 47177 repo.go:340] failed to create patch for untracked file project-manager/: read /home/bpatch/repos/java/project-manager/project-manager: is a directory
+2025-07-11 14:18:05.182 [info] (Windsurf) 2025-07-11 14:18:05.182 [INFO]: LS lspClient started successfully
+2025-07-11 14:18:05.617 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:18:05.617 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:18:05.618 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 14:19:08.706 [info] E0711 14:19:08.706282 47177 repo.go:340] failed to create patch for untracked file project-manager/: read /home/bpatch/repos/java/project-manager/project-manager: is a directory
+2025-07-11 14:19:08.869 [info] (Windsurf) 2025-07-11 14:19:08.869 [INFO]: [Cascade Manager] Opening diff zones for: 
+2025-07-11 14:21:38.573 [info] (Windsurf) 2025-07-11 14:21:38.572 [INFO]: [Cascade Manager] Opening diff zones for: BackendAPI.java
+2025-07-11 14:22:10.187 [info] (Windsurf) 2025-07-11 14:22:10.187 [INFO]: [Cascade Manager] Opening diff zones for: Settings.java
+2025-07-11 14:22:40.877 [info] (Windsurf) 2025-07-11 14:22:40.876 [INFO]: [Cascade Manager] Opening diff zones for: DbConnection.java
+2025-07-11 14:23:13.455 [info] (Windsurf) 2025-07-11 14:23:13.454 [INFO]: [Cascade Manager] Opening diff zones for: init.java
+2025-07-11 14:23:37.811 [info] (Windsurf) 2025-07-11 14:23:37.811 [INFO]: [Cascade Manager] Opening diff zones for: Main.java
+2025-07-11 14:23:52.972 [info] (Windsurf) 2025-07-11 14:23:52.972 [INFO]: [Cascade Manager] Opening diff zones for: ProjectSync.java
+2025-07-11 14:24:33.798 [info] E0711 14:24:33.798248 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectSync.java
+2025-07-11 14:24:52.973 [info] (Windsurf) 2025-07-11 14:24:52.973 [INFO]: [Cascade Manager] Opening diff zones for: DbConnection.java
+2025-07-11 14:24:55.621 [info] E0711 14:24:55.620879 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/DbConnection.java
+2025-07-11 14:25:10.617 [info] (Windsurf) 2025-07-11 14:25:10.617 [INFO]: [Cascade Manager] Opening diff zones for: BackendAPI.java
+2025-07-11 14:25:14.161 [info] E0711 14:25:14.161134 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/BackendAPI.java
+2025-07-11 14:27:13.875 [info] (Windsurf) 2025-07-11 14:27:13.874 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:27:14.584 [info] (Windsurf) 2025-07-11 14:27:14.584 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:28:40.745 [info] (Windsurf) 2025-07-11 14:28:40.745 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:29:46.575 [info] (Windsurf) 2025-07-11 14:29:46.574 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:30:18.441 [info] (Windsurf) 2025-07-11 14:30:18.441 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:30:39.509 [info] (Windsurf) 2025-07-11 14:30:39.509 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:30:52.358 [info] (Windsurf) 2025-07-11 14:30:52.358 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:30:55.319 [info] (Windsurf) 2025-07-11 14:30:55.319 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:30:58.417 [info] (Windsurf) 2025-07-11 14:30:58.416 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:31:12.449 [info] (Windsurf) 2025-07-11 14:31:12.449 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:31:55.006 [info] (Windsurf) 2025-07-11 14:31:55.006 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:31:58.228 [info] (Windsurf) 2025-07-11 14:31:58.227 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:32:06.952 [info] (Windsurf) 2025-07-11 14:32:06.952 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:32:14.431 [info] (Windsurf) 2025-07-11 14:32:14.431 [INFO]: [Terminal] Command completed:  exit code 126
+2025-07-11 14:32:22.235 [info] (Windsurf) 2025-07-11 14:32:22.235 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:32:31.407 [info] (Windsurf) 2025-07-11 14:32:31.407 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:33:08.758 [info] (Windsurf) 2025-07-11 14:33:08.758 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:33:15.705 [info] (Windsurf) 2025-07-11 14:33:15.705 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:33:38.000 [info] (Windsurf) 2025-07-11 14:33:38.000 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:33:45.979 [info] (Windsurf) 2025-07-11 14:33:45.979 [INFO]: [Terminal] Command completed:  exit code 4
+2025-07-11 14:35:20.078 [info] (Windsurf) 2025-07-11 14:35:20.078 [INFO]: [Cascade Manager] Opening diff zones for: BackendAPI.java
+2025-07-11 14:35:27.571 [info] E0711 14:35:27.570844 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/BackendAPI.java
+2025-07-11 14:37:47.945 [info] (Windsurf) 2025-07-11 14:37:47.945 [INFO]: [Cascade Manager] Opening diff zones for: Settings.java
+2025-07-11 14:38:03.334 [info] (Windsurf) 2025-07-11 14:38:03.334 [INFO]: [Cascade Manager] Opening diff zones for: init.java
+2025-07-11 14:38:03.789 [info] (Windsurf) 2025-07-11 14:38:03.789 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 14:38:04.490 [info] (Windsurf) 2025-07-11 14:38:04.490 [INFO]: [Cascade Manager] Opening diff zones for: BackendAPI.java
+2025-07-11 14:38:10.064 [info] E0711 14:38:10.064073 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/BackendAPI.java
+2025-07-11 14:38:36.210 [info] (Windsurf) 2025-07-11 14:38:36.210 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:38:42.947 [info] (Windsurf) 2025-07-11 14:38:42.947 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 14:39:29.509 [info] (Windsurf) 2025-07-11 14:39:29.509 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:39:33.926 [info] (Windsurf) 2025-07-11 14:39:33.926 [INFO]: [Terminal] Command completed:  exit code 4
+2025-07-11 14:41:43.651 [info] (Windsurf) 2025-07-11 14:41:43.651 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:46:32.106 [info] (Windsurf) 2025-07-11 14:46:32.105 [INFO]: [Cascade Manager] Opening diff zones for: Main.java
+2025-07-11 14:46:35.154 [info] E0711 14:46:35.154247 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/Main.java
+2025-07-11 14:46:42.547 [info] (Windsurf) 2025-07-11 14:46:42.547 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:46:50.837 [info] (Windsurf) 2025-07-11 14:46:50.836 [INFO]: [Cascade Manager] Opening diff zones for: Main.java
+2025-07-11 14:48:10.037 [info] (Windsurf) 2025-07-11 14:48:10.037 [INFO]: [Terminal] Command completed:  exit code 148
+2025-07-11 14:50:45.413 [info] (Windsurf) 2025-07-11 14:50:45.412 [INFO]: [Terminal] Command completed:  exit code 148
+2025-07-11 14:53:21.841 [info] (Windsurf) 2025-07-11 14:53:21.841 [INFO]: [Cascade Manager] Opening diff zones for: Main.java
+2025-07-11 14:53:43.915 [info] E0711 14:53:43.915039 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/Main.java
+2025-07-11 14:54:41.665 [info] (Windsurf) 2025-07-11 14:54:41.664 [INFO]: [Cascade Manager] Opening diff zones for: ProjectForm.java
+2025-07-11 14:55:01.128 [info] (Windsurf) 2025-07-11 14:55:01.127 [INFO]: [Cascade Manager] Opening diff zones for: ProjectForm.java
+2025-07-11 14:55:08.080 [info] (Windsurf) 2025-07-11 14:55:08.080 [INFO]: [Cascade Manager] Opening diff zones for: ProjectForm.java
+2025-07-11 14:55:40.644 [info] (Windsurf) 2025-07-11 14:55:40.644 [INFO]: [Cascade Manager] Opening diff zones for: ProjectForm.java
+2025-07-11 14:56:03.283 [info] E0711 14:56:03.283094 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectForm.java
+2025-07-11 14:56:05.281 [info] (Windsurf) 2025-07-11 14:56:05.281 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 14:56:09.653 [info] E0711 14:56:09.653054 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 14:56:38.052 [info] (Windsurf) 2025-07-11 14:56:38.052 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 14:56:41.289 [info] E0711 14:56:41.289202 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 14:57:09.499 [info] (Windsurf) 2025-07-11 14:57:09.499 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 14:57:59.646 [info] (Windsurf) 2025-07-11 14:57:59.645 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 14:58:46.936 [info] (Windsurf) 2025-07-11 14:58:46.936 [INFO]: [Cascade Manager] Opening diff zones for: Main.java
+2025-07-11 14:58:51.654 [info] E0711 14:58:51.654191 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/Main.java
+2025-07-11 15:00:09.758 [info] (Windsurf) 2025-07-11 15:00:09.758 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:01:30.746 [info] (Windsurf) 2025-07-11 15:01:30.745 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:01:33.986 [info] E0711 15:01:33.986083 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:02:06.277 [info] (Windsurf) 2025-07-11 15:02:06.277 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:02:11.408 [info] E0711 15:02:11.407956 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:02:45.703 [info] (Windsurf) 2025-07-11 15:02:45.703 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:03:21.975 [info] (Windsurf) 2025-07-11 15:03:21.975 [INFO]: [Terminal] Command completed:  exit code 130
+2025-07-11 15:08:53.675 [info] (Windsurf) 2025-07-11 15:08:53.675 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:09:06.368 [info] (Windsurf) 2025-07-11 15:09:06.368 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:09:08.370 [info] E0711 15:09:08.370227 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:10:08.064 [info] (Windsurf) 2025-07-11 15:10:08.063 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:13:15.425 [info] (Windsurf) 2025-07-11 15:13:15.425 [INFO]: [Cascade Manager] Opening diff zones for: ModernTablePanel.java
+2025-07-11 15:13:18.208 [info] E0711 15:13:18.208273 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ModernTablePanel.java
+2025-07-11 15:13:35.552 [info] (Windsurf) 2025-07-11 15:13:35.552 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:14:05.629 [info] (Windsurf) 2025-07-11 15:14:05.629 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:14:13.019 [info] E0711 15:14:13.019348 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:15:06.330 [info] (Windsurf) 2025-07-11 15:15:06.330 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:15:14.513 [info] (Windsurf) 2025-07-11 15:15:14.513 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:16:47.529 [info] (Windsurf) 2025-07-11 15:16:47.529 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:17:10.785 [info] (Windsurf) 2025-07-11 15:17:10.785 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:17:16.202 [info] E0711 15:17:16.202231 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:18:08.540 [info] (Windsurf) 2025-07-11 15:18:08.539 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:18:11.839 [info] E0711 15:18:11.838945 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:18:43.620 [info] (Windsurf) 2025-07-11 15:18:43.620 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:18:46.609 [info] E0711 15:18:46.609364 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:18:53.264 [info] (Windsurf) 2025-07-11 15:18:53.264 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:19:31.167 [info] (Windsurf) 2025-07-11 15:19:31.167 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:19:34.985 [info] E0711 15:19:34.985474 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:19:42.337 [info] (Windsurf) 2025-07-11 15:19:42.337 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:22:24.295 [info] (Windsurf) 2025-07-11 15:22:24.295 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:22:24.928 [info] (Windsurf) 2025-07-11 15:22:24.928 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 15:22:31.794 [info] (Windsurf) 2025-07-11 15:22:31.794 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:22:44.339 [info] (Windsurf) 2025-07-11 15:22:44.339 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:22:45.953 [info] (Windsurf) 2025-07-11 15:22:45.953 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:23:43.587 [info] (Windsurf) 2025-07-11 15:23:43.587 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:23:49.229 [info] E0711 15:23:49.229328 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:23:55.053 [info] (Windsurf) 2025-07-11 15:23:55.053 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:24:59.762 [info] (Windsurf) 2025-07-11 15:24:59.762 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:25:03.000 [info] E0711 15:25:02.999627 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:25:12.752 [info] (Windsurf) 2025-07-11 15:25:12.752 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:25:44.685 [info] (Windsurf) 2025-07-11 15:25:44.684 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:25:48.906 [info] E0711 15:25:48.906293 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:25:54.885 [info] (Windsurf) 2025-07-11 15:25:54.885 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:26:39.159 [info] (Windsurf) 2025-07-11 15:26:39.158 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:26:41.392 [info] E0711 15:26:41.391793 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:26:45.593 [info] (Windsurf) 2025-07-11 15:26:45.593 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:27:01.284 [info] (Windsurf) 2025-07-11 15:27:01.284 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:27:05.616 [info] E0711 15:27:05.615882 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:27:08.812 [info] (Windsurf) 2025-07-11 15:27:08.812 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:27:42.861 [info] (Windsurf) 2025-07-11 15:27:42.860 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:27:44.523 [info] E0711 15:27:44.523352 47177 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:27:55.903 [info] (Windsurf) 2025-07-11 15:27:55.902 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:28:19.615 [info] (Windsurf) 2025-07-11 15:28:19.615 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:28:26.771 [info] (Windsurf) 2025-07-11 15:28:26.771 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:29:19.990 [info] E0711 15:29:19.990323 47177 repo.go:340] failed to create patch for untracked file project-manager/: read /home/bpatch/repos/java/project-manager/project-manager: is a directory
+2025-07-11 15:29:20.164 [info] (Windsurf) 2025-07-11 15:29:20.164 [INFO]: [Cascade Manager] Opening diff zones for: 
+2025-07-11 15:29:30.341 [info] (Windsurf) 2025-07-11 15:29:30.341 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:30:28.339 [info] (Windsurf) 2025-07-11 15:30:28.338 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:30:38.320 [info] (Windsurf) 2025-07-11 15:30:38.320 [INFO]: [Terminal] Command completed:  exit code 1

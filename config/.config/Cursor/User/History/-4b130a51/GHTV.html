@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackendInterface - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#implementation">Implementation Guide</a></li>
+                <li><a href="#examples">Examples</a></li>
+            </ul>
+
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+                <li><a href="TestBackendService.html">TestBackendService</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                BackendInterface
+            </div>
+
+            <div class="class-header">
+                <h1>BackendInterface</h1>
+                <p>Interface defining the contract between the Project Manager GUI and backend services</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>BackendInterface</code> is the central contract that defines all interactions between the GUI and your backend system. Your backend implementation must implement this interface to provide data persistence, file operations, and system integration.</p>
+                    
+                    <div class="alert alert-info">
+                        <strong>Important:</strong> This interface contains all the methods that the GUI will call to perform operations. Your backend must implement every method in this interface.
+                    </div>
+
+                    <h3>Key Responsibilities</h3>
+                    <ul>
+                        <li><strong>Project Management:</strong> CRUD operations for projects (create, read, update, delete)</li>
+                        <li><strong>Settings Management:</strong> Configuration for root directory and editor profiles</li>
+                        <li><strong>System Integration:</strong> Opening project folders and launching external editors</li>
+                        <li><strong>Lifecycle Management:</strong> Initialization and shutdown of the backend service</li>
+                    </ul>
+                </section>
+
+                <section id="methods">
+                    <h2>Method Reference</h2>
+
+                    <div class="method-section">
+                        <h3>Project Management Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>List&lt;Project&gt; getProjects()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns all projects for display in the GUI. This method is called when the GUI loads and after any data changes to refresh the project table.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> List of all projects, never null (empty list if no projects exist)
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if projects cannot be loaded (database connection, file system errors, etc.)</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void addProject(Project project) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Adds a new project to the backend storage. The project object will have ID = -1 indicating it's a new project. Your implementation should assign a unique positive ID and set creation/modification timestamps.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">project</span>
+                                    <span class="parameter-type">Project</span>
+                                    <div class="parameter-description">The project to add (ID should be -1 for new projects)</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if project cannot be added (validation errors, storage errors, etc.)</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void updateProject(Project project) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Updates an existing project in the backend storage. The project object will have a valid positive ID. Your implementation should update the last modification timestamp.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">project</span>
+                                    <span class="parameter-type">Project</span>
+                                    <div class="parameter-description">The project to update (must have valid ID)</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if project cannot be updated (not found, validation errors, storage errors)</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void deleteProject(Project project) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Deletes a project from the backend storage. Your implementation should remove the project from storage and clean up any associated resources.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">project</span>
+                                    <span class="parameter-type">Project</span>
+                                    <div class="parameter-description">The project to delete</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if project cannot be deleted (not found, storage errors, etc.)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Settings Management Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getRootDirectory()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns the current projects root directory. This is the base directory where all projects are stored relative to.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Root directory path, or null if not set
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if settings cannot be loaded</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setRootDirectory(String path) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the projects root directory. Your implementation should validate that the path exists and is a directory.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">path</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Absolute path to the new root directory</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if path is invalid or cannot be set</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>List&lt;EditorProfile&gt; getEditorProfiles()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns all configured editor profiles. These profiles define which external editors can be used to open projects.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> List of editor profiles, never null (empty list if none configured)
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if profiles cannot be loaded</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void addEditorProfile(EditorProfile profile) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Adds a new editor profile. Your implementation should validate that the executable path exists.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">profile</span>
+                                    <span class="parameter-type">EditorProfile</span>
+                                    <div class="parameter-description">The profile to add</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if profile cannot be added</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void updateEditorProfile(EditorProfile profile) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Updates an existing editor profile. Your implementation should validate that the executable path exists.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">profile</span>
+                                    <span class="parameter-type">EditorProfile</span>
+                                    <div class="parameter-description">The profile to update</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if profile cannot be updated</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void deleteEditorProfile(EditorProfile profile) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Deletes an editor profile from the configuration.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">profile</span>
+                                    <span class="parameter-type">EditorProfile</span>
+                                    <div class="parameter-description">The profile to delete</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if profile cannot be deleted</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Project Operations Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void openProjectFolder(Project project) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Opens the project folder in the system's default file manager. Your implementation should construct the absolute path from the root directory and project's relative path.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">project</span>
+                                    <span class="parameter-type">Project</span>
+                                    <div class="parameter-description">The project whose folder to open</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if folder cannot be opened (doesn't exist, permission denied, etc.)</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void openProjectWith(Project project, EditorProfile editor) throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Opens the project with the specified editor. Your implementation should use ProcessBuilder to launch the editor with the project path.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">project</span>
+                                    <span class="parameter-type">Project</span>
+                                    <div class="parameter-description">The project to open</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">editor</span>
+                                    <span class="parameter-type">EditorProfile</span>
+                                    <div class="parameter-description">The editor profile to use</div>
+                                </div>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if project cannot be opened with editor (executable not found, invalid arguments, etc.)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Lifecycle Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void initialize() throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Initializes the backend service. Called when the application starts. Your implementation should load configuration, establish database connections, and perform any necessary setup.</p>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if initialization fails</div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void shutdown() throws Exception</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Shuts down the backend service. Called when the application is closing. Your implementation should save any pending data, close connections, and perform cleanup.</p>
+                            </div>
+                            <div class="exception-list">
+                                <strong>Throws:</strong>
+                                <div class="exception">Exception - if shutdown fails</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="implementation">
+                    <h2>Implementation Guide</h2>
+                    
+                    <div class="alert alert-warning">
+                        <strong>Implementation Requirements:</strong> Your backend class must implement all methods in this interface. Missing implementations will cause compilation errors.
+                    </div>
+
+                    <h3>Basic Implementation Structure</h3>
+                    <pre><code>public class YourBackendService implements BackendInterface {
+    
+    // Your data storage and configuration
+    private List&lt;Project&gt; projects = new ArrayList&lt;&gt;();
+    private List&lt;EditorProfile&gt; editorProfiles = new ArrayList&lt;&gt;();
+    private String rootDirectory;
+    
+    @Override
+    public void initialize() throws Exception {
+        // Load configuration and data
+        loadConfiguration();
+        loadProjects();
+        loadEditorProfiles();
+    }
+    
+    @Override
+    public List&lt;Project&gt; getProjects() {
+        return new ArrayList&lt;&gt;(projects);
+    }
+    
+    @Override
+    public void addProject(Project project) throws Exception {
+        // Validate project
+        validateProject(project);
+        
+        // Assign new ID
+        project.setId(generateNewId());
+        
+        // Add to storage
+        projects.add(project);
+        saveProjects();
+    }
+    
+    // Implement all other methods...
+}</code></pre>
+
+                    <h3>Error Handling</h3>
+                    <p>All methods can throw exceptions. Your implementation should throw meaningful exceptions for different error conditions:</p>
+                    
+                    <ul>
+                        <li><strong>ValidationException:</strong> For invalid data (empty project names, invalid paths)</li>
+                        <li><strong>StorageException:</strong> For database/file system errors</li>
+                        <li><strong>OperationException:</strong> For system operations (opening files, launching processes)</li>
+                    </ul>
+
+                    <h3>Data Persistence</h3>
+                    <p>Your implementation should ensure data is properly persisted:</p>
+                    <ul>
+                        <li>Save projects immediately after add/update/delete operations</li>
+                        <li>Save settings when they are changed</li>
+                        <li>Handle concurrent access if needed</li>
+                        <li>Provide backup/recovery mechanisms</li>
+                    </ul>
+                </section>
+
+                <section id="examples">
+                    <h2>Examples</h2>
+                    
+                    <div class="example">
+                        <h4>Reference Implementation</h4>
+                        <p>See <a href="TestBackendService.html">TestBackendService</a> for a complete working implementation that demonstrates all the required functionality.</p>
+                    </div>
+
+                    <h3>Project Management Example</h3>
+                    <pre><code>@Override
+public void addProject(Project project) throws Exception {
+    // Validate required fields
+    if (project.getName() == null || project.getName().trim().isEmpty()) {
+        throw new ValidationException("Project name is required");
+    }
+    
+    // Assign new ID
+    project.setId(generateNewId());
+    
+    // Set timestamps
+    String now = LocalDateTime.now().toString();
+    project.setCreationDate(now);
+    project.setLastModifiedDate(now);
+    
+    // Add to storage
+    projects.add(project);
+    
+    // Persist to database/file
+    saveProjects();
+}</code></pre>
+
+                    <h3>Editor Launching Example</h3>
+                    <pre><code>@Override
+public void openProjectWith(Project project, EditorProfile editor) throws Exception {
+    // Construct absolute project path
+    String absolutePath = getAbsoluteProjectPath(project);
+    
+    // Build command array
+    List&lt;String&gt; command = new ArrayList&lt;&gt;();
+    command.add(editor.getExecutablePath());
+    command.addAll(editor.getCommandLineArgs());
+    
+    // Replace placeholders with actual project path
+    for (int i = 0; i &lt; command.size(); i++) {
+        if (".".equals(command.get(i))) {
+            command.set(i, absolutePath);
+        }
+    }
+    
+    // Launch editor
+    ProcessBuilder pb = new ProcessBuilder(command);
+    pb.start();
+}</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html>

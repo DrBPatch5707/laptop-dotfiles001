@@ -1,0 +1,332 @@
+BACKEND INTERFACE SPECIFICATION
+================================
+
+This document specifies exactly what your backend must implement to work with the Java Swing GUI.
+
+REQUIRED INTERFACE
+==================
+
+Your backend must implement this interface:
+
+```java
+public interface BackendService {
+    // ==================== PROJECT MANAGEMENT ====================
+    
+    /**
+     * Returns all projects managed by the backend.
+     * @return List of Project objects, never null (empty list if no projects)
+     * @throws Exception if projects cannot be loaded
+     */
+    List<Project> getProjects() throws Exception;
+    
+    /**
+     * Adds a new project to the backend.
+     * @param project The project to add (ID should be -1 for new projects)
+     * @throws Exception if project cannot be added (validation, storage, etc.)
+     */
+    void addProject(Project project) throws Exception;
+    
+    /**
+     * Updates an existing project in the backend.
+     * @param project The project to update (must have valid ID)
+     * @throws Exception if project cannot be updated
+     */
+    void updateProject(Project project) throws Exception;
+    
+    /**
+     * Deletes a project from the backend.
+     * @param project The project to delete
+     * @throws Exception if project cannot be deleted
+     */
+    void deleteProject(Project project) throws Exception;
+    
+    // ==================== SETTINGS MANAGEMENT ====================
+    
+    /**
+     * Returns the current projects root directory.
+     * @return Absolute path to root directory, or null if not set
+     * @throws Exception if settings cannot be loaded
+     */
+    String getRootDirectory() throws Exception;
+    
+    /**
+     * Sets the projects root directory.
+     * @param path Absolute path to the new root directory
+     * @throws Exception if path is invalid or cannot be set
+     */
+    void setRootDirectory(String path) throws Exception;
+    
+    /**
+     * Returns all configured editor profiles.
+     * @return List of EditorProfile objects, never null (empty list if none)
+     * @throws Exception if profiles cannot be loaded
+     */
+    List<EditorProfile> getEditorProfiles() throws Exception;
+    
+    /**
+     * Adds a new editor profile.
+     * @param profile The profile to add
+     * @throws Exception if profile cannot be added
+     */
+    void addEditorProfile(EditorProfile profile) throws Exception;
+    
+    /**
+     * Updates an existing editor profile.
+     * @param profile The profile to update
+     * @throws Exception if profile cannot be updated
+     */
+    void updateEditorProfile(EditorProfile profile) throws Exception;
+    
+    /**
+     * Deletes an editor profile.
+     * @param profile The profile to delete
+     * @throws Exception if profile cannot be deleted
+     */
+    void deleteEditorProfile(EditorProfile profile) throws Exception;
+    
+    // ==================== PROJECT OPERATIONS ====================
+    
+    /**
+     * Opens the project folder in the system's default file manager.
+     * @param project The project whose folder to open
+     * @throws Exception if folder cannot be opened
+     */
+    void openProjectFolder(Project project) throws Exception;
+    
+    /**
+     * Opens the project with the specified editor.
+     * @param project The project to open
+     * @param editor The editor profile to use
+     * @throws Exception if project cannot be opened with editor
+     */
+    void openProjectWith(Project project, EditorProfile editor) throws Exception;
+}
+```
+
+DATA REQUIREMENTS
+=================
+
+1. PROJECT OBJECTS
+   - Must have all fields populated (use empty strings for optional fields)
+   - ID field: -1 for new projects, positive integer for existing projects
+   - Dates: ISO 8601 format (YYYY-MM-DD HH:MM:SS) or empty string
+   - Priority: Integer 1-5 (1=highest, 5=lowest)
+   - Status: One of "In Development", "Completed", "Depreciated"
+   - Relative path: Path relative to root directory, or absolute path (backend handles conversion)
+
+2. EDITOR PROFILE OBJECTS
+   - Name: Human-readable name for the editor
+   - Executable path: Full path to editor executable
+   - Command line args: List of arguments (can be empty)
+   - All fields must be non-null (use empty strings/lists for defaults)
+
+3. ROOT DIRECTORY
+   - Must be an absolute path
+   - Must be a valid directory that exists
+   - Should be writable by the application
+
+ERROR HANDLING
+==============
+
+Your backend must throw meaningful exceptions:
+
+1. VALIDATION ERRORS
+   - Project name is empty or null
+   - Project path is invalid
+   - Editor profile has invalid executable path
+   - Root directory is not a valid directory
+
+2. STORAGE ERRORS
+   - Database connection failed
+   - File system errors
+   - Permission denied errors
+
+3. OPERATION ERRORS
+   - Editor executable not found
+   - Project folder doesn't exist
+   - System cannot open file manager
+
+Example exception types:
+```java
+public class ValidationException extends Exception {
+    public ValidationException(String message) { super(message); }
+}
+
+public class StorageException extends Exception {
+    public StorageException(String message, Throwable cause) { super(message, cause); }
+}
+
+public class OperationException extends Exception {
+    public OperationException(String message, Throwable cause) { super(message, cause); }
+}
+```
+
+IMPLEMENTATION NOTES
+====================
+
+1. PATH HANDLING
+   - The GUI provides absolute paths from file choosers
+   - Your backend should convert these to relative paths for storage
+   - When opening projects, reconstruct absolute paths from root + relative
+
+2. PROJECT ID MANAGEMENT
+   - New projects have ID = -1
+   - After saving, assign a unique positive integer ID
+   - Use this ID for updates and deletes
+
+3. DATA PERSISTENCE
+   - Choose your storage method (database, JSON, XML, etc.)
+   - Ensure data is saved immediately after operations
+   - Handle concurrent access if needed
+
+4. EDITOR LAUNCHING
+   - Use ProcessBuilder to launch editors
+   - Handle platform-specific command line arguments
+   - Replace placeholders (like ".") with actual project paths
+
+EXAMPLE IMPLEMENTATION STRUCTURE
+================================
+
+```java
+public class YourBackendService implements BackendService {
+    private final String configFile;
+    private final String projectsFile;
+    private List<Project> projects;
+    private List<EditorProfile> editorProfiles;
+    private String rootDirectory;
+    
+    public YourBackendService() {
+        this.configFile = "config.properties";
+        this.projectsFile = "projects.json";
+        loadData();
+    }
+    
+    @Override
+    public List<Project> getProjects() throws Exception {
+        return new ArrayList<>(projects);
+    }
+    
+    @Override
+    public void addProject(Project project) throws Exception {
+        // Validate project
+        validateProject(project);
+        
+        // Assign new ID
+        project.setId(generateNewId());
+        
+        // Add to list
+        projects.add(project);
+        
+        // Save to storage
+        saveProjects();
+    }
+    
+    @Override
+    public void updateProject(Project project) throws Exception {
+        // Validate project
+        validateProject(project);
+        
+        // Find and update existing project
+        for (int i = 0; i < projects.size(); i++) {
+            if (projects.get(i).getId() == project.getId()) {
+                projects.set(i, project);
+                saveProjects();
+                return;
+            }
+        }
+        throw new ValidationException("Project not found: " + project.getId());
+    }
+    
+    @Override
+    public void deleteProject(Project project) throws Exception {
+        projects.removeIf(p -> p.getId() == project.getId());
+        saveProjects();
+    }
+    
+    @Override
+    public void openProjectFolder(Project project) throws Exception {
+        String absolutePath = getAbsoluteProjectPath(project);
+        File projectDir = new File(absolutePath);
+        
+        if (!projectDir.exists()) {
+            throw new OperationException("Project folder does not exist: " + absolutePath);
+        }
+        
+        // Platform-specific folder opening
+        if (System.getProperty("os.name").toLowerCase().contains("win")) {
+            Runtime.getRuntime().exec("explorer " + absolutePath);
+        } else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+            Runtime.getRuntime().exec("open " + absolutePath);
+        } else {
+            Runtime.getRuntime().exec("xdg-open " + absolutePath);
+        }
+    }
+    
+    @Override
+    public void openProjectWith(Project project, EditorProfile editor) throws Exception {
+        String absolutePath = getAbsoluteProjectPath(project);
+        
+        // Build command
+        List<String> command = new ArrayList<>();
+        command.add(editor.getExecutablePath());
+        command.addAll(editor.getCommandLineArgs());
+        
+        // Replace placeholders
+        for (int i = 0; i < command.size(); i++) {
+            if (".".equals(command.get(i))) {
+                command.set(i, absolutePath);
+            }
+        }
+        
+        // Launch editor
+        ProcessBuilder pb = new ProcessBuilder(command);
+        pb.start();
+    }
+    
+    private void validateProject(Project project) throws ValidationException {
+        if (project.getName() == null || project.getName().trim().isEmpty()) {
+            throw new ValidationException("Project name is required");
+        }
+        if (project.getRelativePath() == null || project.getRelativePath().trim().isEmpty()) {
+            throw new ValidationException("Project path is required");
+        }
+    }
+    
+    private String getAbsoluteProjectPath(Project project) {
+        if (rootDirectory == null) {
+            return project.getRelativePath();
+        }
+        return new File(rootDirectory, project.getRelativePath()).getAbsolutePath();
+    }
+    
+    private int generateNewId() {
+        return projects.stream()
+            .mapToInt(Project::getId)
+            .max()
+            .orElse(0) + 1;
+    }
+    
+    // ... implement other methods ...
+}
+```
+
+TESTING CHECKLIST
+=================
+
+Before integrating with the GUI, test your backend:
+
+□ getProjects() returns empty list when no projects exist
+□ getProjects() returns all saved projects
+□ addProject() assigns unique ID to new projects
+□ addProject() validates required fields
+□ updateProject() updates existing projects
+□ updateProject() throws exception for non-existent projects
+□ deleteProject() removes projects from storage
+□ getRootDirectory() returns saved root directory
+□ setRootDirectory() validates directory exists
+□ getEditorProfiles() returns saved editor profiles
+□ addEditorProfile() validates editor executable exists
+□ openProjectFolder() opens correct folder on all platforms
+□ openProjectWith() launches editor with correct arguments
+□ All methods throw appropriate exceptions for errors
+□ Data persists between application restarts 

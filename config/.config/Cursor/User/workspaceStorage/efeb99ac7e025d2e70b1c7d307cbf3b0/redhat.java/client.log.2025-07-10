@@ -1,0 +1,1763 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-07-10 22:05:37.538'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_ss_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-07-10 22:05:37.558'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/efeb99ac7e025d2e70b1c7d307cbf3b0/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-07-10 22:05:37.861'
+}
+{
+  message: 'Jul 10, 2025 10:05:40 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:05:40.215'
+}
+{
+  message: '[Error - 10:06:29 PM] Jul 10, 2025, 10:06:29 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:06:29.960'
+}
+{
+  message: '[Error - 10:06:29 PM] Jul 10, 2025, 10:06:29 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:06:29.969'
+}
+{
+  message: 'Jul 10, 2025 10:06:37 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:06:37.408'
+}
+{
+  message: 'Jul 10, 2025 10:06:45 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:06:45.256'
+}
+{
+  message: 'Jul 10, 2025 10:07:09 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:07:09.466'
+}
+{
+  message: '[Error - 10:11:39 PM] Jul 10, 2025, 10:11:39 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:11:39.283'
+}
+{
+  message: '[Error - 10:11:39 PM] Jul 10, 2025, 10:11:39 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:11:39.286'
+}
+{
+  message: '[Error - 10:11:42 PM] Jul 10, 2025, 10:11:42 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:11:42.741'
+}
+{
+  message: '[Error - 10:11:42 PM] Jul 10, 2025, 10:11:42 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:11:42.744'
+}
+{
+  message: '[Error - 10:16:09 PM] Jul 10, 2025, 10:16:09 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:09.376'
+}
+{
+  message: '[Error - 10:16:09 PM] Jul 10, 2025, 10:16:09 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:09.386'
+}
+{
+  message: '[Error - 10:16:17 PM] Jul 10, 2025, 10:16:17 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:17.763'
+}
+{
+  message: '[Error - 10:16:17 PM] Jul 10, 2025, 10:16:17 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:17.769'
+}
+{
+  message: '[Error - 10:16:25 PM] Jul 10, 2025, 10:16:25 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:25.006'
+}
+{
+  message: '[Error - 10:16:25 PM] Jul 10, 2025, 10:16:25 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:16:25.008'
+}
+{
+  message: '[Error - 10:20:47 PM] Jul 10, 2025, 10:20:47 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:20:47.442'
+}
+{
+  message: '[Error - 10:20:47 PM] Jul 10, 2025, 10:20:47 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:20:47.446'
+}
+{
+  message: '[Error - 10:22:29 PM] Jul 10, 2025, 10:22:29 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2025-07-10 22:22:29.406'
+}
+{
+  message: '[Error - 10:26:43 PM] Jul 10, 2025, 10:26:43 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:26:43.352'
+}
+{
+  message: '[Error - 10:26:43 PM] Jul 10, 2025, 10:26:43 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:26:43.354'
+}
+{
+  message: '[Error - 10:26:44 PM] Jul 10, 2025, 10:26:44 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:26:44.281'
+}
+{
+  message: '[Error - 10:26:44 PM] Jul 10, 2025, 10:26:44 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:26:44.283'
+}
+{
+  message: 'Jul 10, 2025 10:29:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1334\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:29:57.869'
+}
+{
+  message: 'Jul 10, 2025 10:29:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1337\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:29:57.870'
+}
+{
+  message: 'Jul 10, 2025 10:29:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1340\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:29:57.871'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1597, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-10 22:32:14.150'
+}
+{
+  message: 'Jul 10, 2025 10:32:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1716\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:32:43.629'
+}
+{
+  message: 'Jul 10, 2025 10:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1750\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:33:13.677'
+}
+{
+  message: 'Jul 10, 2025 10:34:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1867\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:34:38.453'
+}
+{
+  message: 'Jul 10, 2025 10:37:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2002\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:37:52.788'
+}
+{
+  message: '[Error - 10:37:53 PM] Jul 10, 2025, 10:37:53 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:37:53.061'
+}
+{
+  message: '[Error - 10:37:53 PM] Jul 10, 2025, 10:37:53 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:37:53.062'
+}
+{
+  message: '[Error - 10:44:45 PM] Jul 10, 2025, 10:44:45 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:44:45.959'
+}
+{
+  message: '[Error - 10:44:45 PM] Jul 10, 2025, 10:44:45 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:44:45.964'
+}
+{
+  message: '[Error - 10:44:54 PM] Jul 10, 2025, 10:44:54 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:44:54.905'
+}
+{
+  message: '[Error - 10:44:54 PM] Jul 10, 2025, 10:44:54 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:44:54.906'
+}
+{
+  message: '[Error - 10:47:34 PM] Jul 10, 2025, 10:47:34 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:34.621'
+}
+{
+  message: '[Error - 10:47:34 PM] Jul 10, 2025, 10:47:34 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:34.622'
+}
+{
+  message: '[Error - 10:47:44 PM] Jul 10, 2025, 10:47:44 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:44.657'
+}
+{
+  message: '[Error - 10:47:44 PM] Jul 10, 2025, 10:47:44 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:44.658'
+}
+{
+  message: '[Error - 10:47:52 PM] Jul 10, 2025, 10:47:52 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:52.256'
+}
+{
+  message: '[Error - 10:47:52 PM] Jul 10, 2025, 10:47:52 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:47:52.257'
+}
+{
+  message: '[Error - 10:48:00 PM] Jul 10, 2025, 10:48:00 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:48:00.220'
+}
+{
+  message: '[Error - 10:48:00 PM] Jul 10, 2025, 10:48:00 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:48:00.221'
+}
+{
+  message: '[Error - 10:48:07 PM] Jul 10, 2025, 10:48:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:48:07.769'
+}
+{
+  message: '[Error - 10:48:07 PM] Jul 10, 2025, 10:48:07 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:48:07.770'
+}
+{
+  message: '[Error - 10:51:54 PM] Jul 10, 2025, 10:51:54 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:51:54.199'
+}
+{
+  message: '[Error - 10:51:54 PM] Jul 10, 2025, 10:51:54 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:51:54.201'
+}
+{
+  message: '[Error - 10:56:05 PM] Jul 10, 2025, 10:56:05 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:05.073'
+}
+{
+  message: '[Error - 10:56:05 PM] Jul 10, 2025, 10:56:05 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:05.074'
+}
+{
+  message: '[Error - 10:56:17 PM] Jul 10, 2025, 10:56:17 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:17.701'
+}
+{
+  message: '[Error - 10:56:17 PM] Jul 10, 2025, 10:56:17 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:17.702'
+}
+{
+  message: '[Error - 10:56:26 PM] Jul 10, 2025, 10:56:26 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:26.262'
+}
+{
+  message: '[Error - 10:56:26 PM] Jul 10, 2025, 10:56:26 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 22:56:26.263'
+}
+{
+  message: '[Error - 11:02:15 PM] Jul 10, 2025, 11:02:15 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:15.139'
+}
+{
+  message: '[Error - 11:02:15 PM] Jul 10, 2025, 11:02:15 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:15.141'
+}
+{
+  message: '[Error - 11:02:25 PM] Jul 10, 2025, 11:02:25 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:25.462'
+}
+{
+  message: '[Error - 11:02:25 PM] Jul 10, 2025, 11:02:25 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:25.465'
+}
+{
+  message: '[Error - 11:02:36 PM] Jul 10, 2025, 11:02:36 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:36.496'
+}
+{
+  message: '[Error - 11:02:36 PM] Jul 10, 2025, 11:02:36 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:36.497'
+}
+{
+  message: '[Error - 11:02:43 PM] Jul 10, 2025, 11:02:43 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:43.771'
+}
+{
+  message: '[Error - 11:02:43 PM] Jul 10, 2025, 11:02:43 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:02:43.772'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 2339, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-10 23:06:26.085'
+}
+{
+  message: 'Jul 10, 2025 11:06:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2368\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:06:41.514'
+}
+{
+  message: 'Jul 10, 2025 11:07:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2575\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:07:29.612'
+}
+{
+  message: '[Error - 11:08:01 PM] Jul 10, 2025, 11:08:01 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:08:01.250'
+}
+{
+  message: '[Error - 11:08:01 PM] Jul 10, 2025, 11:08:01 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:08:01.251'
+}
+{
+  message: 'Jul 10, 2025 11:09:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2733\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:09:14.960'
+}
+{
+  message: 'Jul 10, 2025 11:09:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2737\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:09:15.029'
+}
+{
+  message: '[Error - 11:09:59 PM] Jul 10, 2025, 11:09:59 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:09:59.319'
+}
+{
+  message: '[Error - 11:09:59 PM] Jul 10, 2025, 11:09:59 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:09:59.321'
+}
+{
+  message: '[Error - 11:11:06 PM] Jul 10, 2025, 11:11:06 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:06.467'
+}
+{
+  message: '[Error - 11:11:06 PM] Jul 10, 2025, 11:11:06 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:06.472'
+}
+{
+  message: '[Error - 11:11:07 PM] Jul 10, 2025, 11:11:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:07.257'
+}
+{
+  message: '[Error - 11:11:07 PM] Jul 10, 2025, 11:11:07 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:07.258'
+}
+{
+  message: '[Error - 11:11:07 PM] Jul 10, 2025, 11:11:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:07.465'
+}
+{
+  message: '[Error - 11:11:07 PM] Jul 10, 2025, 11:11:07 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:07.467'
+}
+{
+  message: '[Error - 11:11:09 PM] Jul 10, 2025, 11:11:09 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:09.255'
+}
+{
+  message: '[Error - 11:11:09 PM] Jul 10, 2025, 11:11:09 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:09.257'
+}
+{
+  message: '[Error - 11:11:11 PM] Jul 10, 2025, 11:11:11 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:11.552'
+}
+{
+  message: '[Error - 11:11:11 PM] Jul 10, 2025, 11:11:11 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:11:11.553'
+}
+{
+  message: '[Error - 11:13:27 PM] Jul 10, 2025, 11:13:27 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:13:27.852'
+}
+{
+  message: '[Error - 11:13:27 PM] Jul 10, 2025, 11:13:27 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:13:27.854'
+}
+{
+  message: '[Error - 11:18:19 PM] Jul 10, 2025, 11:18:19 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:19.007'
+}
+{
+  message: '[Error - 11:18:19 PM] Jul 10, 2025, 11:18:19 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:19.013'
+}
+{
+  message: '[Error - 11:18:30 PM] Jul 10, 2025, 11:18:30 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:30.687'
+}
+{
+  message: '[Error - 11:18:30 PM] Jul 10, 2025, 11:18:30 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:30.687'
+}
+{
+  message: '[Error - 11:18:41 PM] Jul 10, 2025, 11:18:41 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:41.426'
+}
+{
+  message: '[Error - 11:18:41 PM] Jul 10, 2025, 11:18:41 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:18:41.431'
+}
+{
+  message: '[Error - 11:20:50 PM] Jul 10, 2025, 11:20:50 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:20:50.027'
+}
+{
+  message: '[Error - 11:20:50 PM] Jul 10, 2025, 11:20:50 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:20:50.029'
+}
+{
+  message: '[Error - 11:21:26 PM] Jul 10, 2025, 11:21:26 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:21:26.199'
+}
+{
+  message: '[Error - 11:21:26 PM] Jul 10, 2025, 11:21:26 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:21:26.200'
+}
+{
+  message: '[Error - 11:21:42 PM] Jul 10, 2025, 11:21:42 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:21:42.349'
+}
+{
+  message: '[Error - 11:21:42 PM] Jul 10, 2025, 11:21:42 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:21:42.350'
+}
+{
+  message: '[Error - 11:22:54 PM] Jul 10, 2025, 11:22:54 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2025-07-10 23:22:54.064'
+}
+{
+  message: '[Error - 11:23:33 PM] Jul 10, 2025, 11:23:33 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:23:33.497'
+}
+{
+  message: '[Error - 11:23:33 PM] Jul 10, 2025, 11:23:33 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:23:33.500'
+}
+{
+  message: '[Error - 11:31:59 PM] Jul 10, 2025, 11:31:59 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:31:59.048'
+}
+{
+  message: '[Error - 11:31:59 PM] Jul 10, 2025, 11:31:59 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:31:59.052'
+}
+{
+  message: '[Error - 11:41:16 PM] Jul 10, 2025, 11:41:16 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:41:16.238'
+}
+{
+  message: '[Error - 11:41:16 PM] Jul 10, 2025, 11:41:16 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:41:16.239'
+}
+{
+  message: '[Error - 11:41:43 PM] Jul 10, 2025, 11:41:43 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:41:43.713'
+}
+{
+  message: '[Error - 11:41:43 PM] Jul 10, 2025, 11:41:43 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:41:43.714'
+}
+{
+  message: 'Jul 10, 2025 11:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3465\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:49:29.006'
+}
+{
+  message: '[Error - 11:50:25 PM] Jul 10, 2025, 11:50:25 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:50:25.460'
+}
+{
+  message: '[Error - 11:50:25 PM] Jul 10, 2025, 11:50:25 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:50:25.462'
+}
+{
+  message: '[Error - 11:53:51 PM] Jul 10, 2025, 11:53:51 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:53:51.073'
+}
+{
+  message: '[Error - 11:53:51 PM] Jul 10, 2025, 11:53:51 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:53:51.074'
+}
+{
+  message: '[Error - 11:53:59 PM] Jul 10, 2025, 11:53:59 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:53:59.676'
+}
+{
+  message: '[Error - 11:53:59 PM] Jul 10, 2025, 11:53:59 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:53:59.679'
+}
+{
+  message: '[Error - 11:54:05 PM] Jul 10, 2025, 11:54:05 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:54:05.757'
+}
+{
+  message: '[Error - 11:54:05 PM] Jul 10, 2025, 11:54:05 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:54:05.758'
+}
+{
+  message: '[Error - 11:58:24 PM] Jul 10, 2025, 11:58:24 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-10 23:58:24.426'
+}
+{
+  message: '[Error - 11:58:24 PM] Jul 10, 2025, 11:58:24 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-10 23:58:24.428'
+}

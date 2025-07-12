@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Interface Specification - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#interface">Interface Definition</a></li>
+                <li><a href="#data-requirements">Data Requirements</a></li>
+                <li><a href="#error-handling">Error Handling</a></li>
+                <li><a href="#implementation-notes">Implementation Notes</a></li>
+                <li><a href="#example">Example Implementation</a></li>
+            </ul>
+
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="classes/BackendInterface.html">BackendInterface</a></li>
+                <li><a href="integration-checklist.html">Integration Checklist</a></li>
+                <li><a href="testing-guide.html">Testing Guide</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &gt; Backend Interface Specification
+            </div>
+
+            <div class="class-header">
+                <h1>Backend Interface Specification</h1>
+                <p>Complete specification for implementing the backend interface</p>
+            </div>
+
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>This document specifies exactly what your backend must implement to work with the Java Swing GUI. The <code>BackendInterface</code> defines the contract between the GUI and your backend services.</p>
+                    
+                    <div class="alert alert-warning">
+                        <strong>Important:</strong> Your backend implementation must implement this interface exactly as specified. Deviations may cause the GUI to malfunction.
+                    </div>
+
+                    <h3>Key Requirements</h3>
+                    <ul>
+                        <li><strong>Complete Implementation:</strong> All methods must be implemented</li>
+                        <li><strong>Proper Error Handling:</strong> Throw meaningful exceptions for failures</li>
+                        <li><strong>Data Validation:</strong> Validate all input data</li>
+                        <li><strong>Thread Safety:</strong> Handle concurrent access if needed</li>
+                        <li><strong>Data Persistence:</strong> Ensure data is properly saved</li>
+                    </ul>
+                </section>
+
+                <section id="interface">
+                    <h2>Required Interface</h2>
+                    
+                    <p>Your backend must implement this interface:</p>
+
+                    <pre><code>public interface BackendInterface {
+    // ==================== PROJECT MANAGEMENT ====================
+    
+    /**
+     * Returns all projects managed by the backend.
+     * @return List of Project objects, never null (empty list if no projects)
+     * @throws Exception if projects cannot be loaded
+     */
+    List&lt;Project&gt; getProjects() throws Exception;
+    
+    /**
+     * Adds a new project to the backend.
+     * @param project The project to add (ID should be -1 for new projects)
+     * @throws Exception if project cannot be added (validation, storage, etc.)
+     */
+    void addProject(Project project) throws Exception;
+    
+    /**
+     * Updates an existing project in the backend.
+     * @param project The project to update (must have valid ID)
+     * @throws Exception if project cannot be updated
+     */
+    void updateProject(Project project) throws Exception;
+    
+    /**
+     * Deletes a project from the backend.
+     * @param project The project to delete
+     * @throws Exception if project cannot be deleted
+     */
+    void deleteProject(Project project) throws Exception;
+    
+    // ==================== SETTINGS MANAGEMENT ====================
+    
+    /**
+     * Returns the current projects root directory.
+     * @return Absolute path to root directory, or null if not set
+     * @throws Exception if settings cannot be loaded
+     */
+    String getRootDirectory() throws Exception;
+    
+    /**
+     * Sets the projects root directory.
+     * @param path Absolute path to the new root directory
+     * @throws Exception if path is invalid or cannot be set
+     */
+    void setRootDirectory(String path) throws Exception;
+    
+    /**
+     * Returns all configured editor profiles.
+     * @return List of EditorProfile objects, never null (empty list if none)
+     * @throws Exception if profiles cannot be loaded
+     */
+    List&lt;EditorProfile&gt; getEditorProfiles() throws Exception;
+    
+    /**
+     * Adds a new editor profile.
+     * @param profile The profile to add
+     * @throws Exception if profile cannot be added
+     */
+    void addEditorProfile(EditorProfile profile) throws Exception;
+    
+    /**
+     * Updates an existing editor profile.
+     * @param profile The profile to update
+     * @throws Exception if profile cannot be updated
+     */
+    void updateEditorProfile(EditorProfile profile) throws Exception;
+    
+    /**
+     * Deletes an editor profile.
+     * @param profile The profile to delete
+     * @throws Exception if profile cannot be deleted
+     */
+    void deleteEditorProfile(EditorProfile profile) throws Exception;
+    
+    // ==================== PROJECT OPERATIONS ====================
+    
+    /**
+     * Opens the project folder in the system's default file manager.
+     * @param project The project whose folder to open
+     * @throws Exception if folder cannot be opened
+     */
+    void openProjectFolder(Project project) throws Exception;
+    
+    /**
+     * Opens the project with the specified editor.
+     * @param project The project to open
+     * @param editor The editor profile to use
+     * @throws Exception if project cannot be opened with editor
+     */
+    void openProjectWith(Project project, EditorProfile editor) throws Exception;
+    
+    // ==================== UTILITY METHODS ====================
+    
+    /**
+     * Initializes the backend service.
+     * Called when the application starts.
+     * @throws Exception if initialization fails
+     */
+    void initialize() throws Exception;
+    
+    /**
+     * Shuts down the backend service.
+     * Called when the application is closing.
+     * @throws Exception if shutdown fails
+     */
+    void shutdown() throws Exception;
+}</code></pre>
+                </section>
+
+                <section id="data-requirements">
+                    <h2>Data Requirements</h2>
+                    
+                    <h3>1. Project Objects</h3>
+                    <ul>
+                        <li>Must have all fields populated (use empty strings for optional fields)</li>
+                        <li>ID field: -1 for new projects, positive integer for existing projects</li>
+                        <li>Dates: ISO 8601 format (YYYY-MM-DD HH:MM:SS) or empty string</li>
+                        <li>Priority: Integer 1-5 (1=highest, 5=lowest)</li>
+                        <li>Status: One of "In Development", "Completed", "Depreciated"</li>
+                        <li>Relative path: Path relative to root directory, or absolute path (backend handles conversion)</li>
+                    </ul>
+
+                    <h3>2. Editor Profile Objects</h3>
+                    <ul>
+                        <li>Name: Human-readable name for the editor</li>
+                        <li>Executable path: Full path to editor executable</li>
+                        <li>Command line args: List of arguments (can be empty)</li>
+                        <li>All fields must be non-null (use empty strings/lists for defaults)</li>
+                    </ul>
+
+                    <h3>3. Root Directory</h3>
+                    <ul>
+                        <li>Must be an absolute path</li>
+                        <li>Must be a valid directory that exists</li>
+                        <li>Should be writable by the application</li>
+                    </ul>
+                </section>
+
+                <section id="error-handling">
+                    <h2>Error Handling</h2>
+                    
+                    <p>Your backend must throw meaningful exceptions for different error conditions:</p>
+
+                    <h3>1. Validation Errors</h3>
+                    <ul>
+                        <li>Project name is empty or null</li>
+                        <li>Project path is invalid</li>
+                        <li>Editor profile has invalid executable path</li>
+                        <li>Root directory is not a valid directory</li>
+                    </ul>
+
+                    <h3>2. Storage Errors</h3>
+                    <ul>
+                        <li>Database connection failed</li>
+                        <li>File system errors</li>
+                        <li>Permission denied errors</li>
+                    </ul>
+
+                    <h3>3. Operation Errors</h3>
+                    <ul>
+                        <li>Editor executable not found</li>
+                        <li>Project folder doesn't exist</li>
+                        <li>System cannot open file manager</li>
+                    </ul>
+
+                    <h3>Example Exception Types</h3>
+                    <pre><code>public class ValidationException extends Exception {
+    public ValidationException(String message) { super(message); }
+}
+
+public class StorageException extends Exception {
+    public StorageException(String message, Throwable cause) { super(message, cause); }
+}
+
+public class OperationException extends Exception {
+    public OperationException(String message, Throwable cause) { super(message, cause); }
+}</code></pre>
+                </section>
+
+                <section id="implementation-notes">
+                    <h2>Implementation Notes</h2>
+                    
+                    <h3>1. Path Handling</h3>
+                    <ul>
+                        <li>The GUI provides absolute paths from file choosers</li>
+                        <li>Your backend should convert these to relative paths for storage</li>
+                        <li>When opening projects, reconstruct absolute paths from root + relative</li>
+                    </ul>
+
+                    <h3>2. Project ID Management</h3>
+                    <ul>
+                        <li>New projects have ID = -1</li>
+                        <li>After saving, assign a unique positive integer ID</li>
+                        <li>Use this ID for updates and deletes</li>
+                    </ul>
+
+                    <h3>3. Data Persistence</h3>
+                    <ul>
+                        <li>Choose your storage method (database, JSON, XML, etc.)</li>
+                        <li>Ensure data is saved immediately after operations</li>
+                        <li>Handle concurrent access if needed</li>
+                    </ul>
+
+                    <h3>4. Editor Launching</h3>
+                    <ul>
+                        <li>Use ProcessBuilder to launch editors</li>
+                        <li>Handle platform-specific command line arguments</li>
+                        <li>Replace placeholders (like ".") with actual project paths</li>
+                    </ul>
+                </section>
+
+                <section id="example">
+                    <h2>Example Implementation Structure</h2>
+                    
+                    <pre><code>public class YourBackendService implements BackendInterface {
+    private final String configFile;
+    private final String projectsFile;
+    private List&lt;Project&gt; projects;
+    private List&lt;EditorProfile&gt; editorProfiles;
+    private String rootDirectory;
+    
+    public YourBackendService() {
+        this.configFile = "config.properties";
+        this.projectsFile = "projects.json";
+        loadData();
+    }
+    
+    @Override
+    public List&lt;Project&gt; getProjects() throws Exception {
+        return new ArrayList&lt;&gt;(projects);
+    }
+    
+    @Override
+    public void addProject(Project project) throws Exception {
+        // Validate project
+        validateProject(project);
+        
+        // Assign new ID
+        project.setId(generateNewId());
+        
+        // Add to list
+        projects.add(project);
+        
+        // Save to storage
+        saveProjects();
+    }
+    
+    @Override
+    public void updateProject(Project project) throws Exception {
+        // Validate project
+        validateProject(project);
+        
+        // Find and update existing project
+        for (int i = 0; i &lt; projects.size(); i++) {
+            if (projects.get(i).getId() == project.getId()) {
+                projects.set(i, project);
+                saveProjects();
+                return;
+            }
+        }
+        throw new ValidationException("Project not found: " + project.getId());
+    }
+    
+    @Override
+    public void deleteProject(Project project) throws Exception {
+        projects.removeIf(p -&gt; p.getId() == project.getId());
+        saveProjects();
+    }
+    
+    @Override
+    public void openProjectFolder(Project project) throws Exception {
+        String absolutePath = getAbsoluteProjectPath(project);
+        File projectDir = new File(absolutePath);
+        
+        if (!projectDir.exists()) {
+            throw new OperationException("Project folder does not exist: " + absolutePath);
+        }
+        
+        // Platform-specific folder opening
+        if (System.getProperty("os.name").toLowerCase().contains("win")) {
+            Runtime.getRuntime().exec("explorer " + absolutePath);
+        } else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+            Runtime.getRuntime().exec("open " + absolutePath);
+        } else {
+            Runtime.getRuntime().exec("xdg-open " + absolutePath);
+        }
+    }
+    
+    @Override
+    public void openProjectWith(Project project, EditorProfile editor) throws Exception {
+        String absolutePath = getAbsoluteProjectPath(project);
+        
+        // Build command
+        List&lt;String&gt; command = new ArrayList&lt;&gt;();
+        command.add(editor.getExecutablePath());
+        command.addAll(editor.getCommandLineArgs());
+        
+        // Replace placeholders
+        for (int i = 0; i &lt; command.size(); i++) {
+            if (".".equals(command.get(i))) {
+                command.set(i, absolutePath);
+            }
+        }
+        
+        // Launch editor
+        ProcessBuilder pb = new ProcessBuilder(command);
+        pb.start();
+    }
+    
+    private void validateProject(Project project) throws ValidationException {
+        if (project.getName() == null || project.getName().trim().isEmpty()) {
+            throw new ValidationException("Project name is required");
+        }
+        if (project.getRelativePath() == null || project.getRelativePath().trim().isEmpty()) {
+            throw new ValidationException("Project path is required");
+        }
+    }
+    
+    private String getAbsoluteProjectPath(Project project) {
+        if (rootDirectory == null) {
+            return project.getRelativePath();
+        }
+        return new File(rootDirectory, project.getRelativePath()).getAbsolutePath();
+    }
+    
+    private int generateNewId() {
+        return projects.stream()
+            .mapToInt(Project::getId)
+            .max()
+            .orElse(0) + 1;
+    }
+    
+    // ... implement other methods ...
+}</code></pre>
+                </section>
+
+                <section id="testing-checklist">
+                    <h2>Testing Checklist</h2>
+                    
+                    <p>Before integrating with the GUI, test your backend:</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Test</th>
+                                <th>Description</th>
+                                <th>Expected Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>getProjects() empty</td>
+                                <td>Call when no projects exist</td>
+                                <td>Returns empty list</td>
+                            </tr>
+                            <tr>
+                                <td>getProjects() with data</td>
+                                <td>Call with saved projects</td>
+                                <td>Returns all projects</td>
+                            </tr>
+                            <tr>
+                                <td>addProject() new ID</td>
+                                <td>Add new project</td>
+                                <td>Assigns unique ID</td>
+                            </tr>
+                            <tr>
+                                <td>addProject() validation</td>
+                                <td>Add project with empty name</td>
+                                <td>Throws validation exception</td>
+                            </tr>
+                            <tr>
+                                <td>updateProject() existing</td>
+                                <td>Update existing project</td>
+                                <td>Updates successfully</td>
+                            </tr>
+                            <tr>
+                                <td>updateProject() not found</td>
+                                <td>Update non-existent project</td>
+                                <td>Throws exception</td>
+                            </tr>
+                            <tr>
+                                <td>deleteProject()</td>
+                                <td>Delete project</td>
+                                <td>Removes from storage</td>
+                            </tr>
+                            <tr>
+                                <td>getRootDirectory()</td>
+                                <td>Get saved root directory</td>
+                                <td>Returns saved path</td>
+                            </tr>
+                            <tr>
+                                <td>setRootDirectory()</td>
+                                <td>Set valid directory</td>
+                                <td>Validates and saves</td>
+                            </tr>
+                            <tr>
+                                <td>getEditorProfiles()</td>
+                                <td>Get saved editor profiles</td>
+                                <td>Returns saved profiles</td>
+                            </tr>
+                            <tr>
+                                <td>addEditorProfile()</td>
+                                <td>Add editor with valid executable</td>
+                                <td>Validates and saves</td>
+                            </tr>
+                            <tr>
+                                <td>openProjectFolder()</td>
+                                <td>Open folder on all platforms</td>
+                                <td>Opens correct folder</td>
+                            </tr>
+                            <tr>
+                                <td>openProjectWith()</td>
+                                <td>Launch editor with arguments</td>
+                                <td>Launches with correct args</td>
+                            </tr>
+                            <tr>
+                                <td>Exception handling</td>
+                                <td>All methods throw exceptions</td>
+                                <td>Meaningful error messages</td>
+                            </tr>
+                            <tr>
+                                <td>Data persistence</td>
+                                <td>Restart application</td>
+                                <td>Data persists between restarts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

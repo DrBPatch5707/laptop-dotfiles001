@@ -1,0 +1,2636 @@
+!SESSION 2025-07-11 13:15:31.308 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-425dad780eed5ac549c1c0e54698f54b.sock
+Command-line arguments:  -data /home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-425dad780eed5ac549c1c0e54698f54b.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.339
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.451
+!MESSAGE Started org.eclipse.buildship.core 69ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.452
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.723
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.822
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:35.825
+!MESSAGE Initializing Java Language Server 1.49.0.202507010258
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.193
+!MESSAGE ProjectRegistryRefreshJob finished 1741ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.362
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk as 'JavaSE-21' environment (id:1752257737338)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.371
+!MESSAGE Setting /usr/lib/jvm/java-24-openjdk as 'JavaSE-24' environment (id:1752257737366)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.373
+!MESSAGE Setting java.home /usr/lib/jvm/java-24-openjdk as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.379
+!MESSAGE Default VM Install changed from  1752257737317-/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64 to 1752257737366-/usr/lib/jvm/java-24-openjdk
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.390
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.421
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.422
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.422
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.422
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.423
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.423
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.423
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.423
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.424
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.424
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.424
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.424
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.446
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:37.469
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:51.730
+!MESSAGE Workspace initialized in 14285ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:51.775
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:15:52.818
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:15:52.828
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:15:52.828
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:52.837
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:52.837
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:15:52.846
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-07-11 13:17:51.052
+!MESSAGE Problem refreshing workspace
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/repos/java/project-manager/project-manager/.gradle
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: /home/bpatch/repos/java/project-manager/project-manager/.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	... 4 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2025-07-11 13:17:51.052
+!MESSAGE Exception updating digest for /home/bpatch/repos/java/project-manager/project-manager/.gradle
+!STACK 0
+java.nio.file.NoSuchFileException: /home/bpatch/repos/java/project-manager/project-manager/.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:17:51.215
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:17:51.218
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:17:51.218
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:18:07.520
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:18:07.522
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:18:07.522
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:18:07.715
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:18:07.727
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:18:07.728
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:20:57.402
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:20:57.405
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:20:57.405
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:21:07.975
+!MESSAGE Projects updated in 1899 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:21:08.019
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:21:08.024
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:21:08.024
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:21:08.046
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:23:39.004
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:23:39.175
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:23:39.178
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:23:39.178
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:24:26.093
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2025-07-11 13:24:26.356
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:24:26.554
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:24:27.385
+!MESSAGE begin problem for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:24:27.388
+!MESSAGE 6 problems reported for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:24:27.390
+!MESSAGE Validated 1. Took 235 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:25:00.577
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:25:00.596
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:25:01.263
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:25:01.264
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:25:01.265
+!MESSAGE Validated 1. Took 218 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:24.960
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:25.551
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:25.551
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:25.553
+!MESSAGE Validated 1. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:26.805
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:27.070
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:27.728
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:27.898
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:28.285
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:28.864
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:28.865
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:28.866
+!MESSAGE Validated 1. Took 130 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:29.882
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:29.944
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:30.507
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:30.914
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:31.372
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:31.543
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:31.607
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:31.990
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:32.498
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:32.730
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:33.272
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:33.273
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:33.273
+!MESSAGE Validated 1. Took 93 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:33.450
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:33.614
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:34.149
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:34.149
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:34.151
+!MESSAGE Validated 1. Took 86 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:58.623
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:58.687
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:59.185
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:59.185
+!MESSAGE 0 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:27:59.185
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:08.863
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:09.365
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:09.366
+!MESSAGE 0 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:09.366
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:13.713
+!MESSAGE Reconciled 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:13.996
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:14.225
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:14.225
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:14.226
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:15.338
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:15.827
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:15.828
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:15.829
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:15.916
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:16.405
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:16.406
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:16.406
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:16.990
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.057
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.275
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.278
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.708
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.708
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:17.709
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:19.267
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:19.666
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:19.671
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:20.072
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:20.466
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:20.467
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:20.939
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:21.430
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:21.430
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:21.431
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:21.736
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:21.799
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:22.304
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:22.304
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:22.305
+!MESSAGE Validated 1. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:23.907
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:23.967
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.138
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.357
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.838
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.839
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.839
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:24.918
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:25.404
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:25.405
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:25.405
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:30.084
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:30.148
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:30.593
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:30.593
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:30.593
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:31.958
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:31.994
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:32.213
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:32.485
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:32.685
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:33.125
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:33.125
+!MESSAGE 2 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:33.126
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:33.642
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:34.132
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:34.132
+!MESSAGE 1 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:34.133
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:35.665
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:35.729
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:36.149
+!MESSAGE Reconciled 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:36.552
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:37.046
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:37.048
+!MESSAGE 0 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:37.049
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:37.982
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:38.484
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:38.484
+!MESSAGE 7 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:28:38.485
+!MESSAGE Validated 1. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:02.235
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:02.727
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:02.727
+!MESSAGE 0 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:02.728
+!MESSAGE Validated 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:04.768
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:05.288
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:05.289
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:05.290
+!MESSAGE Validated 1. Took 118 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:08.803
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:09.348
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:09.348
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:09.349
+!MESSAGE Validated 1. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:09.517
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.047
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.048
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.048
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.177
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.656
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.656
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:10.657
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:11.099
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:11.674
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:11.675
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:11.676
+!MESSAGE Validated 1. Took 126 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:22.287
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:22.693
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:23.207
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:23.207
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:23.208
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:33.729
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:34.217
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:34.218
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:34.219
+!MESSAGE Validated 1. Took 89 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:43.539
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:43.947
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:44.464
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:44.464
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:29:44.467
+!MESSAGE Validated 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:14.413
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:14.548
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:15.075
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:15.076
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:15.077
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:16.666
+!MESSAGE Reconciled 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:17.040
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:17.189
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:17.189
+!MESSAGE 1 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:17.190
+!MESSAGE Validated 1. Took 122 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:18.210
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:18.725
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:18.725
+!MESSAGE 1 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:18.726
+!MESSAGE Validated 1. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:18.876
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:19.390
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:19.391
+!MESSAGE 1 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:19.391
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:26.399
+!MESSAGE Reconciled 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:26.928
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:26.928
+!MESSAGE 1 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:26.929
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:27.886
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:28.410
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:28.410
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:28.411
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:29.766
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:30.314
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:30.314
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:30.315
+!MESSAGE Validated 1. Took 98 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:45.005
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:45.535
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:45.535
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:45.536
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:46.040
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:46.512
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:46.512
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:30:46.513
+!MESSAGE Validated 1. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:47.199
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:47.708
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:47.708
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:47.710
+!MESSAGE Validated 1. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:49.242
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:49.777
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:49.777
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:31:49.778
+!MESSAGE Validated 1. Took 85 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:15.629
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:16.182
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:16.182
+!MESSAGE 24 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:16.183
+!MESSAGE Validated 1. Took 101 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:19.956
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:19.967
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.203
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.734
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.734
+!MESSAGE 24 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.735
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.808
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:20.988
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:21.056
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:21.518
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:22.036
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:22.037
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:22.037
+!MESSAGE Validated 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:24.194
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:24.583
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:25.129
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:25.351
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:25.699
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:26.214
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:26.214
+!MESSAGE 24 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:26.215
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:35.034
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:35.103
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:35.545
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:35.545
+!MESSAGE 24 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:35.546
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:36.254
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:36.720
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:36.721
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:32:36.721
+!MESSAGE Validated 1. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:35:06.878
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:35:06.941
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:35:07.461
+!MESSAGE begin problem for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:35:07.461
+!MESSAGE 6 problems reported for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:35:07.462
+!MESSAGE Validated 1. Took 71 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:09.302
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:09.815
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:09.815
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:09.816
+!MESSAGE Validated 1. Took 111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:39.254
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:39.736
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:39.736
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:39.737
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:43.913
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:44.430
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:44.430
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:44.431
+!MESSAGE Validated 1. Took 118 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:50.612
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:50.845
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.016
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.178
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.345
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.510
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.677
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.835
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:51.985
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:52.514
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:52.514
+!MESSAGE 23 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:52.515
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:52.983
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.295
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.296
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.761
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.761
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.762
+!MESSAGE Validated 1. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:53.943
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:54.453
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:54.453
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:36:54.456
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:01.284
+!MESSAGE Reconciled 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:01.421
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:01.509
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:01.957
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:02.450
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:02.894
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:03.407
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:03.407
+!MESSAGE 24 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:03.408
+!MESSAGE Validated 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:05.056
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:05.565
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:05.565
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:05.566
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:36.415
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:36.485
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.005
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.006
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.006
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.280
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.792
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.792
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:37.792
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:38.753
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:38.836
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:39.310
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:39.310
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:39.311
+!MESSAGE Validated 1. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:40.156
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:40.172
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:40.699
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:40.700
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:40.700
+!MESSAGE Validated 1. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:41.237
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:41.698
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:41.701
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:41.701
+!MESSAGE Validated 1. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:42.270
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:42.798
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:42.799
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:42.799
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:44.151
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:44.661
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:44.662
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:44.662
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:49.580
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:50.099
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:50.100
+!MESSAGE 26 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:50.101
+!MESSAGE Validated 1. Took 69 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:50.742
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:50.799
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:51.249
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:51.249
+!MESSAGE 26 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:51.250
+!MESSAGE Validated 1. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:53.252
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:53.711
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:53.711
+!MESSAGE 26 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:37:53.712
+!MESSAGE Validated 1. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:00.259
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:00.623
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:01.148
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:01.148
+!MESSAGE 23 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:01.148
+!MESSAGE Validated 1. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:04.247
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:04.767
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:04.767
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:04.767
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:04.841
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:05.371
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:05.710
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:05.713
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:06.056
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:06.057
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:06.517
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:06.517
+!MESSAGE 25 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:06.517
+!MESSAGE Validated 1. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:17.575
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.083
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.084
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.084
+!MESSAGE Validated 1. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.170
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.537
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.883
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:18.884
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:19.344
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:19.344
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:19.345
+!MESSAGE Validated 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:19.522
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:20.032
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:20.032
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:38:20.033
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:13.796
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:40:14.132
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:40:14.134
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:40:14.134
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:14.248
+!MESSAGE begin problem for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:14.248
+!MESSAGE 6 problems reported for /BackendAPI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:14.249
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:22.063
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:22.619
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:22.620
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:40:22.620
+!MESSAGE Validated 1. Took 107 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:40:22.667
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:40:22.669
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:40:22.669
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:41:25.991
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:41:26.381
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:41:26.383
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:41:26.383
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:41:26.479
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:41:26.480
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:41:26.481
+!MESSAGE Validated 1. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:42:53.640
+!MESSAGE Reconciled 1. Took 19 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:42:54.015
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:42:54.016
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:42:54.017
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:42:54.129
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:42:54.129
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:42:54.130
+!MESSAGE Validated 1. Took 88 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:01.943
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:01.987
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.089
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.193
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.268
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.346
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.439
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.510
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.640
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.665
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.738
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.833
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.908
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:02.989
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:03.080
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:03.278
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:03.595
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:03.599
+!MESSAGE User canceled while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.099
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.099
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.100
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.278
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.439
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:04.626
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:05.037
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:05.548
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:05.548
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:44:05.549
+!MESSAGE Validated 1. Took 62 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2025-07-11 13:44:13.828
+!MESSAGE Unable to load IDecompiler class for jarFileContentProvider
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:44:14.139
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:44:14.140
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:44:14.140
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:48:47.162
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:48:47.614
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:48:47.616
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:48:47.616
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:48:47.681
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:48:47.681
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:48:47.682
+!MESSAGE Validated 1. Took 115 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:52:31.453
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:52:31.802
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:52:31.803
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:52:31.803
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:52:31.963
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:52:31.964
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:52:31.965
+!MESSAGE Validated 1. Took 60 ms
+!SESSION 2025-07-11 13:55:44.891 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-550c335c2062cb3e0a550b0d59773886.sock
+Command-line arguments:  -data /home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-550c335c2062cb3e0a550b0d59773886.sock
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-07-11 13:55:47.892
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:49.948
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:50.226
+!MESSAGE Started org.eclipse.buildship.core 148ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:50.227
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:50.940
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:51.063
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:51.082
+!MESSAGE Initializing Java Language Server 1.49.0.202507010258
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:55:52.388
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getValue(MapFlattener.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:51)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:47)
+	at com.microsoft.gradle.bs.importer.Utils.isBuildServerEnabled(Utils.java:209)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:177)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:55:52.405
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:55:52.405
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getValue(MapFlattener.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:51)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:47)
+	at com.microsoft.gradle.bs.importer.Utils.isBuildServerEnabled(Utils.java:209)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:177)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.125
+!MESSAGE ProjectRegistryRefreshJob finished 3897ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.383
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.384
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.385
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.396
+!MESSAGE Non-Static Commands: [java.gradle.delegateTest]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.397
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.398
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.399
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.399
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.401
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.405
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.407
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.407
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:54.486
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:55:55.872
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:12.300
+!MESSAGE Workspace initialized in 17819ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:12.313
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 13:56:12.508
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 13:56:12.513
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 13:56:12.513
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2025-07-11 13:56:13.338
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:13.365
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:13.366
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:13.372
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:13.432
+!MESSAGE Reconciled 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:14.397
+!MESSAGE begin problem for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:14.402
+!MESSAGE 0 problems reported for /ProjectSync.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:14.758
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:14.758
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 13:56:14.761
+!MESSAGE Validated 2. Took 676 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:02.568
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:03.709
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:03.710
+!MESSAGE 1 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:03.712
+!MESSAGE Validated 1. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:04.217
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:04.880
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:04.881
+!MESSAGE 1 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:04.881
+!MESSAGE Validated 1. Took 46 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 14:06:05.130
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 14:06:05.133
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 14:06:05.133
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:07.977
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:08.473
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:08.475
+!MESSAGE 1 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:08.476
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:11.689
+!MESSAGE Reconciled 1. Took 17 ms
+
+!ENTRY org.eclipse.core.resources 4 2 2025-07-11 14:06:12.035
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 75 2025-07-11 14:06:12.038
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.microsoft.gradle.bs.importer 4 75 2025-07-11 14:06:12.038
+!MESSAGE Errors running builder 'JavaProblemChecker' on project 'project-manager'.
+!STACK 0
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:12.290
+!MESSAGE begin problem for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:12.291
+!MESSAGE 28 problems reported for /ProjectManagerGUI.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:06:12.292
+!MESSAGE Validated 1. Took 199 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:07:05.799
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:07:06.288
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:07:06.289
+!MESSAGE 0 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:07:06.289
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:07:14.409
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:08:06.288
+!MESSAGE begin problem for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:08:06.288
+!MESSAGE 0 problems reported for /JacksonIdeConfigManager.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:08:06.289
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:16:15.372
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:16:15.390
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:16:15.403
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-07-11 14:16:15.417
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

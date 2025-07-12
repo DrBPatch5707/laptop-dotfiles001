@@ -1,0 +1,285 @@
+PROJECT MANAGER GUI - INTEGRATION CHECKLIST
+==========================================
+
+Use this checklist to verify that your backend integration is complete and working correctly.
+
+PRE-INTEGRATION CHECKLIST
+=========================
+
+□ Backend service class created and implements required methods
+□ Project.java and EditorProfile.java classes are accessible to backend
+□ Main application class created to initialize both GUI and backend
+□ All required import statements are present
+□ Package structure matches your project organization
+
+BACKEND SERVICE IMPLEMENTATION
+==============================
+
+□ getProjects() method implemented
+  □ Returns List<Project> (never null)
+  □ Returns empty list when no projects exist
+  □ Returns all saved projects correctly
+
+□ addProject(Project project) method implemented
+  □ Accepts Project object as parameter
+  □ Assigns unique ID to new projects
+  □ Validates required fields (name, path)
+  □ Adds project to storage
+  □ Handles errors appropriately
+
+□ updateProject(Project project) method implemented
+  □ Accepts Project object as parameter
+  □ Finds project by ID
+  □ Updates existing project data
+  □ Validates required fields
+  □ Handles errors appropriately
+
+□ deleteProject(Project project) method implemented
+  □ Accepts Project object as parameter
+  □ Removes project from storage
+  □ Handles errors appropriately
+
+□ getRootDirectory() method implemented
+  □ Returns String (can be null if not set)
+  □ Returns absolute path to projects directory
+
+□ setRootDirectory(String path) method implemented
+  □ Accepts String parameter
+  □ Validates path exists and is directory
+  □ Saves path to storage
+  □ Handles errors appropriately
+
+□ getEditorProfiles() method implemented
+  □ Returns List<EditorProfile> (never null)
+  □ Returns empty list when no profiles exist
+  □ Returns all saved editor profiles
+
+□ addEditorProfile(EditorProfile profile) method implemented
+  □ Accepts EditorProfile object as parameter
+  □ Validates profile data
+  □ Adds profile to storage
+  □ Handles errors appropriately
+
+□ updateEditorProfile(EditorProfile profile) method implemented
+  □ Accepts EditorProfile object as parameter
+  □ Finds profile by name or ID
+  □ Updates existing profile data
+  □ Handles errors appropriately
+
+□ deleteEditorProfile(EditorProfile profile) method implemented
+  □ Accepts EditorProfile object as parameter
+  □ Removes profile from storage
+  □ Handles errors appropriately
+
+□ openProjectFolder(Project project) method implemented
+  □ Accepts Project object as parameter
+  □ Constructs absolute path from root + relative path
+  □ Opens folder in system file manager
+  □ Handles platform differences (Windows/Mac/Linux)
+  □ Handles errors appropriately
+
+□ openProjectWith(Project project, EditorProfile editor) method implemented
+  □ Accepts Project and EditorProfile objects as parameters
+  □ Constructs absolute path from root + relative path
+  □ Builds command array with executable and arguments
+  □ Replaces placeholders (like ".") with project path
+  □ Launches editor process
+  □ Handles errors appropriately
+
+GUI INTEGRATION CHECKLIST
+=========================
+
+□ ProjectManagerGUI constructor modified to accept backend service
+□ Backend service field added to ProjectManagerGUI class
+□ Initial data loading implemented (refreshProjectTable on startup)
+
+□ Add Project button event handler implemented
+  □ Creates AddEditProjectDialog in add mode
+  □ Implements ProjectSaveCallback
+  □ Calls backend.addProject() on save
+  □ Refreshes table after successful save
+  □ Handles errors with user-friendly messages
+
+□ Edit Project button event handler implemented
+  □ Gets selected project from table
+  □ Creates AddEditProjectDialog in edit mode
+  □ Pre-populates dialog with existing project data
+  □ Implements ProjectSaveCallback
+  □ Calls backend.updateProject() on save
+  □ Refreshes table after successful save
+  □ Handles errors with user-friendly messages
+
+□ Delete Project button event handler implemented
+  □ Gets selected project from table
+  □ Shows confirmation dialog
+  □ Calls backend.deleteProject() on confirm
+  □ Refreshes table after successful delete
+  □ Handles errors with user-friendly messages
+
+□ Open Project Folder button event handler implemented
+  □ Gets selected project from table
+  □ Calls backend.openProjectFolder()
+  □ Handles errors with user-friendly messages
+
+□ Open Project With button event handler implemented
+  □ Gets selected project from table
+  □ Shows editor selection dialog or uses default
+  □ Calls backend.openProjectWith()
+  □ Handles errors with user-friendly messages
+
+□ Settings button event handler implemented
+  □ Creates SettingsDialog with current data
+  □ Passes root directory and editor profiles
+  □ Implements settings save callback
+  □ Handles errors with user-friendly messages
+
+□ getSelectedProject() method implemented
+  □ Gets selected row from table
+  □ Maps table row to Project object
+  □ Returns null when no selection
+  □ Handles edge cases correctly
+
+□ Table selection listener implemented
+  □ Enables/disables buttons based on selection
+  □ Updates UI state correctly
+
+DIALOG INTEGRATION CHECKLIST
+============================
+
+□ AddEditProjectDialog callback integration
+  □ ProjectSaveCallback interface implemented
+  □ Dialog calls callback on save button
+  □ Dialog validates required fields
+  □ Dialog handles cancel button correctly
+  □ File chooser integration works correctly
+
+□ SettingsDialog integration
+  □ Dialog displays current root directory
+  □ Dialog displays current editor profiles
+  □ Browse button for root directory works
+  □ Editor profile management works
+  □ Save callback implemented
+  □ Cancel button works correctly
+
+DATA FLOW CHECKLIST
+===================
+
+□ Project data flows correctly from backend to GUI
+  □ Table displays all project fields correctly
+  □ Project selection works correctly
+  □ Edit dialog pre-populates with correct data
+
+□ Project data flows correctly from GUI to backend
+  □ New projects are saved with correct data
+  □ Updated projects are saved with correct data
+  □ Deleted projects are removed correctly
+
+□ Settings data flows correctly
+  □ Root directory is loaded and displayed
+  □ Editor profiles are loaded and displayed
+  □ Settings changes are saved correctly
+
+□ Error handling works correctly
+  □ Backend errors are caught and displayed
+  □ Validation errors are shown to user
+  □ Network/file system errors are handled
+
+TESTING CHECKLIST
+=================
+
+□ Application starts without errors
+□ Main window displays correctly
+□ Project table shows data (or empty state)
+□ All buttons are present and properly labeled
+□ Table selection enables/disables buttons correctly
+
+□ Add Project functionality
+  □ Click "Add New Project" opens dialog
+  □ Dialog form works correctly
+  □ File chooser works for project path
+  □ Save button adds project to table
+  □ Cancel button closes dialog without saving
+  □ Validation works for required fields
+
+□ Edit Project functionality
+  □ Select project and click "Edit Selected Project"
+  □ Dialog opens with pre-populated data
+  □ Changes are saved correctly
+  □ Table updates with new data
+
+□ Delete Project functionality
+  □ Select project and click "Delete Selected Project"
+  □ Confirmation dialog appears
+  □ Project is removed from table on confirm
+  □ Project is removed from backend on confirm
+
+□ Open Project Folder functionality
+  □ Select project and click "Open Project Folder"
+  □ System file manager opens correct folder
+  □ Works on all target platforms
+
+□ Open Project With functionality
+  □ Select project and click "Open Project With..."
+  □ Editor launches with correct project
+  □ Works with different editor profiles
+
+□ Settings functionality
+  □ Click "Settings" opens settings dialog
+  □ Root directory is displayed and editable
+  □ Editor profiles are listed
+  □ Browse button for root directory works
+  □ Editor profile management works
+  □ Settings are saved correctly
+
+□ Error handling
+  □ Invalid data shows appropriate error messages
+  □ Backend errors are displayed to user
+  □ Application doesn't crash on errors
+
+PERFORMANCE CHECKLIST
+=====================
+
+□ Application starts quickly
+□ Table updates are responsive
+□ Dialog operations are fast
+□ No memory leaks during normal operation
+□ Large project lists don't cause performance issues
+
+SECURITY CHECKLIST
+==================
+
+□ File paths are validated before use
+□ No arbitrary command execution vulnerabilities
+□ User input is properly sanitized
+□ File system operations are safe
+□ No sensitive data is exposed in logs
+
+DEPLOYMENT CHECKLIST
+====================
+
+□ All required files are included
+□ Package structure is correct
+□ Dependencies are resolved
+□ Application runs on target platforms
+□ Configuration files are properly located
+□ Data persistence works across restarts
+
+FINAL VERIFICATION
+==================
+
+□ All functionality works as expected
+□ No console errors during normal operation
+□ User experience is smooth and intuitive
+□ Error messages are helpful and clear
+□ Application is ready for production use
+
+NOTES
+=====
+
+- Check off each item as you complete it
+- If an item fails, fix the issue before proceeding
+- Test thoroughly after each major integration step
+- Keep backups of working code before making changes
+- Document any customizations or deviations from the standard integration
+
+This checklist ensures a complete and robust integration of your backend with the Java Swing GUI. 

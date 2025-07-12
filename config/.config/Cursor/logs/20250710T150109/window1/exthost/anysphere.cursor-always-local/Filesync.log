@@ -1,0 +1,105 @@
+2025-07-10 15:01:16.892 [error] Failed to check if file sync is enabled for user {}
+2025-07-10 15:01:16.892 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-10 15:01:16.892 [error] Failed to fetch fsConfig File sync is disabled
+2025-07-10 15:01:16.992 [info] [registerEventListeners] Registering event listeners
+2025-07-10 15:01:19.080 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 15:01:19.302 [info] Fetched fsConfig in 221.25476499999968ms
+2025-07-10 15:01:19.302 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 15:01:19.465 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 15:01:19.770 [info] Fetched fsConfig in 304.5352590000002ms
+2025-07-10 15:01:19.770 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 15:01:19.771 [info] File sync enabled status: true
+2025-07-10 15:01:19.771 [info] Starting sync of visible tabs
+2025-07-10 15:01:19.916 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=1 in 142.21506200000022ms
+2025-07-10 15:01:19.916 [info] Synced all visible tabs in 146.19900700000017ms
+2025-07-10 15:01:20.203 [info] Handled visible editors change in 0.6242989999991551ms
+2025-07-10 15:01:20.235 [info] Starting sync of visible tabs
+2025-07-10 15:01:20.236 [info] Synced all visible tabs in 0.29130699999950593ms
+2025-07-10 15:01:20.395 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-07-10 15:01:20.456 [info] Uploaded file src/main/java/org/drbpatch/BackendAPI.java modelVersion=1 in 146.94356700000026ms
+2025-07-10 15:01:20.456 [info] Handled visible editors change in 217.11946500000067ms
+2025-07-10 15:01:20.584 [info] Fetched fsConfig in 188.86201100000017ms
+2025-07-10 15:01:20.585 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-07-10 15:03:35.408 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=3 in 770.5533209999849ms
+2025-07-10 15:03:35.409 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=3 in 768.8067849999934ms
+2025-07-10 15:03:35.588 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=3 in 949.0803509999823ms
+2025-07-10 15:03:35.998 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=3 in 698.1773649999814ms
+2025-07-10 15:03:35.999 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=3 in 696.0008280000184ms
+2025-07-10 15:03:49.893 [info] Handled visible editors change in 0.9469220000028145ms
+2025-07-10 15:03:49.932 [info] Handled visible editors change in 1.003024000005098ms
+2025-07-10 15:04:33.980 [info] Synced file src/main/java/org/drbpatch/BackendAPI.java modelVersion=2 in 662.7358860000095ms
+2025-07-10 15:21:42.655 [info] Uploaded file src/main/java/org/drbpatch/BackendAPI.java modelVersion=3 in 1378.2261159999762ms
+2025-07-10 15:25:13.339 [info] Synced file src/main/java/org/drbpatch/BackendAPI.java modelVersion=4 in 2038.771741000004ms
+2025-07-10 15:25:47.564 [info] Synced file src/main/java/org/drbpatch/BackendAPI.java modelVersion=5 in 426.4463569999207ms
+2025-07-10 15:29:39.122 [info] Synced file src/main/java/org/drbpatch/BackendAPI.java modelVersion=6 in 1714.5612820000388ms
+2025-07-10 15:29:42.712 [info] Handled visible editors change in 0.37116799992509186ms
+2025-07-10 15:29:42.741 [info] Handled visible editors change in 0.856853999895975ms
+2025-07-10 15:31:05.980 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 1213.0404550000094ms
+2025-07-10 15:31:05.981 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 1215.665358999977ms
+2025-07-10 15:31:06.151 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 544.2006749999709ms
+2025-07-10 15:31:06.152 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 515.3732779999264ms
+2025-07-10 15:32:28.267 [info] Synced file src/main/java/org/drbpatch/BackendAPI.java modelVersion=7 in 1793.2394720001612ms
+2025-07-10 16:05:05.515 [info] Uploaded file src/main/java/org/drbpatch/BackendAPI.java modelVersion=8 in 1196.8219739999622ms
+2025-07-10 16:10:00.183 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 1404.3924829997122ms
+2025-07-10 16:10:00.183 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 755.1068200003356ms
+2025-07-10 16:10:00.511 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 1731.0725310002454ms
+2025-07-10 16:10:00.511 [info] Uploaded file src/main/java/org/drbpatch/ProjectManagerGUI.java modelVersion=2 in 1106.8067250000313ms
+2025-07-10 18:43:50.208 [info] Handled visible editors change in 0.6254909997805953ms
+2025-07-10 18:43:50.321 [info] Handled visible editors change in 0.24896600004285574ms
+2025-07-10 18:44:00.603 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:00.604 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:00.604 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:10.630 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:10.630 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:20.677 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:20.677 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:20.677 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:31.561 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:36.628 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:36.629 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:36.629 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:36.629 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:36.631 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:39.269 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:39.269 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:39.275 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:39.278 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:39.280 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 1) [unknown] Network disconnected
+2025-07-10 18:44:41.585 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:46.650 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:46.650 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:46.650 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:46.651 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:46.665 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:49.291 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:49.295 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:49.297 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:49.300 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:49.301 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 2) [unknown] Network disconnected
+2025-07-10 18:44:51.630 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:51.630 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:51.630 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:56.696 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:56.696 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1 [unknown] Network disconnected
+2025-07-10 18:44:56.696 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:56.696 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:56.698 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:56.698 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:56.698 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:56.698 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1 [unknown] Network disconnected
+2025-07-10 18:44:56.702 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:56.702 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:56.709 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:56.709 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1 [unknown] Network disconnected
+2025-07-10 18:44:59.333 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:59.333 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:59.333 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:59.335 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:59.335 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1 [unknown] Network disconnected
+2025-07-10 18:44:59.338 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:59.338 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected
+2025-07-10 18:44:59.338 [error] Failed to handle visible editors change [unknown] Network disconnected
+2025-07-10 18:44:59.342 [warning] Failed to sync full file src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:59.342 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/ProjectManagerGUI.java, version=1 [unknown] Network disconnected
+2025-07-10 18:44:59.342 [warning] Failed to sync full file src/main/java/org/drbpatch/BackendAPI.java, version=8, retrying (attempt 3) [unknown] Network disconnected
+2025-07-10 18:44:59.342 [error] Failed to sync full file after all retries for src/main/java/org/drbpatch/BackendAPI.java, version=8 [unknown] Network disconnected

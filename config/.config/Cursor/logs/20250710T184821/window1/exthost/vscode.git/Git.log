@@ -1,0 +1,53 @@
+2025-07-10 18:48:27.544 [info] [main] Log level: Info
+2025-07-10 18:48:27.544 [info] [main] Validating found git in: "git"
+2025-07-10 18:48:27.544 [info] [main] Using git "2.50.0" from "git"
+2025-07-10 18:48:27.544 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-10 18:48:27.544 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-10 18:48:27.544 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2025-07-10 18:48:27.544 [info] [Model][openRepository] Opened repository: /home/bpatch/repos/java/project-manager02
+2025-07-10 18:48:28.536 [info] > git rev-parse --show-toplevel [970ms]
+2025-07-10 18:48:28.536 [info] > git config --get commit.template [981ms]
+2025-07-10 18:48:28.644 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:48:28.644 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:48:28.658 [info] > git rev-parse --show-toplevel [35ms]
+2025-07-10 18:48:28.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-07-10 18:48:28.674 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:48:28.715 [info] > git status -z -uall [29ms]
+2025-07-10 18:48:28.716 [info] > git rev-parse --show-toplevel [43ms]
+2025-07-10 18:48:28.739 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [38ms]
+2025-07-10 18:48:28.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-07-10 18:48:28.775 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:48:28.776 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-07-10 18:48:28.777 [info] > git rev-parse --show-toplevel [40ms]
+2025-07-10 18:48:28.872 [info] > git diff --no-color [51ms]
+2025-07-10 18:48:28.876 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [76ms]
+2025-07-10 18:48:28.876 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-07-10 18:48:28.877 [info] > git config --get commit.template [107ms]
+2025-07-10 18:48:28.900 [info] > git rev-parse --show-toplevel [52ms]
+2025-07-10 18:48:28.961 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-10 18:48:28.982 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-10 18:48:28.984 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-10 18:48:29.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2025-07-10 18:48:29.011 [warning] [Git][getBranch] No such branch: master
+2025-07-10 18:48:29.052 [info] > git show --textconv :src/main/java/org/drbpatch/BackendAPI.java [55ms]
+2025-07-10 18:48:29.052 [info] > git status -z -uall [30ms]
+2025-07-10 18:48:29.052 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-07-10 18:48:29.055 [info] > git ls-files --stage -- src/main/java/org/drbpatch/BackendAPI.java [45ms]
+2025-07-10 18:48:29.157 [info] > git check-ignore -v -z --stdin [62ms]
+2025-07-10 18:48:29.158 [info] > git hash-object -t tree /dev/null [75ms]
+2025-07-10 18:48:29.158 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/bpatch/repos/java/project-manager02/src/main/java/org/drbpatch/BackendAPI.java.git?%7B%22path%22%3A%22%2Fhome%2Fbpatch%2Frepos%2Fjava%2Fproject-manager02%2Fsrc%2Fmain%2Fjava%2Forg%2Fdrbpatch%2FBackendAPI.java%22%2C%22ref%22%3A%22%22%7D
+2025-07-10 18:48:29.158 [info] > git hash-object -t tree /dev/null [90ms]
+2025-07-10 18:48:29.158 [warning] [GitFileSystemProvider][stat] File not found - git:/home/bpatch/repos/java/project-manager02/src/main/java/org/drbpatch/BackendAPI.java.git?%7B%22path%22%3A%22%2Fhome%2Fbpatch%2Frepos%2Fjava%2Fproject-manager02%2Fsrc%2Fmain%2Fjava%2Forg%2Fdrbpatch%2FBackendAPI.java%22%2C%22ref%22%3A%22%22%7D
+2025-07-10 18:48:29.158 [info] > git rev-parse --verify origin/master [107ms]
+2025-07-10 18:48:29.158 [info] fatal: Needed a single revision
+2025-07-10 18:48:29.254 [info] > git rev-parse --verify origin/main [85ms]
+2025-07-10 18:48:29.254 [info] fatal: Needed a single revision
+2025-07-10 18:48:29.297 [info] > git rev-parse --verify origin/master [32ms]
+2025-07-10 18:48:29.297 [info] fatal: Needed a single revision
+2025-07-10 18:48:29.518 [info] > git rev-parse --verify origin/develop [209ms]
+2025-07-10 18:48:29.518 [info] fatal: Needed a single revision
+2025-07-10 18:48:29.542 [info] > git branch -r [13ms]
+2025-07-10 18:48:29.572 [info] > git config --get init.defaultBranch [19ms]
+2025-07-10 18:48:37.482 [info] > git config --global user.name [3ms]
+2025-07-10 18:48:37.503 [info] > git config --global user.email [5ms]
+2025-07-10 18:48:37.503 [info] [main] Stored git author name in global state: DrBPatch5707 <briar2patch@gmail.com>

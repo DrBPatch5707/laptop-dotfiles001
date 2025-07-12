@@ -1,0 +1,141 @@
+2025-07-11 13:55:42.026 [info] Extension host with pid 1221 started
+2025-07-11 13:55:42.026 [info] Skipping acquiring lock for /home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85.
+2025-07-11 13:55:42.271 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 13:55:42.298 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 13:55:42.491 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 13:55:42.539 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 13:55:42.612 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 13:55:43.244 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:55:43.298 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 13:55:43.302 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:55:43.443 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 13:55:43.938 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 13:55:44.020 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 13:55:44.200 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 13:55:44.233 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:55:44.515 [warning] [vscjava.vscode-gradle] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:55:51.237 [error] [redhat.java] provider FAILED
+2025-07-11 13:55:51.239 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-07-11 13:55:53.154 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:53.756 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:53.870 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:54.482 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:54.716 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:55.345 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:55:55.363 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:56:13.034 [info] Eager extensions activated
+2025-07-11 14:07:10.074 [error] [redhat.java] provider FAILED
+2025-07-11 14:07:10.074 [error] Error: The request (id: 46, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-07-11 14:16:15.292 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 14:16:15.361 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at OV.N [as value] (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:515468)
+	at x.B (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-07-11 14:16:15.362 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at set hasGitHubRepositories (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:217805)
+	at /tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:218764
+	at OV.value (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:640601)
+	at x.B (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17) setContext undefined
+2025-07-11 14:16:15.371 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_cursorqyxrc9/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-11 14:16:16.389 [error] Error: write after end
+	at _write (node:internal/streams/writable:489:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973680
+	at new Promise (<anonymous>)
+	at c.write (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973598)
+	at m.doWrite (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963205)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963100
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-07-11 14:16:20.357 [info] Extension host with pid 1221 exiting with code 0

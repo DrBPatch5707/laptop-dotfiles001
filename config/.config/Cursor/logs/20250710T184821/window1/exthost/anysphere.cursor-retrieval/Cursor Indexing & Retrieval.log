@@ -1,0 +1,58 @@
+2025-07-10 18:48:28.897 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-07-10 18:48:28.897 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-07-10 18:48:28.897 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:524:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-07-10 18:48:28.897 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 18:48:28.897 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 18:48:28.897 [info] Using existing keys for an index
+2025-07-10 18:48:28.897 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 18:48:28.897 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/bpatch/repos/java/project-manager02/.gitmodules')
+2025-07-10 18:48:28.897 [warning] Failed to get symbolic ref: Failed to execute git
+2025-07-10 18:48:28.899 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 18:48:28.900 [error] Git command failed: git rev-parse --abbrev-ref HEAD Command failed: git rev-parse --abbrev-ref HEAD
+fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-07-10 18:48:28.901 [info] Using existing keys for an index
+2025-07-10 18:48:28.901 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-07-10 18:48:28.981 [info] Setting global status from status tracker: synced
+2025-07-10 18:48:28.981 [info] Doing a startup handshake.
+2025-07-10 18:48:29.572 [warning] Failed to get default branch from git config: Failed to execute git
+2025-07-10 18:48:29.611 [info] Finished computing merkle tree in 25.829251000000113 ms.
+2025-07-10 18:48:29.612 [info] Doing the initial handshake with hash: 84f146914878b83da5e49cc2059d795ada95cb9d68824121c83655692eb965d9
+2025-07-10 18:48:29.616 [info] Computed simhash vector of length: 256
+2025-07-10 18:48:29.616 [info] Path key hash: bbd878b9f4b055636042b260130f364d7f6a3ebadda8137f8f133cb3d48257de
+2025-07-10 18:48:29.616 [info] Handshake start
+2025-07-10 18:48:32.448 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh
+2025-07-10 18:48:32.448 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 18:48:32.448 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 18:48:33.645 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-07-10 18:48:33.645 [info] Handshake start
+2025-07-10 18:48:37.737 [warning] Retrying handshake with timeout 8000. Error:  [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh
+2025-07-10 18:48:37.737 [info] Handshake start
+2025-07-10 18:48:37.965 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh
+2025-07-10 18:48:37.966 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 18:48:37.966 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 18:48:45.890 [warning] Retrying handshake with timeout 16000. Error:  [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh
+2025-07-10 18:48:45.890 [info] Handshake start
+2025-07-10 18:48:46.164 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND repo42.cursor.sh
+2025-07-10 18:48:46.164 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-07-10 18:48:46.164 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-07-10 18:48:53.506 [info] multiCodebaseIndexingJob dispose
+2025-07-10 18:48:53.506 [info] Aborting indexing job.
+2025-07-10 18:48:53.511 [info] Indexing job successfully done or aborted.

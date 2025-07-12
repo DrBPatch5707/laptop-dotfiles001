@@ -1,0 +1,1 @@
+2025-07-11 14:16:14.564 [error] Failed to set sticky bit on /tmp/bpatch-windsurf-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/bpatch-windsurf-zsh'

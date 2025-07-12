@@ -1,0 +1,538 @@
+2025-07-11 12:01:55.613 [info] Extension host with pid 114858 started
+2025-07-11 12:01:55.613 [info] Skipping acquiring lock for /home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344.
+2025-07-11 12:01:55.671 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 12:01:55.693 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 12:01:55.872 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 12:01:55.935 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 12:01:56.049 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 12:01:57.120 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:01:57.216 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 12:01:57.222 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:01:57.580 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2025-07-11 12:01:57.890 [warning] [vscjava.vscode-gradle] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:01:58.171 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 12:01:58.276 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 12:01:58.340 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 12:01:58.568 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:02:03.176 [error] [redhat.java] provider FAILED
+2025-07-11 12:02:03.179 [error] Error: The request (id: 1, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-07-11 12:02:06.642 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:07.292 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:07.429 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:08.609 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:08.803 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:09.374 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:09.384 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:02:18.127 [info] Eager extensions activated
+2025-07-11 12:05:15.723 [error] Error: ENOENT: no such file or directory, lstat '/home/bpatch/projectsRoot/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java.git'
+2025-07-11 12:05:50.666 [error] [redhat.java] provider FAILED
+2025-07-11 12:05:50.667 [error] Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+	at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-07-11 12:05:52.250 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-11 12:05:52.271 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-07-11 12:05:52.921 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-07-11 12:26:47.029 [error] Error: ENOENT: no such file or directory, lstat '/home/bpatch/projectsRoot/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java.git'
+2025-07-11 12:26:47.032 [error] Error: ENOENT: no such file or directory, lstat '/home/bpatch/projectsRoot/project-manager/README.md.git'
+2025-07-11 12:27:34.754 [error] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-11 12:27:35.755 [error] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-11 12:57:59.787 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:464111)
+	at async t.Git.exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:463230)
+	at async z.exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:468904)
+	at async z.getRemotesGit (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:493219)
+	at async z.getRemotes (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:492951)
+	at async Promise.all (index 1)
+	at async O._updateModelState (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:605336)
+	at async O.updateModelState (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:604976)
+	at async O.run (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:604184)
+	at async O.status (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:583895)
+2025-07-11 12:57:59.790 [error] Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:464111)
+	at async t.Git.exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:463230)
+	at async z.exec (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:468904)
+	at async z.getRemotesGit (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:493219)
+	at async z.getRemotes (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:492951)
+	at async Promise.all (index 1)
+	at async O._updateModelState (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:605336)
+	at async O.updateModelState (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:604976)
+	at async O.run (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:604184)
+	at async O.status (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:583895)
+2025-07-11 12:58:01.480 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 12:58:01.622 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-11 12:58:02.657 [error] Error: write after end
+	at _write (node:internal/streams/writable:489:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973680
+	at new Promise (<anonymous>)
+	at c.write (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973598)
+	at m.doWrite (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963205)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963100
+2025-07-11 12:58:05.424 [info] Extension host with pid 131043 started
+2025-07-11 12:58:05.438 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 12:58:05.448 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 12:58:05.493 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 12:58:05.584 [info] Eager extensions activated
+2025-07-11 12:58:05.594 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:05.807 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:05.858 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:06.113 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:06.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:06.376 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:06.379 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:06.576 [info] Extension host with pid 114858 exiting with code 0
+2025-07-11 12:58:10.956 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 12:58:10.976 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-11 12:58:10.976 [info] Extension host with pid 131043 exiting with code 0
+2025-07-11 12:58:13.661 [info] Extension host with pid 131132 started
+2025-07-11 12:58:13.661 [info] Skipping acquiring lock for /home/bpatch/.config/Cursor/User/workspaceStorage/9a5baceea8d67c310198fb416d1faaff.
+2025-07-11 12:58:13.673 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 12:58:13.680 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:58:13.799 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:58:13.894 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:58:13.964 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:58:14.037 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:build.gradle', root cause: vscjava.vscode-java-test
+2025-07-11 12:58:14.195 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 12:58:14.234 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 12:58:14.656 [warning] [vscjava.vscode-gradle] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:58:14.847 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 12:58:15.146 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 12:58:15.576 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:58:15.644 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 12:58:15.822 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 12:58:17.373 [error] Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/9a5baceea8d67c310198fb416d1faaff/redhat.java/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+2025-07-11 12:58:20.796 [error] Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/9a5baceea8d67c310198fb416d1faaff/redhat.java/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+2025-07-11 12:58:23.681 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:24.205 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:24.299 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:24.720 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:24.869 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:25.309 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:25.317 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 12:58:28.870 [info] Eager extensions activated
+2025-07-11 13:01:24.019 [error] [redhat.java] provider FAILED
+2025-07-11 13:01:24.028 [error] Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:04:31.563 [error] [redhat.java] provider FAILED
+2025-07-11 13:04:31.563 [error] Error: The request (id: 57, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:04:32.668 [error] [redhat.java] provider FAILED
+2025-07-11 13:04:32.668 [error] Error: The request (id: 72, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:05:49.427 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-11 13:14:51.869 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 13:14:52.012 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at OV.N [as value] (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:515468)
+	at x.B (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 13:14:52.013 [error] Canceled: Canceled
+	at new EBt (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:112347)
+	at dct.U (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:116990)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:44:114482)
+	at Vnt.g (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41371)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at e.registerCommand.description (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40205)
+	at Vnt.h (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:41892)
+	at Vnt.g (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40968)
+	at Vnt.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:40875)
+	at Object.executeCommand (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:35730)
+	at set hasGitHubRepositories (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:217805)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/github/dist/extension.js:2:218764
+	at OV.value (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:640601)
+	at x.B (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2389)
+	at x.C (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2459)
+	at x.fire (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:2676)
+	at Object.f [as dispose] (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:538127)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544445
+	at Array.forEach (<anonymous>)
+	at C.dispose (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:544431)
+	at cst.<anonymous> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9055)
+	at cst.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at cst.<anonymous> (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:517952)
+	at cst.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:129:9151)
+	at tn (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:704)
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:15465
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:1016
+	at Object.dispose (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:711)
+	at pTe.eb (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:12245)
+	at file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10198
+	at Array.map (<anonymous>)
+	at pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10186)
+	at pTe.terminate (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10429)
+	at LJt.terminate (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:1447)
+	at rr (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:5755)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:220:2281)
+	at MessagePortMain.emit (node:events:524:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-07-11 13:14:52.022 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-11 13:14:53.065 [error] Error: write after end
+	at _write (node:internal/streams/writable:489:11)
+	at Writable.write (node:internal/streams/writable:510:10)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973680
+	at new Promise (<anonymous>)
+	at c.write (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:973598)
+	at m.doWrite (/home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963205)
+	at /home/bpatch/.cursor/extensions/vscjava.vscode-gradle-3.15.0-universal/dist/index.js:2:963100
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processImmediate (node:internal/timers:454:9)
+2025-07-11 13:14:56.270 [info] Extension host with pid 137716 started
+2025-07-11 13:14:56.285 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 13:14:56.293 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 13:14:56.336 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 13:14:56.436 [info] Eager extensions activated
+2025-07-11 13:14:56.443 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:56.668 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:56.718 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:56.982 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:57.000 [info] Extension host with pid 131132 exiting with code 0
+2025-07-11 13:14:57.066 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:57.259 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:14:57.262 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:25.925 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-11 13:15:25.940 [error] Error: Channel has been closed
+	at r (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2439)
+	at Object.appendLine (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:2578)
+	at c (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1816886)
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1818542)
+	at /tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321199
+	at t.deactivate (/tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:321258)
+	at async Promise.all (index 0)
+	at async pTe.$ (file:///tmp/.mount_cursorSSylTV/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:10212)
+2025-07-11 13:15:25.940 [info] Extension host with pid 137716 exiting with code 0
+2025-07-11 13:15:28.611 [info] Extension host with pid 137809 started
+2025-07-11 13:15:28.612 [info] Skipping acquiring lock for /home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85.
+2025-07-11 13:15:28.623 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-11 13:15:28.629 [info] ExtensionService#_doActivateExtension redhat.java, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:15:28.750 [info] ExtensionService#_doActivateExtension vscjava.vscode-gradle, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:15:28.846 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:15:28.912 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:15:28.988 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: true, activationEvent: 'workspaceContains:build.gradle', root cause: vscjava.vscode-java-test
+2025-07-11 13:15:29.144 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-11 13:15:29.181 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-11 13:15:29.605 [warning] [vscjava.vscode-gradle] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:15:29.803 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-11 13:15:30.124 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-11 13:15:30.628 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:15:30.696 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: true, activationEvent: 'workspaceContains:build.gradle'
+2025-07-11 13:15:30.863 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2025-07-11 13:15:32.332 [error] Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+2025-07-11 13:15:35.663 [error] Error: ENOENT: no such file or directory, open '/home/bpatch/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/jdt_ws/.metadata/.log'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+2025-07-11 13:15:38.622 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:38.972 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:39.065 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:39.511 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:39.643 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:40.029 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:40.034 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-11 13:15:51.853 [info] Eager extensions activated
+2025-07-11 13:16:11.039 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-07-11 13:21:06.242 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-11 13:21:06.290 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-11 13:21:06.478 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-11 13:23:27.425 [error] Error: ENOENT: no such file or directory, lstat '/home/bpatch/repos/java/project-manager/project-manager/build.gradle.git'
+2025-07-11 13:24:26.856 [error] [redhat.java] provider FAILED
+2025-07-11 13:24:26.872 [error] Error: The request (id: 15, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:25:10.029 [error] [redhat.java] provider FAILED
+2025-07-11 13:25:10.030 [error] Error: The request (id: 114, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:25:14.414 [error] [redhat.java] provider FAILED
+2025-07-11 13:25:14.414 [error] Error: The request (id: 119, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:25:54.140 [error] [redhat.java] provider FAILED
+2025-07-11 13:25:54.140 [error] Error: The request (id: 176, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:26:44.136 [error] [redhat.java] provider FAILED
+2025-07-11 13:26:44.136 [error] Error: The request (id: 275, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:26:44.379 [error] [redhat.java] provider FAILED
+2025-07-11 13:26:44.379 [error] Error: The request (id: 276, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:27:11.972 [error] [redhat.java] provider FAILED
+2025-07-11 13:27:11.972 [error] Error: The request (id: 356, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:27:12.322 [error] [redhat.java] provider FAILED
+2025-07-11 13:27:12.322 [error] Error: The request (id: 357, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:27:36.090 [error] [redhat.java] provider FAILED
+2025-07-11 13:27:36.090 [error] Error: The request (id: 451, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:27:59.354 [error] [redhat.java] provider FAILED
+2025-07-11 13:27:59.354 [error] Error: The request (id: 460, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:28:19.653 [error] [redhat.java] provider FAILED
+2025-07-11 13:28:19.653 [error] Error: The request (id: 519, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:28:20.444 [error] [redhat.java] provider FAILED
+2025-07-11 13:28:20.444 [error] Error: The request (id: 529, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:29:05.516 [error] [redhat.java] provider FAILED
+2025-07-11 13:29:05.516 [error] Error: The request (id: 693, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:31:13.580 [error] [redhat.java] provider FAILED
+2025-07-11 13:31:13.580 [error] Error: The request (id: 1097, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:31:32.003 [error] [redhat.java] provider FAILED
+2025-07-11 13:31:32.003 [error] Error: The request (id: 1188, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:35:08.054 [error] [redhat.java] provider FAILED
+2025-07-11 13:35:08.056 [error] Error: The request (id: 1468, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:36:53.277 [error] [redhat.java] provider FAILED
+2025-07-11 13:36:53.277 [error] Error: The request (id: 1787, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:08.629 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:08.629 [error] Error: The request (id: 1840, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:15.569 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:15.569 [error] Error: The request (id: 1855, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:16.258 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:16.259 [error] Error: The request (id: 1856, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:31.973 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:31.974 [error] Error: The request (id: 1891, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:51.398 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:51.398 [error] Error: The request (id: 1985, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:37:58.183 [error] [redhat.java] provider FAILED
+2025-07-11 13:37:58.183 [error] Error: The request (id: 1998, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:38:05.693 [error] [redhat.java] provider FAILED
+2025-07-11 13:38:05.693 [error] Error: The request (id: 2043, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:38:06.038 [error] [redhat.java] provider FAILED
+2025-07-11 13:38:06.038 [error] Error: The request (id: 2048, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:38:18.862 [error] [redhat.java] provider FAILED
+2025-07-11 13:38:18.862 [error] Error: The request (id: 2092, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:43:45.969 [error] [redhat.java] provider FAILED
+2025-07-11 13:43:45.969 [error] Error: The request (id: 2200, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:44:03.579 [error] [redhat.java] provider FAILED
+2025-07-11 13:44:03.579 [error] Error: The request (id: 2275, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:50:16.449 [error] Error: ENOENT: no such file or directory, lstat '/home/bpatch/repos/java/project-manager/project-manager/projects.db-journal'
+2025-07-11 13:50:24.967 [error] [redhat.java] provider FAILED
+2025-07-11 13:50:24.967 [error] Error: The request (id: 2459, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)
+2025-07-11 13:53:13.852 [error] [redhat.java] provider FAILED
+2025-07-11 13:53:13.853 [error] Error: The request (id: 2468, method: 'textDocument/hover') has been cancelled
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070003
+	at re (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1070297)
+	at /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065081
+	at Immediate.<anonymous> (/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/dist/extension.js:2:1065101)
+	at process.processImmediate (node:internal/timers:483:21)

@@ -1,0 +1,85 @@
+2025-07-10 18:46:56.573 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.574 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.576 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.576 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 18:46:56.613 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.613 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.614 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.614 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.614 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.615 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.615 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.615 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.615 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:56.616 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 18:46:57.206 [info] Started local extension host with pid 14550.
+2025-07-10 18:46:58.493 [error] Failed to fetch: TypeError: Failed to fetch
+    at oVi.getDidUserLastPaymentFailed (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57122) Failed to fetch
+2025-07-10 18:46:58.561 [warning] No search provider registered for scheme: file, waiting
+2025-07-10 18:47:01.424 [info] [perf] Render performance baseline is 22ms
+2025-07-10 18:47:02.200 [error] Error fetching user privacy mode: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:02.201 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.fetchUserPrivacyMode (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:49224)
+    at async oVi.refreshPrivacyMode (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:48964) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:02.316 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669)
+    at async oVi.refreshAuthentication (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:70384) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:02.466 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async oVi.getTeams (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:67231)
+    at async oVi.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:491:57669) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:02.771 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:03.434 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async dsn.C (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4223:7538) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:03.537 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:21871) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:03.701 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7061:54029) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:04.000 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.cursorPredictionConfig (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async IZs._refreshConfig (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7039:9332) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:04.144 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async kZs.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7017:11962)
+    at async kZs.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7034:17224) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:47:04.458 [error] An unknown error occurred. Please consult the log for more details. {}
+2025-07-10 18:47:05.869 [error] Failed to fetch: Failed: Failed to fetch
+    at m$s.N (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:919:78186)
+    at async m$s.J (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:919:71512)
+    at async m$s.D (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:919:65946)
+    at async m$s.getExtensions (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:919:64816)
+    at async _qs.getExtensions (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6212:16394)
+    at async $qs.O (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6212:51238)
+    at async $qs.D (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6212:48207)
+    at async $qs.promptWorkspaceRecommendations (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6212:47284)
+    at async Rqs.O (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6208:11449) Failed to fetch
+2025-07-10 18:47:27.827 [error] [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh: ConnectError: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+    at t (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4757:224502)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:489:207939)
+    at async vin.availableDocs (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1376:20242)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursoroQ96Bi/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4235:106789) [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh

@@ -1,0 +1,121 @@
+2025-07-11 14:16:11.669 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.680 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.681 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.681 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.681 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.681 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.682 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.682 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.682 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.682 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:16:11.896 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-11 14:16:11.903 [warning] IWorkbenchContributionsRegistry#getContribution('windsurf.cascadePanel'): contribution instantiated before LifecyclePhase.Restored!
+2025-07-11 14:16:12.018 [error] Cannot read properties of undefined (reading 'label'): TypeError: Cannot read properties of undefined (reading 'label')
+    at _ce.eb (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:844:11629)
+    at _ce.db (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:844:9734)
+    at _ce.ab (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:844:8805)
+2025-07-11 14:16:12.048 [info] Started local extension host with pid 45876.
+2025-07-11 14:16:12.089 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bpatch/.windsurf/extensions
+2025-07-11 14:16:12.381 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bpatch/.windsurf/extensions
+2025-07-11 14:16:12.944 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at V2.setIcon (file:///usr/share/windsurf/resources/app/out/main.js:87:3281)
+    at Object.call (file:///usr/share/windsurf/resources/app/out/main.js:33:4564)
+    at Rf.s (file:///usr/share/windsurf/resources/app/out/main.js:31:20114)
+    at Rf.q (file:///usr/share/windsurf/resources/app/out/main.js:31:19637)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:31:19039)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.C (file:///usr/share/windsurf/resources/app/out/main.js:30:2443)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2660)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:4893)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:5077)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at j (file:///usr/share/windsurf/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///usr/share/windsurf/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:524:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:87072)
+    at WebContents.emit (node:events:524:28)
+2025-07-11 14:16:17.020 [info] [perf] Render performance baseline is 23ms
+2025-07-11 14:17:49.137 [error] command 'workbench.action.installCommandLine' not found: Error: command 'workbench.action.installCommandLine' not found
+    at K2t.n (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1791:5052)
+    at K2t.executeCommand (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:1791:4984)
+    at async BFe.M (vscode-file://vscode-app/usr/share/windsurf/resources/app/out/vs/workbench/workbench.desktop.main.js:3325:42103)
+2025-07-11 14:17:59.828 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.828 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.828 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'fileComments' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.829 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.829 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.829 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.829 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.829 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.830 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.830 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-11 14:17:59.989 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-11 14:18:00.011 [warning] IWorkbenchContributionsRegistry#getContribution('windsurf.cascadePanel'): contribution instantiated before LifecyclePhase.Restored!
+2025-07-11 14:18:00.173 [info] Started local extension host with pid 47067.
+2025-07-11 14:18:01.070 [error] App icon customization is not supported on this OS: Error: App icon customization is not supported on this OS
+    at V2.setIcon (file:///usr/share/windsurf/resources/app/out/main.js:87:3281)
+    at Object.call (file:///usr/share/windsurf/resources/app/out/main.js:33:4564)
+    at Rf.s (file:///usr/share/windsurf/resources/app/out/main.js:31:20114)
+    at Rf.q (file:///usr/share/windsurf/resources/app/out/main.js:31:19637)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:31:19039)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.C (file:///usr/share/windsurf/resources/app/out/main.js:30:2443)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2660)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:4893)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at Qo.value (file:///usr/share/windsurf/resources/app/out/main.js:28:5077)
+    at D.B (file:///usr/share/windsurf/resources/app/out/main.js:30:2373)
+    at D.fire (file:///usr/share/windsurf/resources/app/out/main.js:30:2591)
+    at j (file:///usr/share/windsurf/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///usr/share/windsurf/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:524:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:87072)
+    at WebContents.emit (node:events:524:28)
+2025-07-11 14:18:02.915 [info] [perf] Render performance baseline is 21ms
+2025-07-11 14:24:34.812 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:24:56.626 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:25:15.167 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:35:28.590 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:38:11.070 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:46:36.162 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:53:44.922 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:56:04.290 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:56:10.658 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:56:42.294 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 14:58:52.658 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:01:34.991 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:02:12.453 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:03:21.990 [error] [Extension Host] Cannot track shell command with empty command line
+2025-07-11 15:07:55.212 [error] [Extension Host] FetchError: Unleash Repository error: Response timeout while trying to fetch https://unleash.codeium.com/api/client/features (over 2000ms)
+	at Timeout.<anonymous> (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2122126)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2025-07-11 15:08:57.737 [error] [Extension Host] FetchError: Unleash Repository error: Response timeout while trying to fetch https://unleash.codeium.com/api/client/features (over 2000ms)
+	at Timeout.<anonymous> (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2122126)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)
+2025-07-11 15:09:09.377 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:13:19.213 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:14:14.024 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:17:17.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:18:12.847 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:18:47.613 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:19:35.990 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:23:50.234 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:25:04.011 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:25:49.913 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:26:42.395 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:27:06.622 [error] An unknown error occurred. Please consult the log for more details.
+2025-07-11 15:27:44.581 [error] [Extension Host] Error acknowledging Cascade edit:  ConnectError: [unknown] no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+	at c (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862160)
+	at l (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3862556)
+	at next (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3869207)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async /usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3468253
+	at async Object.unary (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3867543)
+	at async Object.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:3855406)
+	at async t.acknowledgeCascadeCodeEdit (/usr/share/windsurf/resources/app/extensions/windsurf/dist/extension.js:2:2307683)

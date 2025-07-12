@@ -1,0 +1,317 @@
+2025-07-10 00:27:14.202 [info] CURSOR LOG: Finished creating provider!
+2025-07-10 00:29:15.709 [info] CURSOR LOG: requestId a6d2994a-ca7e-42de-902d-466fa3ef23bb  
+2025-07-10 00:29:16.858 [info] CURSOR LOG: Done streaming cpp with id a6d2994a-ca7e-42de-902d-466fa3ef23bb
+2025-07-10 00:29:16.858 [info] CPP RT LOG: Time taken for streaming cpp 1169.81689453125 with request a6d2994a-ca7e-42de-902d-466fa3ef23bb
+2025-07-10 00:29:16.858 [info] CPP Request Log with id a6d2994a-ca7e-42de-902d-466fa3ef23bb
+2025-07-10 00:29:16.858 [info] =======>Model output 
+
+2025-07-10 00:29:16.858 [info] =======>Debug stream time 60.56898199999705
+2025-07-10 00:29:16.858 [info] =======>Debug ttft time 60.32006499986164
+2025-07-10 00:29:16.859 [info] Average of latest 20 ttft time 60.32006499986164
+2025-07-10 00:29:16.859 [info] Average of latest 20 stream time 60.56898199999705
+2025-07-10 00:29:16.859 [info] Average of latest 20 total time NaN
+2025-07-10 00:29:16.859 [info] Average of latest 20 client time 1169.81689453125
+2025-07-10 00:29:16.859 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:29:16.859 [info] CPP RT LOG: All stats {"streamingtime":1169.81689453125,"actualTtftFromStart":1101.6396484375,"timeTillServerRequest":134.100341796875,"requestToTtft":967.539306640625,"totalTime":1301.78515625}
+2025-07-10 00:29:41.047 [info] CURSOR LOG: requestId d99712a1-aaff-46c7-9b9c-558e514c2cc5  
+2025-07-10 00:29:41.441 [info] CURSOR LOG: Done streaming cpp with id d99712a1-aaff-46c7-9b9c-558e514c2cc5
+2025-07-10 00:29:41.441 [info] CPP RT LOG: Time taken for streaming cpp 395.859619140625 with request d99712a1-aaff-46c7-9b9c-558e514c2cc5
+2025-07-10 00:29:41.442 [info] CPP Request Log with id d99712a1-aaff-46c7-9b9c-558e514c2cc5
+2025-07-10 00:29:41.442 [info] =======>Model output 
+
+2025-07-10 00:29:41.442 [info] =======>Debug stream time 115.08159400000295
+2025-07-10 00:29:41.442 [info] =======>Debug ttft time 114.81593900000735
+2025-07-10 00:29:41.652 [info] Average of latest 20 ttft time 87.5680019999345
+2025-07-10 00:29:41.652 [info] Average of latest 20 stream time 87.825288
+2025-07-10 00:29:41.652 [info] Average of latest 20 total time NaN
+2025-07-10 00:29:41.652 [info] Average of latest 20 client time 782.8382568359375
+2025-07-10 00:29:41.652 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:29:41.652 [info] CPP RT LOG: All stats {"streamingtime":395.859619140625,"actualTtftFromStart":324.09619140625,"timeTillServerRequest":127.907470703125,"requestToTtft":196.188720703125,"totalTime":523.721435546875}
+2025-07-10 00:30:19.785 [info] CURSOR LOG: requestId 6f37f8b8-83bb-4c47-a49c-c1c7b31a31e5  
+2025-07-10 00:30:20.475 [info] CURSOR LOG: Done streaming cpp with id 6f37f8b8-83bb-4c47-a49c-c1c7b31a31e5
+2025-07-10 00:30:20.475 [info] CPP RT LOG: Time taken for streaming cpp 691.193603515625 with request 6f37f8b8-83bb-4c47-a49c-c1c7b31a31e5
+2025-07-10 00:30:20.475 [info] CPP Request Log with id 6f37f8b8-83bb-4c47-a49c-c1c7b31a31e5
+2025-07-10 00:30:20.475 [info] =======>Model output 
+
+2025-07-10 00:30:20.475 [info] =======>Debug stream time 73.50982200000726
+2025-07-10 00:30:20.475 [info] =======>Debug ttft time 73.25597500000731
+2025-07-10 00:30:20.475 [info] Average of latest 20 ttft time 82.7973263332921
+2025-07-10 00:30:20.475 [info] Average of latest 20 stream time 83.05346600000242
+2025-07-10 00:30:20.475 [info] Average of latest 20 total time NaN
+2025-07-10 00:30:20.475 [info] Average of latest 20 client time 752.2900390625
+2025-07-10 00:30:20.475 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:30:20.475 [info] CPP RT LOG: All stats {"streamingtime":691.193603515625,"actualTtftFromStart":833.703369140625,"timeTillServerRequest":142.732177734375,"requestToTtft":690.97119140625,"totalTime":833.878662109375}
+2025-07-10 00:30:28.165 [info] CURSOR LOG: requestId 86ff1d8a-dc7d-4e73-9f02-ca28d2407cd1  
+2025-07-10 00:30:28.776 [info] CURSOR LOG: Done streaming cpp with id 86ff1d8a-dc7d-4e73-9f02-ca28d2407cd1
+2025-07-10 00:30:28.776 [info] CPP RT LOG: Time taken for streaming cpp 612.47509765625 with request 86ff1d8a-dc7d-4e73-9f02-ca28d2407cd1
+2025-07-10 00:30:28.776 [info] CPP Request Log with id 86ff1d8a-dc7d-4e73-9f02-ca28d2407cd1
+2025-07-10 00:30:28.776 [info] =======>Model output 
+
+2025-07-10 00:30:28.776 [info] =======>Debug stream time 80.90387900010683
+2025-07-10 00:30:28.776 [info] =======>Debug ttft time 80.64598900009878
+2025-07-10 00:30:28.777 [info] Average of latest 20 ttft time 82.25949199999377
+2025-07-10 00:30:28.777 [info] Average of latest 20 stream time 82.51606925002852
+2025-07-10 00:30:28.777 [info] Average of latest 20 total time NaN
+2025-07-10 00:30:28.777 [info] Average of latest 20 client time 717.3363037109375
+2025-07-10 00:30:28.777 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:30:28.777 [info] CPP RT LOG: All stats {"streamingtime":612.47509765625,"actualTtftFromStart":434.401611328125,"timeTillServerRequest":135.13671875,"requestToTtft":299.264892578125,"totalTime":747.550048828125}
+2025-07-10 00:30:39.024 [info] CURSOR LOG: requestId 35d7a8ed-cbb4-4c1e-a046-0cea95b4d3fa  
+2025-07-10 00:30:39.630 [info] CURSOR LOG: Done streaming cpp with id 35d7a8ed-cbb4-4c1e-a046-0cea95b4d3fa
+2025-07-10 00:30:39.630 [info] CPP RT LOG: Time taken for streaming cpp 608.58740234375 with request 35d7a8ed-cbb4-4c1e-a046-0cea95b4d3fa
+2025-07-10 00:30:39.630 [info] CPP Request Log with id 35d7a8ed-cbb4-4c1e-a046-0cea95b4d3fa
+2025-07-10 00:30:39.630 [info] =======>Model output 
+
+2025-07-10 00:30:39.630 [info] =======>Debug stream time 59.54099399999541
+2025-07-10 00:30:39.630 [info] =======>Debug ttft time 59.28617000000668
+2025-07-10 00:30:39.631 [info] Average of latest 20 ttft time 77.66482759999636
+2025-07-10 00:30:39.631 [info] Average of latest 20 stream time 77.9210542000219
+2025-07-10 00:30:39.631 [info] Average of latest 20 total time NaN
+2025-07-10 00:30:39.631 [info] Average of latest 20 client time 695.5865234375
+2025-07-10 00:30:39.631 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:30:39.631 [info] CPP RT LOG: All stats {"streamingtime":608.58740234375,"actualTtftFromStart":522.595458984375,"timeTillServerRequest":119.038818359375,"requestToTtft":403.556640625,"totalTime":727.580322265625}
+2025-07-10 00:30:45.035 [info] CURSOR LOG: requestId 509b3e3b-239b-4442-b642-726705e67625  
+2025-07-10 00:30:45.896 [info] CURSOR LOG: Done streaming cpp with id 509b3e3b-239b-4442-b642-726705e67625
+2025-07-10 00:30:45.896 [info] CPP RT LOG: Time taken for streaming cpp 862.720947265625 with request 509b3e3b-239b-4442-b642-726705e67625
+2025-07-10 00:30:45.896 [info] CPP Request Log with id 509b3e3b-239b-4442-b642-726705e67625
+2025-07-10 00:30:45.896 [info] =======>Model output 
+
+2025-07-10 00:30:45.897 [info] =======>Debug stream time 180.35577500000363
+2025-07-10 00:30:45.897 [info] =======>Debug ttft time 122.06646400000318
+2025-07-10 00:30:45.897 [info] Average of latest 20 ttft time 85.06510033333082
+2025-07-10 00:30:45.897 [info] Average of latest 20 stream time 94.99350766668552
+2025-07-10 00:30:45.897 [info] Average of latest 20 total time NaN
+2025-07-10 00:30:45.897 [info] Average of latest 20 client time 723.4422607421875
+2025-07-10 00:30:45.897 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:30:45.897 [info] CPP RT LOG: All stats {"streamingtime":862.720947265625,"actualTtftFromStart":350.81591796875,"timeTillServerRequest":100.714111328125,"requestToTtft":250.101806640625,"totalTime":963.360107421875}
+2025-07-10 00:34:14.976 [info] CURSOR LOG: requestId 4143d73a-5f44-4ac9-80b4-15f29b4696d3  
+2025-07-10 00:34:15.518 [info] CURSOR LOG: Done streaming cpp with id 4143d73a-5f44-4ac9-80b4-15f29b4696d3
+2025-07-10 00:34:15.518 [info] CPP RT LOG: Time taken for streaming cpp 543.18994140625 with request 4143d73a-5f44-4ac9-80b4-15f29b4696d3
+2025-07-10 00:34:15.518 [info] CPP Request Log with id 4143d73a-5f44-4ac9-80b4-15f29b4696d3
+2025-07-10 00:34:15.518 [info] =======>Model output 
+
+2025-07-10 00:34:15.518 [info] =======>Debug stream time 187.0230679999804
+2025-07-10 00:34:15.518 [info] =======>Debug ttft time 186.6307229999802
+2025-07-10 00:34:15.519 [info] Average of latest 20 ttft time 99.57447499999502
+2025-07-10 00:34:15.519 [info] Average of latest 20 stream time 108.14058771429907
+2025-07-10 00:34:15.519 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:15.519 [info] Average of latest 20 client time 697.6919294084821
+2025-07-10 00:34:15.519 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:15.519 [info] CPP RT LOG: All stats {"streamingtime":543.18994140625,"actualTtftFromStart":516.71630859375,"timeTillServerRequest":177.992919921875,"requestToTtft":338.723388671875,"totalTime":721.108642578125}
+2025-07-10 00:34:24.173 [info] CURSOR LOG: requestId 56ccab59-3f40-4e52-b6bd-a9f1c5d82e8b  
+2025-07-10 00:34:25.147 [info] CURSOR LOG: Done streaming cpp with id 56ccab59-3f40-4e52-b6bd-a9f1c5d82e8b
+2025-07-10 00:34:25.147 [info] CPP RT LOG: Time taken for streaming cpp 973.860107421875 with request 56ccab59-3f40-4e52-b6bd-a9f1c5d82e8b
+2025-07-10 00:34:25.147 [info] CPP Request Log with id 56ccab59-3f40-4e52-b6bd-a9f1c5d82e8b
+2025-07-10 00:34:25.147 [info] =======>Model output 
+
+2025-07-10 00:34:25.147 [info] =======>Debug stream time 125.60256200004369
+2025-07-10 00:34:25.148 [info] Average of latest 20 ttft time 99.57447499999502
+2025-07-10 00:34:25.148 [info] Average of latest 20 stream time 110.32333450001715
+2025-07-10 00:34:25.148 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:25.148 [info] Average of latest 20 client time 732.2129516601562
+2025-07-10 00:34:25.148 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:25.148 [info] CPP RT LOG: All stats {"streamingtime":973.860107421875,"actualTtftFromStart":1032.455810546875,"timeTillServerRequest":267.606201171875,"requestToTtft":764.849609375,"totalTime":1241.41455078125}
+2025-07-10 00:34:33.541 [info] CURSOR LOG: requestId 140e30de-e7ef-4fb7-a0fc-a3a107f40524  
+2025-07-10 00:34:33.946 [info] CURSOR LOG: Done streaming cpp with id 140e30de-e7ef-4fb7-a0fc-a3a107f40524
+2025-07-10 00:34:33.946 [info] CPP RT LOG: Time taken for streaming cpp 406.3955078125 with request 140e30de-e7ef-4fb7-a0fc-a3a107f40524
+2025-07-10 00:34:33.946 [info] CPP Request Log with id 140e30de-e7ef-4fb7-a0fc-a3a107f40524
+2025-07-10 00:34:33.946 [info] =======>Model output 
+
+2025-07-10 00:34:33.946 [info] =======>Debug stream time 79.39749200001825
+2025-07-10 00:34:34.360 [info] Average of latest 20 ttft time 99.57447499999502
+2025-07-10 00:34:34.360 [info] Average of latest 20 stream time 106.88712977779505
+2025-07-10 00:34:34.360 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:34.360 [info] Average of latest 20 client time 696.0110134548611
+2025-07-10 00:34:34.360 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:34.360 [info] CPP RT LOG: All stats {"streamingtime":406.3955078125,"actualTtftFromStart":316.80810546875,"timeTillServerRequest":114.099365234375,"requestToTtft":202.708740234375,"totalTime":520.40185546875}
+2025-07-10 00:34:39.647 [info] CURSOR LOG: requestId d08fa85d-6048-438c-9e24-681afb572f85  
+2025-07-10 00:34:40.298 [info] CURSOR LOG: Done streaming cpp with id d08fa85d-6048-438c-9e24-681afb572f85
+2025-07-10 00:34:40.298 [info] CPP RT LOG: Time taken for streaming cpp 652.656005859375 with request d08fa85d-6048-438c-9e24-681afb572f85
+2025-07-10 00:34:40.298 [info] CPP Request Log with id d08fa85d-6048-438c-9e24-681afb572f85
+2025-07-10 00:34:40.298 [info] =======>Model output 
+
+2025-07-10 00:34:40.298 [info] =======>Debug stream time 79.0050330000231
+2025-07-10 00:34:40.299 [info] Average of latest 20 ttft time 99.57447499999502
+2025-07-10 00:34:40.299 [info] Average of latest 20 stream time 104.09892010001786
+2025-07-10 00:34:40.299 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:40.299 [info] Average of latest 20 client time 691.6755126953125
+2025-07-10 00:34:40.299 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:40.299 [info] CPP RT LOG: All stats {"streamingtime":652.656005859375,"actualTtftFromStart":373.50732421875,"timeTillServerRequest":90.94970703125,"requestToTtft":282.5576171875,"totalTime":743.5322265625}
+2025-07-10 00:34:45.835 [info] CURSOR LOG: requestId 015c4514-b684-4eb4-95cb-72fe5b777d48  
+2025-07-10 00:34:46.543 [info] CURSOR LOG: Done streaming cpp with id 015c4514-b684-4eb4-95cb-72fe5b777d48
+2025-07-10 00:34:46.543 [info] CPP RT LOG: Time taken for streaming cpp 709.410400390625 with request 015c4514-b684-4eb4-95cb-72fe5b777d48
+2025-07-10 00:34:46.543 [info] CPP Request Log with id 015c4514-b684-4eb4-95cb-72fe5b777d48
+2025-07-10 00:34:46.543 [info] =======>Model output 
+
+2025-07-10 00:34:46.543 [info] =======>Debug stream time 138.58313800001633
+2025-07-10 00:34:46.543 [info] =======>Debug ttft time 138.35297600002377
+2025-07-10 00:34:46.544 [info] Average of latest 20 ttft time 104.42178762499861
+2025-07-10 00:34:46.544 [info] Average of latest 20 stream time 107.23384900001771
+2025-07-10 00:34:46.544 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:46.544 [info] Average of latest 20 client time 693.2877752130681
+2025-07-10 00:34:46.544 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:46.544 [info] CPP RT LOG: All stats {"streamingtime":709.410400390625,"actualTtftFromStart":527.900634765625,"timeTillServerRequest":130.175537109375,"requestToTtft":397.72509765625,"totalTime":839.552978515625}
+2025-07-10 00:34:51.731 [info] CURSOR LOG: requestId 372319e4-1ee1-44d9-a921-84e2b134f20b  
+2025-07-10 00:34:52.368 [info] CURSOR LOG: Done streaming cpp with id 372319e4-1ee1-44d9-a921-84e2b134f20b
+2025-07-10 00:34:52.368 [info] CPP RT LOG: Time taken for streaming cpp 638.3876953125 with request 372319e4-1ee1-44d9-a921-84e2b134f20b
+2025-07-10 00:34:52.368 [info] CPP Request Log with id 372319e4-1ee1-44d9-a921-84e2b134f20b
+2025-07-10 00:34:52.368 [info] =======>Model output 
+
+2025-07-10 00:34:52.368 [info] =======>Debug stream time 109.59484999999404
+2025-07-10 00:34:52.369 [info] Average of latest 20 ttft time 104.42178762499861
+2025-07-10 00:34:52.369 [info] Average of latest 20 stream time 107.43059908334908
+2025-07-10 00:34:52.369 [info] Average of latest 20 total time NaN
+2025-07-10 00:34:52.369 [info] Average of latest 20 client time 688.7127685546875
+2025-07-10 00:34:52.369 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:34:52.369 [info] CPP RT LOG: All stats {"streamingtime":638.3876953125,"actualTtftFromStart":378.6650390625,"timeTillServerRequest":82.7080078125,"requestToTtft":295.95703125,"totalTime":721.0458984375}
+2025-07-10 00:35:10.280 [info] CURSOR LOG: requestId b47b1f9b-f146-4a60-8b2d-f18db003f687  
+2025-07-10 00:35:10.597 [info] CURSOR LOG: Done streaming cpp with id b47b1f9b-f146-4a60-8b2d-f18db003f687
+2025-07-10 00:35:10.597 [info] CPP RT LOG: Time taken for streaming cpp 318.404052734375 with request b47b1f9b-f146-4a60-8b2d-f18db003f687
+2025-07-10 00:35:10.597 [info] CPP Request Log with id b47b1f9b-f146-4a60-8b2d-f18db003f687
+2025-07-10 00:35:10.597 [info] =======>Model output 
+
+2025-07-10 00:35:10.597 [info] =======>Debug stream time 51.18886699998984
+2025-07-10 00:35:10.597 [info] Average of latest 20 ttft time 104.42178762499861
+2025-07-10 00:35:10.597 [info] Average of latest 20 stream time 103.10431200001375
+2025-07-10 00:35:10.597 [info] Average of latest 20 total time NaN
+2025-07-10 00:35:10.597 [info] Average of latest 20 client time 660.2274827223557
+2025-07-10 00:35:10.597 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:35:10.597 [info] CPP RT LOG: All stats {"streamingtime":318.404052734375,"actualTtftFromStart":405.773193359375,"timeTillServerRequest":182.668212890625,"requestToTtft":223.10498046875,"totalTime":501.02978515625}
+2025-07-10 00:35:24.011 [info] CURSOR LOG: requestId e08af0da-5ad5-40dc-85b5-d8f38020176b  
+2025-07-10 00:35:24.727 [info] CURSOR LOG: Done streaming cpp with id e08af0da-5ad5-40dc-85b5-d8f38020176b
+2025-07-10 00:35:24.727 [info] CPP RT LOG: Time taken for streaming cpp 717.5498046875 with request e08af0da-5ad5-40dc-85b5-d8f38020176b
+2025-07-10 00:35:24.727 [info] CPP Request Log with id e08af0da-5ad5-40dc-85b5-d8f38020176b
+2025-07-10 00:35:24.727 [info] =======>Model output 
+
+2025-07-10 00:35:24.727 [info] =======>Debug stream time 126.42237599997316
+2025-07-10 00:35:24.728 [info] Average of latest 20 ttft time 104.42178762499861
+2025-07-10 00:35:24.728 [info] Average of latest 20 stream time 104.76988800001085
+2025-07-10 00:35:24.728 [info] Average of latest 20 total time NaN
+2025-07-10 00:35:24.728 [info] Average of latest 20 client time 664.3219342912946
+2025-07-10 00:35:24.728 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:35:24.728 [info] CPP RT LOG: All stats {"streamingtime":717.5498046875,"actualTtftFromStart":700.93310546875,"timeTillServerRequest":333.864501953125,"requestToTtft":367.068603515625,"totalTime":1051.357666015625}
+2025-07-10 00:47:14.370 [info] CURSOR LOG: requestId 890b88ec-a75b-49d3-90ca-ef78ec2848e5  
+2025-07-10 00:47:14.808 [info] CURSOR LOG: Done streaming cpp with id 890b88ec-a75b-49d3-90ca-ef78ec2848e5
+2025-07-10 00:47:14.808 [info] CPP RT LOG: Time taken for streaming cpp 439.19970703125 with request 890b88ec-a75b-49d3-90ca-ef78ec2848e5
+2025-07-10 00:47:14.808 [info] CPP Request Log with id 890b88ec-a75b-49d3-90ca-ef78ec2848e5
+2025-07-10 00:47:14.808 [info] =======>Model output 
+
+2025-07-10 00:47:14.808 [info] =======>Debug stream time 129.9036039998755
+2025-07-10 00:47:14.875 [info] Average of latest 20 ttft time 104.42178762499861
+2025-07-10 00:47:14.875 [info] Average of latest 20 stream time 106.4454690666685
+2025-07-10 00:47:14.875 [info] Average of latest 20 total time NaN
+2025-07-10 00:47:14.875 [info] Average of latest 20 client time 649.3137858072917
+2025-07-10 00:47:14.875 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:47:14.875 [info] CPP RT LOG: All stats {"streamingtime":439.19970703125,"actualTtftFromStart":435.631103515625,"timeTillServerRequest":134.691162109375,"requestToTtft":300.93994140625,"totalTime":573.858154296875}
+2025-07-10 00:47:17.240 [info] CURSOR LOG: requestId 22029cb1-680d-49f9-879b-a5435f2754d6  
+2025-07-10 00:47:17.565 [info] CURSOR LOG: Done streaming cpp with id 22029cb1-680d-49f9-879b-a5435f2754d6
+2025-07-10 00:47:17.565 [info] CPP RT LOG: Time taken for streaming cpp 326.09326171875 with request 22029cb1-680d-49f9-879b-a5435f2754d6
+2025-07-10 00:47:17.565 [info] CPP Request Log with id 22029cb1-680d-49f9-879b-a5435f2754d6
+2025-07-10 00:47:17.565 [info] =======>Model output 
+
+2025-07-10 00:47:17.565 [info] =======>Debug stream time 109.27523000002839
+2025-07-10 00:47:17.565 [info] =======>Debug ttft time 109.06319899996743
+2025-07-10 00:47:17.643 [info] Average of latest 20 ttft time 104.93749999999515
+2025-07-10 00:47:17.643 [info] Average of latest 20 stream time 106.62232912500349
+2025-07-10 00:47:17.643 [info] Average of latest 20 total time NaN
+2025-07-10 00:47:17.643 [info] Average of latest 20 client time 629.1125030517578
+2025-07-10 00:47:17.643 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:47:17.643 [info] CPP RT LOG: All stats {"streamingtime":326.09326171875,"actualTtftFromStart":316.77880859375,"timeTillServerRequest":94.17822265625,"requestToTtft":222.6005859375,"totalTime":420.228271484375}
+2025-07-10 00:47:18.645 [info] CURSOR LOG: requestId 96cbe987-c779-4871-b43a-d015a513ccb9  
+2025-07-10 00:47:19.308 [info] CURSOR LOG: Done streaming cpp with id 96cbe987-c779-4871-b43a-d015a513ccb9
+2025-07-10 00:47:19.308 [info] CPP RT LOG: Time taken for streaming cpp 664.331298828125 with request 96cbe987-c779-4871-b43a-d015a513ccb9
+2025-07-10 00:47:19.308 [info] CPP Request Log with id 96cbe987-c779-4871-b43a-d015a513ccb9
+2025-07-10 00:47:19.308 [info] =======>Model output 
+
+2025-07-10 00:47:19.308 [info] =======>Debug stream time 106.54830499994569
+2025-07-10 00:47:19.308 [info] =======>Debug ttft time 106.32005099998787
+2025-07-10 00:47:19.309 [info] Average of latest 20 ttft time 105.07575509999442
+2025-07-10 00:47:19.309 [info] Average of latest 20 stream time 106.61797476470598
+2025-07-10 00:47:19.309 [info] Average of latest 20 total time NaN
+2025-07-10 00:47:19.309 [info] Average of latest 20 client time 631.1841969209559
+2025-07-10 00:47:19.309 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:47:19.309 [info] CPP RT LOG: All stats {"streamingtime":664.331298828125,"actualTtftFromStart":546.6552734375,"timeTillServerRequest":91.704833984375,"requestToTtft":454.950439453125,"totalTime":755.989501953125}
+2025-07-10 00:47:27.005 [info] CURSOR LOG: requestId d5cee59f-d549-4547-a0f0-cbfb255b49a9  
+2025-07-10 00:47:27.719 [info] CURSOR LOG: Done streaming cpp with id d5cee59f-d549-4547-a0f0-cbfb255b49a9
+2025-07-10 00:47:27.719 [info] CPP RT LOG: Time taken for streaming cpp 715.380126953125 with request d5cee59f-d549-4547-a0f0-cbfb255b49a9
+2025-07-10 00:47:27.719 [info] CPP Request Log with id d5cee59f-d549-4547-a0f0-cbfb255b49a9
+2025-07-10 00:47:27.719 [info] =======>Model output 
+
+2025-07-10 00:47:27.719 [info] =======>Debug stream time 90.3782689999789
+2025-07-10 00:47:27.719 [info] =======>Debug ttft time 90.12977999995928
+2025-07-10 00:47:27.928 [info] Average of latest 20 ttft time 103.71703009090032
+2025-07-10 00:47:27.928 [info] Average of latest 20 stream time 105.7157688888878
+2025-07-10 00:47:27.928 [info] Average of latest 20 total time NaN
+2025-07-10 00:47:27.929 [info] Average of latest 20 client time 635.8617485894097
+2025-07-10 00:47:27.929 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:47:27.929 [info] CPP RT LOG: All stats {"streamingtime":715.380126953125,"actualTtftFromStart":678.996337890625,"timeTillServerRequest":140.370849609375,"requestToTtft":538.62548828125,"totalTime":855.70068359375}
+2025-07-10 00:50:14.200 [info] CURSOR LOG: requestId 0525f487-f50a-4291-97d3-98bf267022ee  
+2025-07-10 00:50:15.207 [info] CURSOR LOG: Done streaming cpp with id 0525f487-f50a-4291-97d3-98bf267022ee
+2025-07-10 00:50:15.208 [info] CPP RT LOG: Time taken for streaming cpp 1030.27783203125 with request 0525f487-f50a-4291-97d3-98bf267022ee
+2025-07-10 00:50:15.208 [info] CPP Request Log with id 0525f487-f50a-4291-97d3-98bf267022ee
+2025-07-10 00:50:15.208 [info] =======>Model output 
+
+2025-07-10 00:50:15.208 [info] =======>Debug stream time 154.5457269999897
+2025-07-10 00:50:15.208 [info] =======>Debug ttft time 154.31063500000164
+2025-07-10 00:50:15.208 [info] Average of latest 20 ttft time 107.93316383332542
+2025-07-10 00:50:15.208 [info] Average of latest 20 stream time 108.28576668420895
+2025-07-10 00:50:15.208 [info] Average of latest 20 total time NaN
+2025-07-10 00:50:15.208 [info] Average of latest 20 client time 656.6204898231908
+2025-07-10 00:50:15.208 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:50:15.209 [info] CPP RT LOG: All stats {"streamingtime":1030.27783203125,"actualTtftFromStart":1085.978515625,"timeTillServerRequest":56.069580078125,"requestToTtft":1029.908935546875,"totalTime":1086.1845703125}
+2025-07-10 00:51:42.898 [info] CURSOR LOG: requestId f5e2813e-0603-49b5-8c7c-5b22ad1b7d91  
+2025-07-10 00:51:44.625 [info] CURSOR LOG: Done streaming cpp with id f5e2813e-0603-49b5-8c7c-5b22ad1b7d91
+2025-07-10 00:51:44.625 [info] CPP RT LOG: Time taken for streaming cpp 1746.568603515625 with request f5e2813e-0603-49b5-8c7c-5b22ad1b7d91
+2025-07-10 00:51:44.625 [info] CPP Request Log with id f5e2813e-0603-49b5-8c7c-5b22ad1b7d91
+2025-07-10 00:51:44.625 [info] =======>Model output 
+
+2025-07-10 00:51:44.625 [info] =======>Debug stream time 148.22082899999805
+2025-07-10 00:51:44.626 [info] =======>Debug ttft time 147.987162000034
+2025-07-10 00:51:44.626 [info] Average of latest 20 ttft time 111.01424061537993
+2025-07-10 00:51:44.626 [info] Average of latest 20 stream time 110.28251979999841
+2025-07-10 00:51:44.626 [info] Average of latest 20 total time NaN
+2025-07-10 00:51:44.626 [info] Average of latest 20 client time 711.1178955078125
+2025-07-10 00:51:44.626 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:51:44.626 [info] CPP RT LOG: All stats {"streamingtime":1746.568603515625,"actualTtftFromStart":1701.021240234375,"timeTillServerRequest":51.6962890625,"requestToTtft":1649.324951171875,"totalTime":1798.212890625}
+2025-07-10 00:52:23.778 [info] CURSOR LOG: requestId f3b0d46e-cee6-4edf-9a6d-bb071b7f462f  
+2025-07-10 00:52:24.635 [info] CURSOR LOG: Done streaming cpp with id f3b0d46e-cee6-4edf-9a6d-bb071b7f462f
+2025-07-10 00:52:24.635 [info] CPP RT LOG: Time taken for streaming cpp 858.759521484375 with request f3b0d46e-cee6-4edf-9a6d-bb071b7f462f
+2025-07-10 00:52:24.635 [info] CPP Request Log with id f3b0d46e-cee6-4edf-9a6d-bb071b7f462f
+2025-07-10 00:52:24.635 [info] =======>Model output 
+
+2025-07-10 00:52:24.635 [info] =======>Debug stream time 169.9560599999968
+2025-07-10 00:52:24.635 [info] =======>Debug ttft time 169.7128330001142
+2025-07-10 00:52:24.635 [info] Average of latest 20 ttft time 115.20699721428953
+2025-07-10 00:52:24.635 [info] Average of latest 20 stream time 115.7518736999984
+2025-07-10 00:52:24.635 [info] Average of latest 20 total time NaN
+2025-07-10 00:52:24.635 [info] Average of latest 20 client time 695.5650268554688
+2025-07-10 00:52:24.635 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:52:24.635 [info] CPP RT LOG: All stats {"streamingtime":858.759521484375,"actualTtftFromStart":730.57666015625,"timeTillServerRequest":75.48583984375,"requestToTtft":655.0908203125,"totalTime":934.205810546875}
+2025-07-10 00:58:39.205 [info] CURSOR LOG: requestId 96e74ba4-5469-48de-b91e-cb49771d83f7  
+2025-07-10 00:58:40.277 [info] CURSOR LOG: Done streaming cpp with id 96e74ba4-5469-48de-b91e-cb49771d83f7
+2025-07-10 00:58:40.277 [info] CPP RT LOG: Time taken for streaming cpp 1074.6240234375 with request 96e74ba4-5469-48de-b91e-cb49771d83f7
+2025-07-10 00:58:40.277 [info] CPP Request Log with id 96e74ba4-5469-48de-b91e-cb49771d83f7
+2025-07-10 00:58:40.277 [info] =======>Model output 
+
+2025-07-10 00:58:40.277 [info] =======>Debug stream time 166.2344560001511
+2025-07-10 00:58:40.277 [info] =======>Debug ttft time 166.00556399999186
+2025-07-10 00:58:40.277 [info] Average of latest 20 ttft time 118.59356833333635
+2025-07-10 00:58:40.277 [info] Average of latest 20 stream time 118.30951680000581
+2025-07-10 00:58:40.278 [info] Average of latest 20 total time NaN
+2025-07-10 00:58:40.278 [info] Average of latest 20 client time 729.5032470703125
+2025-07-10 00:58:40.278 [info] Average of latest 20 discrepencies NaN
+2025-07-10 00:58:40.278 [info] CPP RT LOG: All stats {"streamingtime":1074.6240234375,"actualTtftFromStart":1158.75830078125,"timeTillServerRequest":84.547607421875,"requestToTtft":1074.210693359375,"totalTime":1159.111572265625}
+2025-07-10 01:05:50.347 [info] CURSOR LOG: requestId 8f426ebb-0b93-4c8b-8932-5a4693e151d5  
+2025-07-10 01:05:51.846 [info] CURSOR LOG: Done streaming cpp with id 8f426ebb-0b93-4c8b-8932-5a4693e151d5
+2025-07-10 01:05:51.846 [info] CPP RT LOG: Time taken for streaming cpp 1500.255859375 with request 8f426ebb-0b93-4c8b-8932-5a4693e151d5
+2025-07-10 01:05:51.847 [info] CPP Request Log with id 8f426ebb-0b93-4c8b-8932-5a4693e151d5
+2025-07-10 01:05:51.847 [info] =======>Model output 
+
+2025-07-10 01:05:51.847 [info] =======>Debug stream time 129.83531200001016
+2025-07-10 01:05:51.847 [info] =======>Debug ttft time 129.62301600002684
+2025-07-10 01:05:51.847 [info] Average of latest 20 ttft time 119.2829088125045
+2025-07-10 01:05:51.847 [info] Average of latest 20 stream time 121.12579130000594
+2025-07-10 01:05:51.847 [info] Average of latest 20 total time NaN
+2025-07-10 01:05:51.847 [info] Average of latest 20 client time 769.9563598632812
+2025-07-10 01:05:51.847 [info] Average of latest 20 discrepencies NaN
+2025-07-10 01:05:51.847 [info] CPP RT LOG: All stats {"streamingtime":1500.255859375,"actualTtftFromStart":1410.734619140625,"timeTillServerRequest":109.826171875,"requestToTtft":1300.908447265625,"totalTime":1610.031982421875}
+2025-07-10 01:14:17.353 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh

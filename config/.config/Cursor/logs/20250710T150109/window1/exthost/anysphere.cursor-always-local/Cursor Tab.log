@@ -1,0 +1,23 @@
+2025-07-10 15:01:16.892 [info] CURSOR LOG: Finished creating provider!
+2025-07-10 18:43:22.243 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:43:34.809 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:43:44.895 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:43:50.434 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:00.600 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:10.627 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:20.675 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:31.558 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:36.626 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:44.893 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:51.628 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:44:56.699 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:45:16.721 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:45:25.757 [error] Error Checking Connection: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2025-07-10 18:45:38.097 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:45:45.588 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:02.286 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:15.898 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:29.418 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:34.464 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:40.272 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh
+2025-07-10 18:46:46.231 [error] Error Checking Connection: [unavailable] getaddrinfo ENOTFOUND api2.cursor.sh

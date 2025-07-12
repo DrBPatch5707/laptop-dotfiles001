@@ -1,0 +1,34 @@
+2025-07-10 00:12:19.086 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.087 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.088 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.088 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-10 00:12:19.124 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.125 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.125 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.125 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "repositoryIndexingError" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "repositoryIndexingStatus" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "repositoryLastSyncedTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "repositoryIndexingJobs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "mainLocalRepositoryProgress" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.126 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.127 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.128 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.128 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.128 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.128 [warning] Missing property "solidJSLeakRecords" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-07-10 00:12:19.609 [info] Started local extension host with pid 1949.
+2025-07-10 00:12:20.375 [warning] No search provider registered for scheme: file, waiting
+2025-07-10 00:12:23.160 [info] [perf] Render performance baseline is 22ms

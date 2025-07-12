@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fields">Fields</a></li>
+                <li><a href="#constructors">Constructors</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#usage">Usage Examples</a></li>
+            </ul>
+
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+                <li><a href="TestBackendService.html">TestBackendService</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                Project
+            </div>
+
+            <div class="class-header">
+                <h1>Project</h1>
+                <p>Data Transfer Object (DTO) representing a project in the Project Manager application</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>Project</code> class serves as a bridge between the GUI and backend services. It contains all the data fields needed to represent a software project, including metadata, status information, and file system paths.</p>
+                    
+                    <div class="alert alert-info">
+                        <strong>Important:</strong> All fields are mutable to support both creation and editing operations. The backend is responsible for managing data persistence and validation.
+                    </div>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Complete Project Metadata:</strong> Name, description, status, priority, category</li>
+                        <li><strong>File System Integration:</strong> Relative path management for project locations</li>
+                        <li><strong>Timestamps:</strong> Creation and modification dates for tracking</li>
+                        <li><strong>ID Management:</strong> Unique identifier for database operations</li>
+                        <li><strong>Utility Methods:</strong> Helper methods for common operations</li>
+                    </ul>
+                </section>
+
+                <section id="fields">
+                    <h2>Fields</h2>
+                    
+                    <div class="field-section">
+                        <div class="field">
+                            <span class="field-name">id</span>
+                            <span class="field-type">int</span>
+                            <div class="field-description">
+                                <p>Unique identifier for the project. Set by the backend when creating new projects. Used for database operations and project identification.</p>
+                                <ul>
+                                    <li>-1 indicates a new project not yet saved</li>
+                                    <li>Positive integers are assigned by the backend</li>
+                                    <li>Used for equals() and hashCode() comparisons</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">name</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Human-readable name of the project. Required field - should not be null or empty. Used for display in GUI tables and dialogs.</p>
+                                <ul>
+                                    <li>Required field for project creation</li>
+                                    <li>Displayed in the main project table</li>
+                                    <li>Used in toString() method</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">description</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Detailed description of the project. Can be null or empty for simple projects. Supports multi-line text in GUI text areas.</p>
+                                <ul>
+                                    <li>Optional field for additional project details</li>
+                                    <li>Supports multi-line text input</li>
+                                    <li>Displayed in project editing dialogs</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">relativePath</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Relative path from the projects root directory to this project's folder. Used by the backend to construct absolute paths and manage project locations.</p>
+                                <ul>
+                                    <li>Should be normalized (use forward slashes, no leading slash)</li>
+                                    <li>Backend converts absolute paths to relative paths</li>
+                                    <li>Used for opening project folders and editors</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">status</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Current status of the project. Predefined values: "In Development", "Completed", "Depreciated". Used for filtering and sorting in the GUI.</p>
+                                <ul>
+                                    <li>Predefined values for consistency</li>
+                                    <li>Displayed in project table</li>
+                                    <li>Used for filtering and organization</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">creationDate</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Date when the project was created. Format: ISO 8601 string (YYYY-MM-DD HH:MM:SS). Managed by the backend, typically read-only in GUI.</p>
+                                <ul>
+                                    <li>ISO 8601 format for consistency</li>
+                                    <li>Set automatically by backend</li>
+                                    <li>Read-only in most GUI operations</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">lastModifiedDate</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Date when the project was last modified. Format: ISO 8601 string (YYYY-MM-DD HH:MM:SS). Updated by the backend when project data changes.</p>
+                                <ul>
+                                    <li>ISO 8601 format for consistency</li>
+                                    <li>Updated automatically on changes</li>
+                                    <li>Used for sorting and tracking</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">priority</span>
+                            <span class="field-type">int</span>
+                            <div class="field-description">
+                                <p>Priority level of the project (1-5, where 1 is highest priority). Used for sorting and visual indicators in the GUI.</p>
+                                <ul>
+                                    <li>Range: 1-5 (1 = highest, 5 = lowest)</li>
+                                    <li>Used for sorting projects</li>
+                                    <li>Converted to display text: "High" (1-2), "Medium" (3), "Low" (4-5)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <span class="field-name">category</span>
+                            <span class="field-type">String</span>
+                            <div class="field-description">
+                                <p>Category or tag for grouping related projects. Can be null or empty. Used for filtering and organization in the GUI.</p>
+                                <ul>
+                                    <li>Optional field for project organization</li>
+                                    <li>Displayed in project table</li>
+                                    <li>Used for filtering and grouping</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="constructors">
+                    <h2>Constructors</h2>
+                    
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>Project()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Default constructor for creating new projects. All fields are initialized to default values. The backend should set appropriate defaults (e.g., current date, default status).</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Default Values:</strong>
+                                <ul>
+                                    <li>id = -1 (indicates new project)</li>
+                                    <li>name = "" (empty string)</li>
+                                    <li>description = "" (empty string)</li>
+                                    <li>relativePath = "" (empty string)</li>
+                                    <li>status = "In Development"</li>
+                                    <li>creationDate = "" (empty string)</li>
+                                    <li>lastModifiedDate = "" (empty string)</li>
+                                    <li>priority = 3 (Medium priority)</li>
+                                    <li>category = "" (empty string)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>Project(int id, String name, String description, String relativePath, String status, String creationDate, String lastModifiedDate, int priority, String category)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Constructor for creating projects with initial data. Typically used by the backend when loading existing projects from storage.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">id</span>
+                                    <span class="parameter-type">int</span>
+                                    <div class="parameter-description">Unique project identifier</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">name</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project name (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">description</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project description (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">relativePath</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Relative path to project folder (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">status</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Current project status (null values default to "In Development")</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">creationDate</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project creation date (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">lastModifiedDate</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Last modification date (null values converted to empty string)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">priority</span>
+                                    <span class="parameter-type">int</span>
+                                    <div class="parameter-description">Project priority (1-5)</div>
+                                </div>
+                                <div class="parameter">
+                                    <span class="parameter-name">category</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project category (null values converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="methods">
+                    <h2>Methods</h2>
+
+                    <div class="method-section">
+                        <h3>Getters</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>int getId()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the unique project identifier.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Project ID, or -1 if this is a new unsaved project
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getName()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the project name.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Project name, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getDescription()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the project description.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Project description, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getRelativePath()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the relative path to the project folder.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Relative path, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getStatus()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the current project status.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Project status, never null
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getCreationDate()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the project creation date.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Creation date as ISO 8601 string, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getLastModifiedDate()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the last modification date.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Last modified date as ISO 8601 string, never null (empty string if not set)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>int getPriority()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the project priority level.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Priority (1-5, where 1 is highest)
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getCategory()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets the project category.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Project category, never null (empty string if not set)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Setters</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setId(int id)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project identifier. Should only be called by the backend when saving new projects.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">id</span>
+                                    <span class="parameter-type">int</span>
+                                    <div class="parameter-description">Unique project identifier</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setName(String name)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project name.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">name</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project name (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setDescription(String description)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project description.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">description</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project description (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setRelativePath(String relativePath)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the relative path to the project folder.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">relativePath</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Relative path (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setStatus(String status)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project status.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">status</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project status (null values default to "In Development")</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setCreationDate(String creationDate)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the creation date.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">creationDate</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Creation date as ISO 8601 string (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setLastModifiedDate(String lastModifiedDate)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the last modification date.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">lastModifiedDate</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Last modified date as ISO 8601 string (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setPriority(int priority)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project priority.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">priority</span>
+                                    <span class="parameter-type">int</span>
+                                    <div class="parameter-description">Priority level (1-5, where 1 is highest)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>void setCategory(String category)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Sets the project category.</p>
+                            </div>
+                            <div class="parameter-list">
+                                <strong>Parameters:</strong>
+                                <div class="parameter">
+                                    <span class="parameter-name">category</span>
+                                    <span class="parameter-type">String</span>
+                                    <div class="parameter-description">Project category (null values are converted to empty string)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Utility Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>boolean isNew()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Checks if this project is new (not yet saved to the backend).</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> true if the project ID is -1, false otherwise
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String getPriorityDisplay()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Gets a display-friendly priority string.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> "High" for priority 1-2, "Medium" for 3, "Low" for 4-5
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>Project copy()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Creates a copy of this project. Useful for editing operations where you want to preserve the original.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> A new Project instance with the same data
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="method-section">
+                        <h3>Object Methods</h3>
+                        
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>boolean equals(Object obj)</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Compares projects based on their ID field.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> true if both projects have the same ID
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>int hashCode()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns hash code based on the project ID.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> Hash code of the project ID
+                            </div>
+                        </div>
+
+                        <div class="method">
+                            <div class="method-signature">
+                                <code>String toString()</code>
+                            </div>
+                            <div class="method-description">
+                                <p>Returns a string representation of the project for debugging.</p>
+                            </div>
+                            <div class="return-value">
+                                <strong>Returns:</strong> String containing ID, name, status, priority, and category
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="usage">
+                    <h2>Usage Examples</h2>
+                    
+                    <h3>Creating a New Project</h3>
+                    <pre><code>// Create a new project
+Project project = new Project();
+project.setName("My New Project");
+project.setDescription("A sample project for testing");
+project.setRelativePath("projects/my-new-project");
+project.setStatus("In Development");
+project.setPriority(2); // High priority
+project.setCategory("Web Development");
+
+// The backend will set the ID and timestamps when saving
+// project.getId() will return -1 until saved</code></pre>
+
+                    <h3>Loading an Existing Project</h3>
+                    <pre><code>// Load project from backend
+Project project = new Project(
+    1,                          // ID
+    "Existing Project",         // Name
+    "A project loaded from DB", // Description
+    "projects/existing",        // Relative path
+    "Completed",                // Status
+    "2024-01-15 10:30:00",     // Creation date
+    "2024-01-20 14:45:00",     // Last modified
+    3,                         // Priority (Medium)
+    "Mobile App"               // Category
+);</code></pre>
+
+                    <h3>Editing a Project</h3>
+                    <pre><code>// Create a copy for editing
+Project original = getProjectFromBackend(1);
+Project edited = original.copy();
+
+// Make changes
+edited.setName("Updated Project Name");
+edited.setStatus("Completed");
+edited.setPriority(1); // High priority
+
+// Save changes
+backend.updateProject(edited);</code></pre>
+
+                    <h3>Checking Project State</h3>
+                    <pre><code>Project project = new Project();
+
+if (project.isNew()) {
+    System.out.println("This is a new project");
+    // Backend should assign ID when saving
+}
+
+String priorityText = project.getPriorityDisplay();
+System.out.println("Priority: " + priorityText); // "Medium" for priority 3</code></pre>
+
+                    <h3>Using in Collections</h3>
+                    <pre><code>// Projects can be used in sets and maps
+Set&lt;Project&gt; projectSet = new HashSet&lt;&gt;();
+Map&lt;Integer, Project&gt; projectMap = new HashMap&lt;&gt;();
+
+Project p1 = new Project(1, "Project A", "", "", "In Development", "", "", 3, "");
+Project p2 = new Project(1, "Project B", "", "", "Completed", "", "", 2, "");
+
+projectSet.add(p1);
+projectSet.add(p2); // Won't be added because same ID as p1
+
+projectMap.put(p1.getId(), p1);</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,63 @@
+2025-07-11 15:35:15.557 [info] 2025/07/11 15:35:15 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-07-11 15:35:15.801 [info] I0711 15:35:15.801276 56195 main.go:602] Setting GOMAXPROCS to 4
+2025-07-11 15:35:15.803 [info] I0711 15:35:15.803114 56195 main.go:817] Starting language server process with pid 56195
+2025-07-11 15:35:15.803 [info] I0711 15:35:15.803312 56195 server.go:293] Language server will attempt to listen on host 127.0.0.1
+2025-07-11 15:35:15.803 [info] I0711 15:35:15.803543 56195 server.go:300] Language server listening on random port at 36943
+2025-07-11 15:35:16.874 [info] I0711 15:35:16.874483 56195 server.go:431] Created extension server client at port 45077
+2025-07-11 15:35:17.147 [info] I0711 15:35:17.147305 56195 server.go:959] Local search is enabled, will index local files.
+2025-07-11 15:35:17.147 [info] I0711 15:35:17.147329 56195 server.go:963] Using 2 indexer workers
+2025-07-11 15:35:18.286 [info] (Windsurf) 2025-07-11 15:35:18.282 [INFO]: Language server started
+2025-07-11 15:35:18.411 [info] (Windsurf) 2025-07-11 15:35:18.411 [INFO]: LS lspClient started successfully
+2025-07-11 15:35:18.862 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:35:18.863 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:35:18.863 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:35:34.688 [info] 2025/07/11 15:35:34 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-07-11 15:35:34.907 [info] I0711 15:35:34.907471 56416 main.go:602] Setting GOMAXPROCS to 4
+2025-07-11 15:35:34.908 [info] I0711 15:35:34.907632 56416 main.go:817] Starting language server process with pid 56416
+2025-07-11 15:35:34.908 [info] I0711 15:35:34.907757 56416 server.go:293] Language server will attempt to listen on host 127.0.0.1
+2025-07-11 15:35:34.908 [info] I0711 15:35:34.908054 56416 server.go:300] Language server listening on random port at 46371
+2025-07-11 15:35:35.720 [info] I0711 15:35:35.720355 56416 server.go:431] Created extension server client at port 41183
+2025-07-11 15:35:35.961 [info] I0711 15:35:35.961125 56416 server.go:959] Local search is enabled, will index local files.
+2025-07-11 15:35:35.961 [info] I0711 15:35:35.961150 56416 server.go:963] Using 2 indexer workers
+2025-07-11 15:35:36.929 [info] (Windsurf) 2025-07-11 15:35:36.925 [INFO]: Language server started
+2025-07-11 15:35:37.041 [info] (Windsurf) 2025-07-11 15:35:37.041 [INFO]: LS lspClient started successfully
+2025-07-11 15:35:37.422 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:35:37.423 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:35:37.423 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:37:25.531 [info] 2025/07/11 15:37:25 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
+2025-07-11 15:37:25.723 [info] I0711 15:37:25.722933 56720 main.go:602] Setting GOMAXPROCS to 4
+2025-07-11 15:37:25.723 [info] I0711 15:37:25.723110 56720 main.go:817] Starting language server process with pid 56720
+2025-07-11 15:37:25.723 [info] I0711 15:37:25.723249 56720 server.go:293] Language server will attempt to listen on host 127.0.0.1
+2025-07-11 15:37:25.723 [info] I0711 15:37:25.723484 56720 server.go:300] Language server listening on random port at 40815
+2025-07-11 15:37:26.610 [info] I0711 15:37:26.609929 56720 server.go:431] Created extension server client at port 44693
+2025-07-11 15:37:26.967 [info] I0711 15:37:26.967277 56720 server.go:959] Local search is enabled, will index local files.
+2025-07-11 15:37:26.968 [info] I0711 15:37:26.967628 56720 server.go:963] Using 2 indexer workers
+2025-07-11 15:37:27.517 [info] (Windsurf) 2025-07-11 15:37:27.512 [INFO]: Language server started
+2025-07-11 15:37:27.595 [info] (Windsurf) 2025-07-11 15:37:27.594 [INFO]: LS lspClient started successfully
+2025-07-11 15:37:28.198 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:37:28.200 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:37:28.200 [info] BEWARE: your OS is not officially supported by Playwright; downloading fallback build for ubuntu20.04-x64.
+
+2025-07-11 15:37:45.885 [info] (Windsurf) 2025-07-11 15:37:45.885 [INFO]: [Cascade Manager] Opening diff zones for: 
+2025-07-11 15:37:56.124 [info] (Windsurf) 2025-07-11 15:37:56.123 [INFO]: [Terminal] Command completed:  exit code 127
+2025-07-11 15:38:10.158 [info] (Windsurf) 2025-07-11 15:38:10.158 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:38:29.988 [info] (Windsurf) 2025-07-11 15:38:29.988 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:42:16.979 [info] (Windsurf) 2025-07-11 15:42:16.979 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:43:03.097 [info] (Windsurf) 2025-07-11 15:43:03.097 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:44:43.185 [info] E0711 15:44:43.185407 56720 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:45:42.847 [info] (Windsurf) 2025-07-11 15:45:42.847 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:45:46.036 [info] E0711 15:45:46.035624 56720 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/ProjectManagerGUI.java
+2025-07-11 15:49:36.612 [info] (Windsurf) 2025-07-11 15:49:36.611 [INFO]: [Terminal] Command completed:  exit code 1
+2025-07-11 15:49:42.457 [info] (Windsurf) 2025-07-11 15:49:42.456 [INFO]: [Cascade Manager] Opening diff zones for: ProjectManagerGUI.java
+2025-07-11 15:50:06.370 [info] (Windsurf) 2025-07-11 15:50:06.370 [INFO]: [Terminal] Command completed:  exit code 0
+2025-07-11 15:51:59.794 [info] (Windsurf) 2025-07-11 15:51:59.794 [INFO]: [Cascade Manager] Opening diff zones for: BackendAPI.java
+2025-07-11 15:52:01.306 [info] E0711 15:52:01.303250 56720 interceptor.go:73] /exa.language_server_pb.LanguageServerService/AcknowledgeCascadeCodeEdit (unknown): no unacknowledged steps for file file:///home/bpatch/repos/java/project-manager/src/main/java/org/drbpatch/BackendAPI.java
+2025-07-11 15:53:27.606 [info] (Windsurf) 2025-07-11 15:53:27.606 [INFO]: [Terminal] Command completed:  exit code 0

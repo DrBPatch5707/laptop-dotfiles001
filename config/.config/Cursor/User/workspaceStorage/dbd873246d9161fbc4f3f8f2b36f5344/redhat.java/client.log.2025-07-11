@@ -1,0 +1,1450 @@
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-07-11 09:36:10.225'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_ss_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-07-11 09:36:10.705'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-07-11 09:36:11.327'
+}
+{
+  message: 'Jul 11, 2025 9:36:12 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:36:12.949'
+}
+{
+  message: '[Error - 9:36:36 AM] Jul 11, 2025, 9:36:36 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:36:36.067'
+}
+{
+  message: '[Error - 9:39:26 AM] Jul 11, 2025, 9:39:26 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:39:26.983'
+}
+{
+  message: '[Error - 9:39:27 AM] Jul 11, 2025, 9:39:26 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:39:27.000'
+}
+{
+  message: 'Jul 11, 2025 9:39:27 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:39:27.278'
+}
+{
+  message: 'Jul 11, 2025 9:40:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 19\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:40:10.483'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 29, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-11 09:42:13.265'
+}
+{
+  message: '[Error - 9:43:45 AM] Jul 11, 2025, 9:43:45 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:43:45.924'
+}
+{
+  message: '[Error - 9:43:45 AM] Jul 11, 2025, 9:43:45 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:43:45.927'
+}
+{
+  message: '[Error - 9:43:51 AM] Jul 11, 2025, 9:43:51 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:43:51.942'
+}
+{
+  message: '[Error - 9:43:51 AM] Jul 11, 2025, 9:43:51 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:43:51.946'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 59, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-11 09:44:24.041'
+}
+{
+  message: '[Error - 9:48:40 AM] Jul 11, 2025, 9:48:40 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:48:40.890'
+}
+{
+  message: '[Error - 9:48:40 AM] Jul 11, 2025, 9:48:40 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:48:40.893'
+}
+{
+  message: '[Error - 9:52:40 AM] Jul 11, 2025, 9:52:40 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:52:40.105'
+}
+{
+  message: '[Error - 9:52:40 AM] Jul 11, 2025, 9:52:40 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:52:40.107'
+}
+{
+  message: '[Error - 9:52:50 AM] Jul 11, 2025, 9:52:50 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:52:50.358'
+}
+{
+  message: '[Error - 9:52:50 AM] Jul 11, 2025, 9:52:50 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:52:50.360'
+}
+{
+  message: '[Error - 9:56:03 AM] Jul 11, 2025, 9:56:03 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:56:03.596'
+}
+{
+  message: '[Error - 9:56:03 AM] Jul 11, 2025, 9:56:03 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:56:03.597'
+}
+{
+  message: '[Error - 9:59:53 AM] Jul 11, 2025, 9:59:53 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 09:59:53.376'
+}
+{
+  message: '[Error - 9:59:53 AM] Jul 11, 2025, 9:59:53 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 09:59:53.378'
+}
+{
+  message: '[Error - 10:04:33 AM] Jul 11, 2025, 10:04:33 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:04:33.438'
+}
+{
+  message: '[Error - 10:04:33 AM] Jul 11, 2025, 10:04:33 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:04:33.442'
+}
+{
+  message: '[Error - 10:10:36 AM] Jul 11, 2025, 10:10:36 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:10:36.615'
+}
+{
+  message: '[Error - 10:10:36 AM] Jul 11, 2025, 10:10:36 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:10:36.619'
+}
+{
+  message: '[Error - 10:15:09 AM] Jul 11, 2025, 10:15:09 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:15:09.636'
+}
+{
+  message: '[Error - 10:15:09 AM] Jul 11, 2025, 10:15:09 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:15:09.639'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 106, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-11 10:17:34.003'
+}
+{
+  message: '[Error - 10:18:34 AM] Jul 11, 2025, 10:18:34 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:18:34.182'
+}
+{
+  message: '[Error - 10:18:34 AM] Jul 11, 2025, 10:18:34 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:18:34.184'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 114, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2025-07-11 10:21:12.701'
+}
+{
+  message: '[Error - 10:22:06 AM] Jul 11, 2025, 10:22:06 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:22:06.016'
+}
+{
+  message: '[Error - 10:22:06 AM] Jul 11, 2025, 10:22:06 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:22:06.018'
+}
+{
+  message: '[Error - 10:26:13 AM] Jul 11, 2025, 10:26:13 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:26:13.751'
+}
+{
+  message: '[Error - 10:26:13 AM] Jul 11, 2025, 10:26:13 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:26:13.753'
+}
+{
+  message: '[Error - 10:32:11 AM] Jul 11, 2025, 10:32:11 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:32:11.519'
+}
+{
+  message: '[Error - 10:32:11 AM] Jul 11, 2025, 10:32:11 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:32:11.521'
+}
+{
+  message: '[Error - 10:40:37 AM] Jul 11, 2025, 10:40:37 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:37.944'
+}
+{
+  message: '[Error - 10:40:37 AM] Jul 11, 2025, 10:40:37 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:37.946'
+}
+{
+  message: '[Error - 10:40:42 AM] Jul 11, 2025, 10:40:42 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:42.922'
+}
+{
+  message: '[Error - 10:40:42 AM] Jul 11, 2025, 10:40:42 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:42.923'
+}
+{
+  message: '[Error - 10:40:57 AM] Jul 11, 2025, 10:40:57 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:57.148'
+}
+{
+  message: '[Error - 10:40:57 AM] Jul 11, 2025, 10:40:57 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:40:57.152'
+}
+{
+  message: '[Error - 10:42:46 AM] Jul 11, 2025, 10:42:46 AM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:42:46.283'
+}
+{
+  message: '[Error - 10:42:46 AM] Jul 11, 2025, 10:42:46 AM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 10:42:46.286'
+}
+{
+  message: 'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 19 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:48:03.157'
+}
+{
+  message: 'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 19 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:48:03.158'
+}
+{
+  message: 'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 20 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:48:03.160'
+}
+{
+  message: 'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 20 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:48:03.162'
+}
+{
+  message: 'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n' +
+    'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n' +
+    'Jul 11, 2025 10:48:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 8 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 10:48:03.199'
+}
+{
+  message: "Use the JDK from 'JAVA_HOME,PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2025-07-11 12:01:57.107'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_ss_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2025-07-11 12:01:57.138'
+}
+{
+  message: 'Starting Java server with: /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/jre/21.0.7-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:/home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/lombok/lombok-1.18.39-4050.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/bpatch/.cursor/extensions/redhat.java-1.43.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.7.0.v20250519-0528.jar -configuration /home/bpatch/.config/Cursor/User/globalStorage/redhat.java/1.43.1/config_linux -data /home/bpatch/.config/Cursor/User/workspaceStorage/dbd873246d9161fbc4f3f8f2b36f5344/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2025-07-11 12:01:58.586'
+}
+{
+  message: 'Jul 11, 2025 12:02:00 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:00.347'
+}
+{
+  message: '[Error - 12:02:03 PM] Jul 11, 2025, 12:02:03 PM Problem with folding range for /jdt.ls-java-project/src/org/drbpatch/ProjectManagerGUI.java\n' +
+    'ProjectManagerGUI.java [in org.drbpatch [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): ProjectManagerGUI.java [in org.drbpatch [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:558)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:238)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:571)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:1072)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:82)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:73)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:376)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:03.627'
+}
+{
+  message: '[Error - 12:02:09 PM] Jul 11, 2025, 12:02:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    'Cannot invoke "java.util.Map.get(Object)" because "configuration" is null\n' +
+    'java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "configuration" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getValue(MapFlattener.java:126)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:51)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:47)\n' +
+    '\tat com.microsoft.gradle.bs.importer.Utils.isBuildServerEnabled(Utils.java:209)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:177)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:09.614'
+}
+{
+  message: '[Error - 12:02:09 PM] Jul 11, 2025, 12:02:07 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:09.766'
+}
+{
+  message: '[Error - 12:02:17 PM] Jul 11, 2025, 12:02:17 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:17.527'
+}
+{
+  message: '[Error - 12:02:17 PM] Jul 11, 2025, 12:02:17 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:17.534'
+}
+{
+  message: 'Jul 11, 2025 12:02:18 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:02:18.512'
+}
+{
+  message: '[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Problem refreshing workspace\n' +
+    'Exception updating digest for /home/bpatch/projectsRoot/project-manager/.gradle\n' +
+    'org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/.gradle\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/.gradle\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.readAllBytes(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:04:21.528'
+}
+{
+  message: '[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:04:21.711'
+}
+{
+  message: '[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 12:04:21.723'
+}
+{
+  message: '[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problem refreshing workspace\n' +
+    'Exception updating digest for /home/bpatch/projectsRoot/project-manager/build.gradle\n' +
+    'org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/build.gradle\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/build.gradle\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.readAllBytes(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:27:34.094'
+}
+{
+  message: '[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problem refreshing workspace\n' +
+    'Exception updating digest for /home/bpatch/projectsRoot/project-manager/settings.gradle\n' +
+    'org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/settings.gradle\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/settings.gradle\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.newByteChannel(Unknown Source)\n' +
+    '\tat java.base/java.nio.file.Files.readAllBytes(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)\n' +
+    '\t... 4 more\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:27:34.103'
+}
+{
+  message: '[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".\n' +
+    "'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    "java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'\n" +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)\n' +
+    '\tat com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)\n' +
+    '\tat com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)\n' +
+    '\tat com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)\n' +
+    '\tat org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:27:34.237'
+}
+{
+  message: '[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Errors occurred during the build.',
+  level: 'info',
+  timestamp: '2025-07-11 12:27:34.243'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 19 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.759'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 19 more\n' +
+    '\n' +
+    'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 20 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.761'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)\n' +
+    '\tat com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)\n' +
+    '\tat com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Unknown Source)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 20 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.764'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.795'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.801'
+}
+{
+  message: 'Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(Unknown Source)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 8 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2025-07-11 12:58:01.803'
+}

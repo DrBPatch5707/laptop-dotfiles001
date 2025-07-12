@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/bpatch/laptop-dotfiles001/config/.config/Cursor/User/workspaceStorage/6a4b8f5af7d0938f4f5db89ea368ad85/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

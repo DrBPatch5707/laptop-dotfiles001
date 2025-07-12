@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SettingsDialog - Project Manager GUI Documentation</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fields">Fields</a></li>
+                <li><a href="#constructors">Constructors</a></li>
+                <li><a href="#methods">Methods</a></li>
+                <li><a href="#usage">Usage Examples</a></li>
+            </ul>
+            <h3>Classes</h3>
+            <ul>
+                <li><a href="BackendInterface.html">BackendInterface</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="EditorProfile.html">EditorProfile</a></li>
+                <li><a href="ProjectManagerGUI.html">ProjectManagerGUI</a></li>
+                <li><a href="AddEditProjectDialog.html">AddEditProjectDialog</a></li>
+                <li><a href="SettingsDialog.html">SettingsDialog</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> &gt; 
+                <a href="../index.html#api-reference">API Reference</a> &gt; 
+                SettingsDialog
+            </div>
+            <div class="class-header">
+                <h1>SettingsDialog</h1>
+                <p>Modal dialog for configuring application-level settings</p>
+                <p><strong>Package:</strong> gui.org.drbpatch</p>
+            </div>
+            <div class="class-content">
+                <section id="overview">
+                    <h2>Overview</h2>
+                    <p>The <code>SettingsDialog</code> class allows the user to set the projects root directory and manage editor profiles. Editor profiles define which external editors can be used to open projects. The dialog provides event listener placeholders for all actions and does not perform file I/O or persistence directly.</p>
+                    <ul>
+                        <li>Configure projects root directory</li>
+                        <li>Manage editor profiles (add, edit, remove)</li>
+                        <li>Table-based editor profile management</li>
+                        <li>Save/cancel settings</li>
+                    </ul>
+                </section>
+                <section id="fields">
+                    <h2>Fields</h2>
+                    <div class="field-section">
+                        <div class="field"><span class="field-name">JTextField rootDirField</span><div class="field-description">Text field for the projects root directory.</div></div>
+                        <div class="field"><span class="field-name">JButton browseRootButton</span><div class="field-description">Button to browse for root directory.</div></div>
+                        <div class="field"><span class="field-name">JTable editorsTable</span><div class="field-description">Table displaying editor profiles.</div></div>
+                        <div class="field"><span class="field-name">JButton addEditorButton</span><div class="field-description">Button to add a new editor profile.</div></div>
+                        <div class="field"><span class="field-name">JButton editEditorButton</span><div class="field-description">Button to edit the selected editor profile.</div></div>
+                        <div class="field"><span class="field-name">JButton removeEditorButton</span><div class="field-description">Button to remove the selected editor profile.</div></div>
+                        <div class="field"><span class="field-name">JButton saveButton</span><div class="field-description">Button to save settings.</div></div>
+                        <div class="field"><span class="field-name">JButton cancelButton</span><div class="field-description">Button to cancel and close dialog.</div></div>
+                        <div class="field"><span class="field-name">EditorProfileTableModel editorProfileTableModel</span><div class="field-description">Table model for displaying EditorProfile objects.</div></div>
+                    </div>
+                </section>
+                <section id="constructors">
+                    <h2>Constructors</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>SettingsDialog(JFrame parent, String initialRootDir, List&lt;EditorProfile&gt; editorProfiles)</code></div>
+                            <div class="method-description">Creates a new SettingsDialog with the given root directory and editor profiles.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="methods">
+                    <h2>Methods</h2>
+                    <div class="method-section">
+                        <div class="method">
+                            <div class="method-signature"><code>void initComponents(String initialRootDir, List&lt;EditorProfile&gt; editorProfiles)</code></div>
+                            <div class="method-description">Initializes all UI components for the dialog.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void layoutComponents()</code></div>
+                            <div class="method-description">Lays out all UI components in the dialog.</div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>void setupEventHandlers()</code></div>
+                            <div class="method-description">
+                                <p>Sets up all event listeners for the settings dialog's UI components. This method connects UI actions (button clicks, table selections) to their corresponding logic.</p>
+                                <ul>
+                                    <li><strong>Browse Root Directory:</strong> Opens a directory chooser for the root directory field.</li>
+                                    <li><strong>Add Editor Profile:</strong> Opens a dialog to add a new editor profile and updates the table.</li>
+                                    <li><strong>Edit Editor Profile:</strong> Opens a dialog to edit the selected editor profile and updates the table.</li>
+                                    <li><strong>Remove Editor Profile:</strong> Removes the selected editor profile from the table.</li>
+                                    <li><strong>Save Settings:</strong> Collects all settings and triggers the save callback, then closes the dialog.</li>
+                                    <li><strong>Cancel:</strong> Closes the dialog without saving changes.</li>
+                                </ul>
+                                <p>This method is called during dialog initialization and is not intended to be called directly.</p>
+                                <p><strong>Usage Example:</strong></p>
+                                <pre><code>private void setupEventHandlers() {
+    browseRootButton.addActionListener(e -> { /* open directory chooser */ });
+    addEditorButton.addActionListener(e -> { /* add editor profile */ });
+    // ...other handlers
+}</code></pre>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <div class="method-signature"><code>EditorProfileTableModel</code></div>
+                            <div class="method-description">Inner class for managing the table model of editor profiles.</div>
+                        </div>
+                    </div>
+                </section>
+                <section id="usage">
+                    <h2>Usage Examples</h2>
+                    <pre><code>// Show settings dialog
+SettingsDialog dialog = new SettingsDialog(parentFrame, backend.getRootDirectory(), backend.getEditorProfiles());
+dialog.setVisible(true);
+</code></pre>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Project Manager GUI. Complete documentation for backend integration.</p>
+    </footer>
+</body>
+</html> 

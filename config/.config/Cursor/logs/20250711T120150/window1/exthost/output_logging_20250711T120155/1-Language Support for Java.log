@@ -1,0 +1,381 @@
+Jul 11, 2025 12:02:00 PM org.apache.aries.spifly.BaseActivator log
+INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic
+[Error - 12:02:09 PM] Jul 11, 2025, 12:02:07 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "configuration" is null
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getValue(MapFlattener.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:51)
+	at org.eclipse.jdt.ls.core.internal.handlers.MapFlattener.getString(MapFlattener.java:47)
+	at com.microsoft.gradle.bs.importer.Utils.isBuildServerEnabled(Utils.java:209)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:177)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 12:02:09 PM] Jul 11, 2025, 12:02:07 PM Errors occurred during the build.
+[Error - 12:02:17 PM] Jul 11, 2025, 12:02:17 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 12:02:17 PM] Jul 11, 2025, 12:02:17 PM Errors occurred during the build.
+Jul 11, 2025 12:02:18 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start
+INFO: Starting com.microsoft.java.debug.plugin
+[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Problem refreshing workspace
+Exception updating digest for /home/bpatch/projectsRoot/project-manager/.gradle
+org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/.gradle
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	... 4 more
+
+[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 12:04:21 PM] Jul 11, 2025, 12:04:21 PM Errors occurred during the build.
+[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problem refreshing workspace
+Exception updating digest for /home/bpatch/projectsRoot/project-manager/build.gradle
+org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/build.gradle
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/build.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	... 4 more
+
+[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problem refreshing workspace
+Exception updating digest for /home/bpatch/projectsRoot/project-manager/settings.gradle
+org.eclipse.core.runtime.CoreException: Exception updating digest for /home/bpatch/projectsRoot/project-manager/settings.gradle
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:78)
+	at org.eclipse.jdt.ls.core.internal.managers.StandardProjectsManager.fileChanged(StandardProjectsManager.java:261)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.handleFileEvent(WorkspaceEventsHandler.java:150)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.lambda$0(WorkspaceEventsHandler.java:65)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.NoSuchFileException: /home/bpatch/projectsRoot/project-manager/settings.gradle
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.computeDigest(DigestStore.java:102)
+	at org.eclipse.jdt.ls.core.internal.managers.DigestStore.updateDigest(DigestStore.java:67)
+	... 4 more
+
+[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+java.lang.NoSuchMethodError: 'java.util.List org.eclipse.jdt.internal.core.JavaProject.internalDefaultRootModules(java.lang.Iterable, java.util.function.Function, java.util.function.Function)'
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.selectModules(ClasspathJrt.java:278)
+	at com.microsoft.java.builder.jdtbuilder.ClasspathJrt.getModuleNames(ClasspathJrt.java:265)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.collectModuleEntries(NameEnvironment.java:445)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:343)
+	at com.microsoft.java.builder.jdtbuilder.NameEnvironment.<init>(NameEnvironment.java:64)
+	at com.microsoft.java.builder.JavaNameEnvironment.<init>(JavaNameEnvironment.java:41)
+	at com.microsoft.java.builder.JavaProblemChecker.createNameEnvironment(JavaProblemChecker.java:51)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.initializeBuilder(JavaBuilder.java:653)
+	at com.microsoft.java.builder.jdtbuilder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+[Error - 12:27:34 PM] Jul 11, 2025, 12:27:34 PM Errors occurred during the build.
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)
+	at com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)
+	at com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:92)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)
+	at com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)
+	at com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.sendNotification(Unknown Source)
+	at com.microsoft.gradle.bs.importer.Utils.sendTelemetry(Utils.java:214)
+	at com.microsoft.gradle.bs.importer.GradleBuildClient.onBuildLogMessage(GradleBuildClient.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:556)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 11 more
+
+Jul 11, 2025 12:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 8 more
+

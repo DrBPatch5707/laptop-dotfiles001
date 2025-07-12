@@ -1,0 +1,3 @@
+2025-07-11 14:16:12.364 [info] Started initializing default profile extensions in extensions installation folder. file:///home/bpatch/.windsurf/extensions
+2025-07-11 14:16:12.592 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/bpatch/.windsurf/extensions Unable to create file 'vscode-userdata:/home/bpatch/.windsurf/extensions/extensions.json' that already exists when overwrite flag is not set
+2025-07-11 14:16:12.592 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/bpatch/.windsurf/extensions
